@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\dogwebMVC.kphurtm2rr.bundle.scp.css"
     },
     {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css",
+      "PackagePath": "staticwebassets\\css\\petweb.css"
+    },
+    {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

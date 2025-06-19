@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/dogwebMVC/css/petweb.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\petweb.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6BUaaE6gOZTClbqIJFG7jaIxz8f/Fp5D/FKMh4hTdcs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9581"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226BUaaE6gOZTClbqIJFG7jaIxz8f/Fp5D/FKMh4hTdcs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 07:49:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/dogwebMVC/css/petweb.srzsmg7zvu.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\petweb.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"srzsmg7zvu"},{"Name":"integrity","Value":"sha256-6BUaaE6gOZTClbqIJFG7jaIxz8f/Fp5D/FKMh4hTdcs="},{"Name":"label","Value":"_content/dogwebMVC/css/petweb.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9581"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226BUaaE6gOZTClbqIJFG7jaIxz8f/Fp5D/FKMh4hTdcs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 07:49:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/dogwebMVC/css/site.b9sayid5wm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

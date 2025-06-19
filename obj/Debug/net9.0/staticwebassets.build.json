@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KWk3ZJY2C2qq3ozPblQ8wLguREJtNGA/5lji0ENH3FA=",
+  "Hash": "lWpwUlZmME5QVNeqzMY4mlRQS6Q4Q1/WM+8Buu0PvP0=",
   "Source": "dogwebMVC",
   "BasePath": "_content/dogwebMVC",
   "Mode": "Default",
@@ -752,6 +752,27 @@
       "OriginalItemSpec": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\ivk72q8upt-srzsmg7zvu.gz",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "css/petweb#[.{fingerprint=srzsmg7zvu}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "a455dvq6o3",
+      "Integrity": "1i1UnlBE9ca6SiCZQkFblrCKBscklXS7UXCgxKX+N2Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css"
+    },
+    {
       "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\jvmfcnsnno-61n19gt1b8.gz",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
@@ -1401,6 +1422,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\dogwebMVC.bundle.scp.css"
+    },
+    {
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "css/petweb#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "srzsmg7zvu",
+      "Integrity": "6BUaaE6gOZTClbqIJFG7jaIxz8f/Fp5D/FKMh4hTdcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\petweb.css"
     },
     {
       "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
@@ -2727,6 +2769,304 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/petweb.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\ivk72q8upt-srzsmg7zvu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000510204082"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1959"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1i1UnlBE9ca6SiCZQkFblrCKBscklXS7UXCgxKX+N2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 07:49:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6BUaaE6gOZTClbqIJFG7jaIxz8f/Fp5D/FKMh4hTdcs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6BUaaE6gOZTClbqIJFG7jaIxz8f/Fp5D/FKMh4hTdcs="
+        }
+      ]
+    },
+    {
+      "Route": "css/petweb.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6BUaaE6gOZTClbqIJFG7jaIxz8f/Fp5D/FKMh4hTdcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 07:49:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6BUaaE6gOZTClbqIJFG7jaIxz8f/Fp5D/FKMh4hTdcs="
+        }
+      ]
+    },
+    {
+      "Route": "css/petweb.css.gz",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\ivk72q8upt-srzsmg7zvu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1i1UnlBE9ca6SiCZQkFblrCKBscklXS7UXCgxKX+N2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 07:49:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1i1UnlBE9ca6SiCZQkFblrCKBscklXS7UXCgxKX+N2Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/petweb.srzsmg7zvu.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\ivk72q8upt-srzsmg7zvu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000510204082"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1959"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1i1UnlBE9ca6SiCZQkFblrCKBscklXS7UXCgxKX+N2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 07:49:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6BUaaE6gOZTClbqIJFG7jaIxz8f/Fp5D/FKMh4hTdcs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "srzsmg7zvu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/petweb.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6BUaaE6gOZTClbqIJFG7jaIxz8f/Fp5D/FKMh4hTdcs="
+        }
+      ]
+    },
+    {
+      "Route": "css/petweb.srzsmg7zvu.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6BUaaE6gOZTClbqIJFG7jaIxz8f/Fp5D/FKMh4hTdcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 07:49:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "srzsmg7zvu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/petweb.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6BUaaE6gOZTClbqIJFG7jaIxz8f/Fp5D/FKMh4hTdcs="
+        }
+      ]
+    },
+    {
+      "Route": "css/petweb.srzsmg7zvu.css.gz",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\ivk72q8upt-srzsmg7zvu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1i1UnlBE9ca6SiCZQkFblrCKBscklXS7UXCgxKX+N2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 07:49:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "srzsmg7zvu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/petweb.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1i1UnlBE9ca6SiCZQkFblrCKBscklXS7UXCgxKX+N2Q="
+        }
+      ]
+    },
     {
       "Route": "css/site.b9sayid5wm.css",
       "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\9ll2r1jfn1-b9sayid5wm.gz",
