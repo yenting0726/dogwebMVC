@@ -23,6 +23,20 @@ public class HomeController : Controller
         return View();
     }
 
+public IActionResult shopping()
+    {
+        return View();
+    }
+public IActionResult member()
+    {
+        return View();
+    }
+public IActionResult product()
+    {
+        return View();
+    }
+
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

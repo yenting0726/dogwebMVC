@@ -337,3 +337,4 @@ C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\ru\Mic
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\dogwebMVC.sourcelink.json
