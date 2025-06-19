@@ -7,8 +7,10 @@ namespace dogwebMVC.Models
         public int Id { get; set; }
 
         [Required]
-        public string Name { get; set; }
+        [Display(Name = "名稱")]
+                public string Name { get; set; }
 
+        [Display(Name = "價格")]
         public decimal Price { get; set; }
     }
 }
