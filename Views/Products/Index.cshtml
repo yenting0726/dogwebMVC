@@ -10,31 +10,22 @@
         <a asp-action="Create">新增產品</a>
     </p>
 </div>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-<div class="card" style="width: 18rem;" >
-      <img src="@item.PhotoPath" class="card-img-top" alt="...">
-        <div class="card-body"></div>
-        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
-        <p class="card-text">@Html.DisplayFor(modelItem => item.Price)</p>
-        <a href="#" class="btn btn-primary">加入購物車</a>
-        <div>
-            <a asp-action="Edit" asp-route-id="@item.Id">修改</a>
-            <a asp-action="Details" asp-route-id="@item.Id">詳細</a>
-            <a asp-action="Delete" asp-route-id="@item.Id">刪除</a>
-        </div>
+<div class="row">
+    @foreach (var item in Model) {
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="@item.PhotoPath " class="card-img-top fixed-img" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                    <p class="card-text">@Html.DisplayFor(modelItem => item.Price)</p>
+                    <a href="#" class="btn btn-primary">加入購物車</a>
+                    <div>
+                        <a asp-action="Edit" asp-route-id="@item.Id">修改</a>
+                        <a asp-action="Details" asp-route-id="@item.Id">詳細</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id">刪除</a>
+                    </div>
+                </div>
+            </div>
         </div>
 }
     </tbody>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5++SMYxbnv3HhrONkT3Qg1PKxDo1BjOd2AlnXEUu9tY=",
+  "Hash": "Ifk9zVzqljPIywNaOPTpvo4EIt7VwbuXiHx8HocXoR0=",
   "Source": "dogwebMVC",
   "BasePath": "_content/dogwebMVC",
   "Mode": "Default",
@@ -437,12 +437,12 @@
       "OriginalItemSpec": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\9ll2r1jfn1-vqtims5472.gz",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\9ll2r1jfn1-gi6ke9senp.gz",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/dogwebMVC",
-      "RelativePath": "css/site#[.{fingerprint=vqtims5472}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=gi6ke9senp}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -451,8 +451,8 @@
       "RelatedAsset": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1wvrs4g8u2",
-      "Integrity": "MQaF7EM84ctX1Wbay5poxYDBVPNCfC1BkT5py0evuzA=",
+      "Fingerprint": "7ks3gs9qfs",
+      "Integrity": "qTzQyACU4kjeCxTJCPx9HHsijc/fHwdBtnIDEnngj0Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css"
@@ -1459,8 +1459,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vqtims5472",
-      "Integrity": "6YIRc4ILgLvblbAXM2YicChzFQaKW8kN7ST5+Ue7PTg=",
+      "Fingerprint": "gi6ke9senp",
+      "Integrity": "CNAisY+PQpqumczEB1va5MLYp0Q/m8MjsNsHBMGFwZs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1569,6 +1569,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif"
+    },
+    {
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/fe14314b-14ab-4a03-a607-b0ef55ad2547#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "an43ddfjtz",
+      "Integrity": "upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif"
     },
     {
       "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\js\\site.js",
@@ -3153,12 +3174,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\9ll2r1jfn1-vqtims5472.gz",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\9ll2r1jfn1-gi6ke9senp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000454959054"
+          "Quality": "0.000420698359"
         }
       ],
       "ResponseHeaders": [
@@ -3168,15 +3189,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2197"
+          "Value": "2376"
         },
         {
           "Name": "ETag",
-          "Value": "\"MQaF7EM84ctX1Wbay5poxYDBVPNCfC1BkT5py0evuzA=\""
+          "Value": "\"qTzQyACU4kjeCxTJCPx9HHsijc/fHwdBtnIDEnngj0Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 03:54:30 GMT"
+          "Value": "Fri, 20 Jun 2025 07:46:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3196,13 +3217,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"6YIRc4ILgLvblbAXM2YicChzFQaKW8kN7ST5+Ue7PTg=\""
+          "Value": "W/\"CNAisY+PQpqumczEB1va5MLYp0Q/m8MjsNsHBMGFwZs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6YIRc4ILgLvblbAXM2YicChzFQaKW8kN7ST5+Ue7PTg="
+          "Value": "sha256-CNAisY+PQpqumczEB1va5MLYp0Q/m8MjsNsHBMGFwZs="
         }
       ]
     },
@@ -3217,7 +3238,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10266"
+          "Value": "10530"
         },
         {
           "Name": "Content-Type",
@@ -3225,11 +3246,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6YIRc4ILgLvblbAXM2YicChzFQaKW8kN7ST5+Ue7PTg=\""
+          "Value": "\"CNAisY+PQpqumczEB1va5MLYp0Q/m8MjsNsHBMGFwZs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 03:54:30 GMT"
+          "Value": "Fri, 20 Jun 2025 07:46:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3239,13 +3260,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6YIRc4ILgLvblbAXM2YicChzFQaKW8kN7ST5+Ue7PTg="
+          "Value": "sha256-CNAisY+PQpqumczEB1va5MLYp0Q/m8MjsNsHBMGFwZs="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\9ll2r1jfn1-vqtims5472.gz",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\9ll2r1jfn1-gi6ke9senp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3254,7 +3275,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2197"
+          "Value": "2376"
         },
         {
           "Name": "Content-Type",
@@ -3262,11 +3283,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MQaF7EM84ctX1Wbay5poxYDBVPNCfC1BkT5py0evuzA=\""
+          "Value": "\"qTzQyACU4kjeCxTJCPx9HHsijc/fHwdBtnIDEnngj0Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 03:54:30 GMT"
+          "Value": "Fri, 20 Jun 2025 07:46:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3284,18 +3305,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MQaF7EM84ctX1Wbay5poxYDBVPNCfC1BkT5py0evuzA="
+          "Value": "sha256-qTzQyACU4kjeCxTJCPx9HHsijc/fHwdBtnIDEnngj0Q="
         }
       ]
     },
     {
-      "Route": "css/site.vqtims5472.css",
-      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\9ll2r1jfn1-vqtims5472.gz",
+      "Route": "css/site.gi6ke9senp.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\9ll2r1jfn1-gi6ke9senp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000454959054"
+          "Quality": "0.000420698359"
         }
       ],
       "ResponseHeaders": [
@@ -3305,15 +3326,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2197"
+          "Value": "2376"
         },
         {
           "Name": "ETag",
-          "Value": "\"MQaF7EM84ctX1Wbay5poxYDBVPNCfC1BkT5py0evuzA=\""
+          "Value": "\"qTzQyACU4kjeCxTJCPx9HHsijc/fHwdBtnIDEnngj0Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 03:54:30 GMT"
+          "Value": "Fri, 20 Jun 2025 07:46:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3333,13 +3354,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"6YIRc4ILgLvblbAXM2YicChzFQaKW8kN7ST5+Ue7PTg=\""
+          "Value": "W/\"CNAisY+PQpqumczEB1va5MLYp0Q/m8MjsNsHBMGFwZs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vqtims5472"
+          "Value": "gi6ke9senp"
         },
         {
           "Name": "label",
@@ -3347,12 +3368,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6YIRc4ILgLvblbAXM2YicChzFQaKW8kN7ST5+Ue7PTg="
+          "Value": "sha256-CNAisY+PQpqumczEB1va5MLYp0Q/m8MjsNsHBMGFwZs="
         }
       ]
     },
     {
-      "Route": "css/site.vqtims5472.css",
+      "Route": "css/site.gi6ke9senp.css",
       "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3362,7 +3383,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10266"
+          "Value": "10530"
         },
         {
           "Name": "Content-Type",
@@ -3370,11 +3391,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6YIRc4ILgLvblbAXM2YicChzFQaKW8kN7ST5+Ue7PTg=\""
+          "Value": "\"CNAisY+PQpqumczEB1va5MLYp0Q/m8MjsNsHBMGFwZs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 03:54:30 GMT"
+          "Value": "Fri, 20 Jun 2025 07:46:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3384,7 +3405,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vqtims5472"
+          "Value": "gi6ke9senp"
         },
         {
           "Name": "label",
@@ -3392,13 +3413,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6YIRc4ILgLvblbAXM2YicChzFQaKW8kN7ST5+Ue7PTg="
+          "Value": "sha256-CNAisY+PQpqumczEB1va5MLYp0Q/m8MjsNsHBMGFwZs="
         }
       ]
     },
     {
-      "Route": "css/site.vqtims5472.css.gz",
-      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\9ll2r1jfn1-vqtims5472.gz",
+      "Route": "css/site.gi6ke9senp.css.gz",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net9.0\\compressed\\9ll2r1jfn1-gi6ke9senp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3407,7 +3428,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2197"
+          "Value": "2376"
         },
         {
           "Name": "Content-Type",
@@ -3415,11 +3436,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MQaF7EM84ctX1Wbay5poxYDBVPNCfC1BkT5py0evuzA=\""
+          "Value": "\"qTzQyACU4kjeCxTJCPx9HHsijc/fHwdBtnIDEnngj0Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 03:54:30 GMT"
+          "Value": "Fri, 20 Jun 2025 07:46:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3437,7 +3458,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vqtims5472"
+          "Value": "gi6ke9senp"
         },
         {
           "Name": "label",
@@ -3445,7 +3466,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MQaF7EM84ctX1Wbay5poxYDBVPNCfC1BkT5py0evuzA="
+          "Value": "sha256-qTzQyACU4kjeCxTJCPx9HHsijc/fHwdBtnIDEnngj0Q="
         }
       ]
     },
@@ -4668,6 +4689,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-JDRS6o0+un2AgYvPdcYzSor6hgGDwi1r7B1Zjmu8Sik="
+        }
+      ]
+    },
+    {
+      "Route": "images/fe14314b-14ab-4a03-a607-b0ef55ad2547.an43ddfjtz.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 07:18:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "an43ddfjtz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 07:18:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ="
         }
       ]
     },

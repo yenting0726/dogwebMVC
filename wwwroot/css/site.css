@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+
 }
 
 @media (min-width: 768px) {
@@ -19,8 +20,12 @@ html {
 
 body {
   margin-bottom: 60px;
+ 
 }
-
+a{
+     /* 預設連結消果清除 */
+  text-decoration: none;
+}
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
   color: var(--bs-secondary-color);
   text-align: end;
@@ -396,4 +401,8 @@ body {
             opacity: 1;
             transform: translateY(0);
         }
-    
+    .fixed-img {
+  height: 200px;       /* 固定高度，可依需求調整 */
+  width: 100%;         /* 撐滿卡片寬度 */
+  object-fit: cover;   /* 圖片裁切填滿，不變形 */
+}

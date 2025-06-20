@@ -336,6 +336,6 @@ C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\zh-Han
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\dogwebMVC.sourcelink.json
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\ivk72q8upt-srzsmg7zvu.gz
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\31trmdap40-suecoj0pd2.gz
-c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-vqtims5472.gz
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\ydi1qprwog-1cv0jvlvlg.gz
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\drkqrcxbxf-1cv0jvlvlg.gz
+c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-gi6ke9senp.gz
