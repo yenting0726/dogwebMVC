@@ -16,6 +16,6 @@ namespace dogwebMVC.Models
         [Display(Name = "照片路徑")]
         public string PhotoPath { get; set; }  // 新增照片路徑欄位
         
-       
+      
     }
 }

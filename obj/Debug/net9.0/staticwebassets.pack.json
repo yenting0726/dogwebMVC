@@ -17,6 +17,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif",
+      "PackagePath": "staticwebassets\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif",
+      "PackagePath": "staticwebassets\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif",
+      "PackagePath": "staticwebassets\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif"
+    },
+    {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

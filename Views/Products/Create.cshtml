@@ -6,39 +6,83 @@
 
 <h1>新增產品</h1>
 
+<!-- 除錯訊息 -->
+@if (ViewBag.DebugMessage != null)
+{
+    <div class="alert alert-info">
+        <strong>除錯訊息:</strong> @ViewBag.DebugMessage
+    </div>
+}
 
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <!-- 重要：加入 method="post" 和 enctype="multipart/form-data" -->
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
             <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
+                <label asp-for="Name" class="control-label">產品名稱</label>
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
+            
             <div class="form-group">
-                <label asp-for="Price" class="control-label"></label>
+                <label asp-for="Price" class="control-label">價格</label>
                 <input asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
-            @* 我要新增照片 並上傳到資料庫 *@
+            
+            <!-- 檔案上傳欄位 -->
             <div class="form-group">
-                <label for="Photofile" class="control-label"></label>
-               <input name="PhotoPath" type="file" class="form-control" accept="image/*" />
+                <label for="PhotoPath" class="control-label">產品照片</label>
+                <input name="PhotoPath" type="file" class="form-control" accept="image/*" />
                 <span class="text-danger" id="photo-error"></span>
+                <small class="form-text text-muted">支援格式：JPG, JPEG, PNG, GIF, JFIF (最大 5MB)</small>
             </div>
 
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="新增產品" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">回到列表</a>
 </div>
+
+<!-- 客戶端檔案驗證 -->
+<script>
+document.querySelector('input[type="file"]').addEventListener('change', function(e) {
+    const file = e.target.files[0];
+    const errorSpan = document.getElementById('photo-error');
+    
+    if (file) {
+        // 檢查檔案大小 (5MB)
+        if (file.size > 5 * 1024 * 1024) {
+            errorSpan.textContent = '檔案大小不能超過 5MB';
+            e.target.value = '';
+            return;
+        }
+        
+        // 檢查檔案類型
+        const allowedTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif'];
+        const fileName = file.name.toLowerCase();
+        const isValidType = allowedTypes.some(type => file.type.includes(type.split('/')[1])) || 
+                           fileName.endsWith('.jfif');
+        
+        if (!isValidType) {
+            errorSpan.textContent = '只允許上傳圖片檔案 (JPG, PNG, GIF, JFIF)';
+            e.target.value = '';
+            return;
+        }
+        
+        errorSpan.textContent = '';
+        console.log('檔案通過驗證:', file.name);
+    }
+});
+</script>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

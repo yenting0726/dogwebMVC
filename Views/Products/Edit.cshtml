@@ -24,6 +24,12 @@
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label for="PhotoPath" class="control-label">產品照片</label>
+                <input name="PhotoPath" type="file" class="form-control" accept="image/*" />
+                <span class="text-danger" id="photo-error"></span>
+                <small class="form-text text-muted">支援格式：JPG, JPEG, PNG, GIF, JFIF (最大 5MB)</small>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>

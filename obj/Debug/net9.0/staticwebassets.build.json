@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cjtwTMlyAhNjb0lop3KpiU1kcUJVG054uIHUxEa3FTA=",
+  "Hash": "OwQi9m5NV5qZJfud6gPaUH2DaXaylG0//U4iscoLsK0=",
   "Source": "dogwebMVC",
   "BasePath": "_content/dogwebMVC",
   "Mode": "Default",
@@ -1485,6 +1485,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/115432f1-3c39-433b-932c-88d57616608b#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4tqc0td3g1",
+      "Integrity": "SMmfX4USi7T1VuyqwgptngetkwpWv40utALj+8RlLaE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif"
+    },
+    {
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/74b44881-633e-4667-b2cd-3f917583f3d9#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eyzutxncjx",
+      "Integrity": "huJ4p/GCQlEl3PbLKN+RS5831+0nBOZez0GcSXoynaM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif"
+    },
+    {
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/e750ab4d-92ac-4cab-a182-d25b53f39189#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w39nmqwnzy",
+      "Integrity": "JDRS6o0+un2AgYvPdcYzSor6hgGDwi1r7B1Zjmu8Sik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif"
     },
     {
       "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\js\\site.js",
@@ -4256,6 +4319,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "images/115432f1-3c39-433b-932c-88d57616608b.4tqc0td3g1.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6743"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SMmfX4USi7T1VuyqwgptngetkwpWv40utALj+8RlLaE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 06:56:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4tqc0td3g1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/115432f1-3c39-433b-932c-88d57616608b.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SMmfX4USi7T1VuyqwgptngetkwpWv40utALj+8RlLaE="
+        }
+      ]
+    },
+    {
+      "Route": "images/115432f1-3c39-433b-932c-88d57616608b.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6743"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SMmfX4USi7T1VuyqwgptngetkwpWv40utALj+8RlLaE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 06:56:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SMmfX4USi7T1VuyqwgptngetkwpWv40utALj+8RlLaE="
+        }
+      ]
+    },
+    {
+      "Route": "images/74b44881-633e-4667-b2cd-3f917583f3d9.eyzutxncjx.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"huJ4p/GCQlEl3PbLKN+RS5831+0nBOZez0GcSXoynaM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 06:57:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eyzutxncjx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/74b44881-633e-4667-b2cd-3f917583f3d9.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-huJ4p/GCQlEl3PbLKN+RS5831+0nBOZez0GcSXoynaM="
+        }
+      ]
+    },
+    {
+      "Route": "images/74b44881-633e-4667-b2cd-3f917583f3d9.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"huJ4p/GCQlEl3PbLKN+RS5831+0nBOZez0GcSXoynaM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 06:57:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-huJ4p/GCQlEl3PbLKN+RS5831+0nBOZez0GcSXoynaM="
+        }
+      ]
+    },
+    {
+      "Route": "images/e750ab4d-92ac-4cab-a182-d25b53f39189.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JDRS6o0+un2AgYvPdcYzSor6hgGDwi1r7B1Zjmu8Sik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 06:55:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JDRS6o0+un2AgYvPdcYzSor6hgGDwi1r7B1Zjmu8Sik="
+        }
+      ]
+    },
+    {
+      "Route": "images/e750ab4d-92ac-4cab-a182-d25b53f39189.w39nmqwnzy.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JDRS6o0+un2AgYvPdcYzSor6hgGDwi1r7B1Zjmu8Sik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 06:55:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w39nmqwnzy"
+        },
+        {
+          "Name": "label",
+          "Value": "images/e750ab4d-92ac-4cab-a182-d25b53f39189.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JDRS6o0+un2AgYvPdcYzSor6hgGDwi1r7B1Zjmu8Sik="
         }
       ]
     },
