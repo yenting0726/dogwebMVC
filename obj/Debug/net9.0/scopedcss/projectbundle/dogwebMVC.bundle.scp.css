@@ -23,6 +23,9 @@ a[b-hhw5781xlg] {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+/* .nav123{
+  margin-top: 10px;
+} */
 
 .border-top[b-hhw5781xlg] {
   border-top: 1px solid #e5e5e5;
@@ -45,5 +48,33 @@ button.accept-policy[b-hhw5781xlg] {
   bottom: 0;
   width: 100%;
   white-space: nowrap;
-  line-height: 60px;
+  line-height: 40px;
+}
+
+        .logo-icon[b-hhw5781xlg] {
+            width: 40px;
+            height: 40px;
+            background: #2E8B57;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .logo-text[b-hhw5781xlg] {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #2E8B57;
+        }
+.container[b-hhw5781xlg]{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+
+}
+.containerbody[b-hhw5781xlg]{
+ padding-top: 120px;
 }

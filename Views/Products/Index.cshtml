@@ -4,11 +4,12 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<h1>產品</h1>
+<div id="app">
+    <p v-show="showDiv">
+        <a asp-action="Create">新增產品</a>
+    </p>
+</div>
 <table class="table">
     <thead>
         <tr>
@@ -39,3 +40,13 @@
 }
     </tbody>
 </table>
+<script>
+  const app = Vue.createApp({
+    data() {
+      return {
+        showDiv: false
+      }
+    }
+  })
+  app.mount('#app')
+</script>

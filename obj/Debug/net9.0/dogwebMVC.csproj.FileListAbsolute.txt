@@ -17,9 +17,7 @@ C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\dogweb
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\scopedcss\bundle\dogwebMVC.styles.css
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\scopedcss\projectbundle\dogwebMVC.bundle.scp.css
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-b9sayid5wm.gz
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\jvmfcnsnno-61n19gt1b8.gz
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\31trmdap40-xtxxf3hu2r.gz
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\4cdd4u0lbb-bqjiyaj88i.gz
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\9v6s9oihmo-c2jlpeoesf.gz
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\u7jrd11w6p-erw9l3u2r3.gz
@@ -79,8 +77,6 @@ C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compre
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\nien0sz4u7-muycvpuwrr.gz
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\5fkbotw4ac-87fc7y1x7t.gz
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\s3m9f1lrf4-mlv21k5csn.gz
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\ydi1qprwog-kphurtm2rr.gz
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\drkqrcxbxf-kphurtm2rr.gz
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -339,3 +335,7 @@ C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\zh-Han
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\dogwebMVC.sourcelink.json
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\ivk72q8upt-srzsmg7zvu.gz
+c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\31trmdap40-suecoj0pd2.gz
+c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-vqtims5472.gz
+c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\ydi1qprwog-1cv0jvlvlg.gz
+c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\drkqrcxbxf-1cv0jvlvlg.gz
