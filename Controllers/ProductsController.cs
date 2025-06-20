@@ -189,100 +189,104 @@ namespace dogwebMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Price,PhotoPath")] Productdogweb productdogweb, IFormFile Photopath)
         {
-            if (id != productdogweb.Id)
+           if (id != productdogweb.Id)
+    {
+        return NotFound();
+    }
+
+    // 先從資料庫取得現有資料
+    var existingProduct = await _context.Productsbydogweb.FindAsync(id);
+    if (existingProduct == null)
+    {
+        return NotFound();
+    }
+
+    // 更新基本欄位
+    existingProduct.Name = productdogweb.Name;
+    existingProduct.Price = productdogweb.Price;
+
+    // 清除 PhotoPath 的 ModelState 錯誤，因為我們是透過 IFormFile 處理的
+    if (ModelState.ContainsKey("PhotoPath"))
+    {
+        ModelState.Remove("PhotoPath");
+    }
+
+    if (ModelState.IsValid)
+    {
+        try
+        {
+            // 如果有新的檔案上傳
+            if (Photopath != null && Photopath.Length > 0)
             {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
+                // 檢查檔案大小
+                if (Photopath.Length > 5 * 1024 * 1024)
                 {
-                    // 如果有新的檔案上傳
-                    if (Photopath != null && Photopath.Length > 0)
-                    {
-                        // 檢查檔案大小
-                        if (Photopath.Length > 5 * 1024 * 1024)
-                        {
-                            ModelState.AddModelError("PhotoFile", "檔案大小不能超過 5MB");
-                            return View(productdogweb);
-                        }
-
-                        var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".jfif" };
-                        var fileExtension = Path.GetExtension(Photopath.FileName).ToLowerInvariant();
-
-                        if (allowedExtensions.Contains(fileExtension))
-                        {
-                            // 刪除舊檔案
-                            if (!string.IsNullOrEmpty(productdogweb.PhotoPath))
-                            {
-                                var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot" + productdogweb.PhotoPath);
-                                if (System.IO.File.Exists(oldFilePath))
-                                {
-                                    System.IO.File.Delete(oldFilePath);
-                                }
-                            }
-
-                            // 上傳新檔案
-                            var fileName = Guid.NewGuid().ToString() + fileExtension;
-                            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
-                            
-                            if (!Directory.Exists(uploadsFolder))
-                            {
-                                Directory.CreateDirectory(uploadsFolder);
-                            }
-                            
-                            var filePath = Path.Combine(uploadsFolder, fileName);
-
-                            using (var stream = new FileStream(filePath, FileMode.Create))
-                            {
-                                await Photopath.CopyToAsync(stream);
-                            }
-
-                            productdogweb.PhotoPath = "/images/" + fileName;
-                        }
-                    }
-
-                    _context.Update(productdogweb);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ProductdogwebExists(productdogweb.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    ModelState.AddModelError("", "更新失敗: " + ex.Message);
+                    ModelState.AddModelError("Photopath", "檔案大小不能超過 5MB");
                     return View(productdogweb);
                 }
-                return RedirectToAction(nameof(Index));
+
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".jfif" };
+                var fileExtension = Path.GetExtension(Photopath.FileName).ToLowerInvariant();
+
+                // 檢查檔案格式
+                if (!allowedExtensions.Contains(fileExtension))
+                {
+                    ModelState.AddModelError("Photopath", "只允許上傳 jpg, jpeg, png, gif, jfif 格式的檔案");
+                    return View(productdogweb);
+                }
+
+                // 刪除舊檔案
+                if (!string.IsNullOrEmpty(existingProduct.PhotoPath))
+                {
+                    var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot" + existingProduct.PhotoPath);
+                    if (System.IO.File.Exists(oldFilePath))
+                    {
+                        System.IO.File.Delete(oldFilePath);
+                    }
+                }
+
+                // 上傳新檔案
+                var fileName = Guid.NewGuid().ToString() + fileExtension;
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+                
+                if (!Directory.Exists(uploadsFolder))
+                {
+                    Directory.CreateDirectory(uploadsFolder);
+                }
+                
+                var filePath = Path.Combine(uploadsFolder, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await Photopath.CopyToAsync(stream);
+                }
+
+                existingProduct.PhotoPath = "/images/" + fileName;
             }
+
+            // 更新資料庫
+            _context.Update(existingProduct);
+            await _context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!ProductdogwebExists(productdogweb.Id))
+            {
+                return NotFound();
+            }
+            else
+            {
+                throw;
+            }
+        }
+        catch (Exception ex)
+        {
+            ModelState.AddModelError("", "更新失敗: " + ex.Message);
             return View(productdogweb);
         }
-
-        // GET: Products/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var productdogweb = await _context.Productsbydogweb
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (productdogweb == null)
-            {
-                return NotFound();
-            }
-
-            return View(productdogweb);
+        return RedirectToAction(nameof(Index));
+    }
+    return View(productdogweb);
         }
 
         // POST: Products/Delete/5

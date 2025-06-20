@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OwQi9m5NV5qZJfud6gPaUH2DaXaylG0//U4iscoLsK0=",
+  "Hash": "5++SMYxbnv3HhrONkT3Qg1PKxDo1BjOd2AlnXEUu9tY=",
   "Source": "dogwebMVC",
   "BasePath": "_content/dogwebMVC",
   "Mode": "Default",
@@ -1527,6 +1527,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif"
+    },
+    {
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/a05c25bf-9685-47f7-9325-3a01ad397971#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mqx8w7qsw9",
+      "Integrity": "MmeQY+tbADni9bgfZ0iGBVqH21IzbiYp87jL5k0Ph/w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif"
     },
     {
       "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif",
@@ -4483,6 +4504,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-huJ4p/GCQlEl3PbLKN+RS5831+0nBOZez0GcSXoynaM="
+        }
+      ]
+    },
+    {
+      "Route": "images/a05c25bf-9685-47f7-9325-3a01ad397971.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8029"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MmeQY+tbADni9bgfZ0iGBVqH21IzbiYp87jL5k0Ph/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 07:03:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MmeQY+tbADni9bgfZ0iGBVqH21IzbiYp87jL5k0Ph/w="
+        }
+      ]
+    },
+    {
+      "Route": "images/a05c25bf-9685-47f7-9325-3a01ad397971.mqx8w7qsw9.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8029"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MmeQY+tbADni9bgfZ0iGBVqH21IzbiYp87jL5k0Ph/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 07:03:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mqx8w7qsw9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/a05c25bf-9685-47f7-9325-3a01ad397971.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MmeQY+tbADni9bgfZ0iGBVqH21IzbiYp87jL5k0Ph/w="
         }
       ]
     },
