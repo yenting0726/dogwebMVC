@@ -53,10 +53,22 @@ namespace dogwebMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Price")] Productdogweb productdogweb)
+        public async Task<IActionResult> Create([Bind("Id,Name,Price")] Productdogweb productdogweb, IFormFile PhotoPath)
         {
             if (ModelState.IsValid)
             {
+                if (PhotoPath != null && PhotoPath.Length > 0)
+                {
+                    var fileName = Path.GetFileName(PhotoPath.FileName);
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await PhotoPath.CopyToAsync(stream);
+                    }
+
+            productdogweb.PhotoPath = "/images/" + fileName;
+        }
                 _context.Add(productdogweb);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
