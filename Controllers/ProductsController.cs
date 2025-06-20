@@ -85,29 +85,52 @@ namespace dogwebMVC.Controllers
                         ViewBag.DebugMessage = "檔案太大";
                         return View(productdogweb);
                     }
+                    string productName = productdogweb.Name; // 從表單取得的產品名稱
+                    string originalFileName = Path.GetFileNameWithoutExtension(PhotoPath.FileName); // 使用者上傳的原始檔案名
+                    string cleanedProductName = string.Concat(productName.Split(Path.GetInvalidFileNameChars()));// 移除產品名稱中的非法字元
+                    string cleanedFileName = string.Concat(originalFileName.Split(Path.GetInvalidFileNameChars()));// 移除產品名稱和檔案名中的非法字元
+                    string fileExtension = Path.GetExtension(PhotoPath.FileName);// 取得副檔名
+                    string folderName = string.Concat(productdogweb.Name.Split(Path.GetInvalidFileNameChars()));
 
-                    // 限制允許的副檔名
-                    var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".jfif" };
-                    var fileExtension = Path.GetExtension(PhotoPath.FileName).ToLowerInvariant();
-                    if (!allowedExtensions.Contains(fileExtension))
-                    {
-                        ModelState.AddModelError("PhotoPath", "只允許上傳圖片檔案");
-                        ViewBag.DebugMessage = $"不支援的檔案類型: {fileExtension}";
-                        return View(productdogweb);
-                    }
+                    // 建立產品名稱的資料夾路徑        // 擷取產品名稱並移除非法字元
 
-                    // 建立唯一檔名並儲存
-                    var fileName = Guid.NewGuid().ToString() + fileExtension;
                     var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
                     if (!Directory.Exists(uploadsFolder)) Directory.CreateDirectory(uploadsFolder);
-                    var filePath = Path.Combine(uploadsFolder, fileName);
+                    // 限制允許的副檔名
+                    // var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".jfif" };
+
+
+                    //.ToLowerInvariant(); // 取得副檔名並轉為小寫
+                    // if (!allowedExtensions.Contains(fileExtension))
+                    // {
+                    //     ModelState.AddModelError("PhotoPath", "只允許上傳圖片檔案");
+                    //     ViewBag.DebugMessage = $"不支援的檔案類型: {fileExtension}";
+                    //     return View(productdogweb);
+                    // }
+
+
+
+                    // 建立唯一檔名並儲存
+                    // var fileName = Guid.NewGuid().ToString() + fileExtension;
+                    // var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+                    // var fileName = $"{originalFileName}_{DateTime.Now:yyyyMMddHHmmssfff}{fileExtension}";// 組合檔名，包含原始名稱和時間戳
+                    string finalFileName = $"{cleanedProductName}__{DateTime.Now:yyyyMMdd}{fileExtension}";
+
+                    // if (!Directory.Exists(uploadsFolder)) Directory.CreateDirectory(uploadsFolder);// 確保上傳目錄存在
+
+                    // 組合完整儲存路徑
+                    //var filePath = Path.Combine(uploadsFolder, fileName);
+                    var filePath = Path.Combine(uploadsFolder, finalFileName);// 組合完整儲存路徑
+
+
 
                     using (var stream = new FileStream(filePath, FileMode.Create))
                     {
-                        await PhotoPath.CopyToAsync(stream);
+                        await PhotoPath.CopyToAsync(stream);  //將檔案寫入其他
                     }
 
-                    productdogweb.PhotoPath = "/images/" + fileName; // 儲存路徑到資料庫欄位
+                    // productdogweb.PhotoPath = $"/images/{folderName}"; // 儲存路徑到資料庫欄位
+                    productdogweb.PhotoPath = $"/images/{finalFileName}"; // 儲存路徑到資料庫欄位
                 }
                 catch (Exception ex)
                 {
