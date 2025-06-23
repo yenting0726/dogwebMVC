@@ -676,7 +676,6 @@ c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\dogwebMVC.pdb
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\dogwebMVC.genruntimeconfig.cache
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\ref\dogwebMVC.dll
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\ivk72q8upt-bw9o2qqx7w.gz
-c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-otknc5xb94.gz
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\ceflbb5ev9-jzsiqdzr9n.gz
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\gfgvujlz0y-vpbe5i7pek.gz
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\f0ljxzoooz-vpbe5i7pek.gz
@@ -685,3 +684,4 @@ c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\DogWeb
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\DogWebVue\tsconfig.json
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\DogWebVue\tsconfig.node.json
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\schlcswgv6-z158ki8zrh.gz
+C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-219cv4gi7s.gz

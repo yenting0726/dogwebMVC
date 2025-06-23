@@ -31,7 +31,7 @@ html {
 
 .content {
   position: relative; /* 內容的容器 */
-  z-index: ; /* 置於背景上方 */
+  z-index: 1; /* 置於背景上方 */
   color: #000; /* 文字顏色 */
   margin-bottom: 100px;
   margin-left: 50px; /* 向右移動 */
