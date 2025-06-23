@@ -9,6 +9,36 @@ html {
   }
 }
 
+.wrap { /* 整個頁面的容器 */
+  position: relative;
+  width: 100%;/* 撐滿整個視窗 */
+  height: 100vh;/* 讓頁面撐滿整個視窗 */
+  display: flex;/* 使用 Flexbox 來對齊內容 */
+  justify-content: center;/* 水平置中 */
+  align-items: center;/* 垂直置中 */
+}
+
+.background {
+  position: absolute;/* 背景圖片的容器 */
+  top: 0; left: 0; right: 0; bottom: 0;/* 讓背景撐滿整個頁面 */
+  background-image: url("../images/背景.jpg");
+  background-size: cover;/* 背景圖片覆蓋整個容器 */
+  background-position: center;/* 背景圖片置中 */
+  opacity: 0.4; /* 只讓背景透明 */
+  z-index: -1;/* 置於內容下方 */
+  filter: blur(1px); /* 添加模糊效果 */
+}
+
+.content {
+  position: relative; /* 內容的容器 */
+  z-index: ; /* 置於背景上方 */
+  color: #000; /* 文字顏色 */
+  margin-bottom: 100px;
+  margin-left: 50px; /* 向右移動 */
+  text-align: left; /* 文字靠左 */
+  text-align: center;
+}
+
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
@@ -18,10 +48,13 @@ html {
   min-height: 100%;
 }
 
-body {
+/* body {
   margin-bottom: 60px;
+  background-image: url("../images/背景.jpg");
+  width: 100%;
+  height: 100vh;
  
-}
+} */
 a{
      /* 預設連結消果清除 */
   text-decoration: none;

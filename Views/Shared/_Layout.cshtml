@@ -7,12 +7,16 @@
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/dogwebMVC.styles.css" asp-append-version="true" />
+    @* <link rel="stylesheet" href="~/css/petweb.css" asp-append-version="true" /> *@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    
+    <script src="~/js/app.js"></script>
+
 </head>
 <body>
+    <div class="wrap">
+        <div class="background"></div>
     <header>
+        
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><div class="logo">
@@ -26,15 +30,15 @@
                 </button>
 
 
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between nav123">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between nav123 ">
+                    <ul class="navbar-nav  ms-auto">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">首頁</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">公園地圖</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Googlemap">公園地圖</a>
                         </li>
-                          <li class="nav-item"></li>
+                          <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">產品</a>
                         </li>
                             <li class="nav-item">
@@ -49,13 +53,14 @@
                 </div>
             </div>
         </nav>
+        
     </header>
     <div class="container">
         <main role="main" class="pb-3 containerbody ">
             @RenderBody()
         </main>
     </div>
-
+</div>
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2025 - dogwebMVC - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
