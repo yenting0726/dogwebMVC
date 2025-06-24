@@ -687,4 +687,6 @@ c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\ceflbb5ev9-
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\ivk72q8upt-bw9o2qqx7w.gz
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\gfgvujlz0y-mdqyjf94sv.gz
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\f0ljxzoooz-vpbe5i7pek.gz
-c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-zd8k22v1dc.gz
+C:\Users\USER\Documents\GitHub\dogwebMVC\bin\Debug\net9.0\ClientApp\package-lock.json
+C:\Users\USER\Documents\GitHub\dogwebMVC\bin\Debug\net9.0\ClientApp\package.json
+C:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-unws4slwf6.gz
