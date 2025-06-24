@@ -10,10 +10,10 @@
         <a asp-action="Create">新增產品</a>
     </p>
 </div>
-<div class="row">
+<div class="row ">
     @foreach (var item in Model) {
         <div class="col-md-4">
-            <div class="card mb-4">
+            <div class="card mb-4 ">
                 <img src="@item.PhotoPath " class="card-img-top fixed-img" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
@@ -27,7 +27,9 @@
                 </div>
             </div>
         </div>
+      
 }
+</div>
     </tbody>
 </table>
 <script>

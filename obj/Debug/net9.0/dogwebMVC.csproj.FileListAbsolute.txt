@@ -600,8 +600,6 @@ c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\rjsmcshtml.dswa.cache.
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\scopedcss\bundle\dogwebMVC.styles.css
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\scopedcss\projectbundle\dogwebMVC.bundle.scp.css
-c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\ivk72q8upt-srzsmg7zvu.gz
-c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-gi6ke9senp.gz
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\jvmfcnsnno-61n19gt1b8.gz
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\31trmdap40-suecoj0pd2.gz
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\4cdd4u0lbb-t1cqhe9u97.gz
@@ -685,3 +683,8 @@ c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\DogWeb
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\DogWebVue\tsconfig.node.json
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\schlcswgv6-z158ki8zrh.gz
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-219cv4gi7s.gz
+c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\ceflbb5ev9-jzsiqdzr9n.gz
+c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\ivk72q8upt-bw9o2qqx7w.gz
+c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\gfgvujlz0y-mdqyjf94sv.gz
+c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\f0ljxzoooz-vpbe5i7pek.gz
+c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-zd8k22v1dc.gz

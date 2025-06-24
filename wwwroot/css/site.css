@@ -15,9 +15,15 @@ html {
   height: 100vh;/* 讓頁面撐滿整個視窗 */
   display: flex;/* 使用 Flexbox 來對齊內容 */
   justify-content: center;/* 水平置中 */
-  align-items: center;/* 垂直置中 */
+  /* align-items: center;垂直置中加入這個 我的產品就塞進navbar了*/
 }
-
+/* 修改：移除 .container 的 padding-top，改用 body */
+body {
+  padding-top: 80px; /* 為固定導航欄留出空間 */
+}
+.home-page .container {
+  padding-top: 0; /* 首頁不需要額外的 padding */
+}
 .background {
   position: absolute;/* 背景圖片的容器 */
   top: 0; left: 0; right: 0; bottom: 0;/* 讓背景撐滿整個頁面 */
