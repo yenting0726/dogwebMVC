@@ -17,73 +17,73 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dogwebMVC
 build_property.RootNamespace = dogwebMVC
-build_property.ProjectDir = C:\Users\USER\Documents\GitHub\dogwebMVC\
+build_property.ProjectDir = C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\USER\Documents\GitHub\dogwebMVC
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/Home/Googlemap.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/Home/Googlemap.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHb29nbGVtYXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/Home/Index.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/Home/member.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/Home/member.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtZW1iZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/Home/product.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/Home/product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/Home/shopping.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/Home/shopping.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaG9wcGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/Products/Create.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/Products/Delete.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/Products/Details.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/Products/Edit.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/Products/Index.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/Shared/Error.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/_ViewImports.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/_ViewStart.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/dogwebMVC/Views/Shared/_Layout.cshtml]
+[c:/Users/User/Desktop/javascript4_21/dogwebMVC/dogwebMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hhw5781xlg

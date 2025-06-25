@@ -675,14 +675,7 @@ c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\dogwebMVC.genruntimeco
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\ref\dogwebMVC.dll
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\ivk72q8upt-bw9o2qqx7w.gz
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\ceflbb5ev9-jzsiqdzr9n.gz
-c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\gfgvujlz0y-vpbe5i7pek.gz
 c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\f0ljxzoooz-vpbe5i7pek.gz
-c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\DogWebVue\package.json
-c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\DogWebVue\tsconfig.app.json
-c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\DogWebVue\tsconfig.json
-c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Debug\net9.0\DogWebVue\tsconfig.node.json
-c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\schlcswgv6-z158ki8zrh.gz
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-219cv4gi7s.gz
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\ceflbb5ev9-jzsiqdzr9n.gz
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\ivk72q8upt-bw9o2qqx7w.gz
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\gfgvujlz0y-mdqyjf94sv.gz
@@ -690,3 +683,5 @@ c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\f0ljxzoooz-
 C:\Users\USER\Documents\GitHub\dogwebMVC\bin\Debug\net9.0\ClientApp\package-lock.json
 C:\Users\USER\Documents\GitHub\dogwebMVC\bin\Debug\net9.0\ClientApp\package.json
 C:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-unws4slwf6.gz
+c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\9ll2r1jfn1-unws4slwf6.gz
+c:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net9.0\compressed\gfgvujlz0y-mdqyjf94sv.gz

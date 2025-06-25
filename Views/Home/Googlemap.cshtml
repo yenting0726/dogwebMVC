@@ -32,52 +32,12 @@
 </svg>
 
 
- <div id="app">
-  {{ message }}
-</div>
+ 
         
        
 
 <!-- Google Maps 載入 -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmuKWcbMiFSeqDa0dufGQ-ii7cLQGdzcY"></script>
 <script>
-    const parksData = {
-        "中正區": [
-            { name: "寵物公園A", lat: 25.0321, lng: 121.5186 },
-            { name: "寵物公園B", lat: 25.0330, lng: 121.5195 }
-        ],
-        "大安區": [
-            { name: "寵物公園C", lat: 25.0268, lng: 121.5430 }
-        ]
-    };
-
-    let map;
-    function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: { lat: 25.033, lng: 121.5654 },
-            zoom: 13
-        });
-    }
-
-    document.querySelectorAll('#taipeiMap path').forEach(path => {
-        path.addEventListener('mouseenter', () => {
-            const district = path.dataset.district;
-            const parks = parksData[district] || [];
-
-            document.getElementById('parkList').innerHTML = parks.map(p => `<li>${p.name}</li>`).join('');
-            map.setCenter(parks[0] || { lat: 25.033, lng: 121.5654 });
-
-            // 清除原標記
-            if (window.markers) window.markers.forEach(m => m.setMap(null));
-
-            // 顯示新標記
-            window.markers = parks.map(p => new google.maps.Marker({
-                position: { lat: p.lat, lng: p.lng },
-                map: map,
-                title: p.name
-            }));
-        });
-    });
-
-    window.onload = initMap;
+    
 </script>
