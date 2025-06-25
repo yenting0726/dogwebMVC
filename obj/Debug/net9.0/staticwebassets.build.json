@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GvRuUczftmiScBHD/gel5H+Q2zZG2XaxAlfKAHzXMpU=",
+  "Hash": "2+2yY1NfWPfpP1Wh+njHW3b4z0gwA5R30Y8G5jAKRFg=",
   "Source": "dogwebMVC",
   "BasePath": "_content/dogwebMVC",
   "Mode": "Default",
@@ -1760,6 +1760,27 @@
       "OriginalItemSpec": "wwwroot\\images\\雞排__202506204942.jfif"
     },
     {
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250625.jfif",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/雞排__20250625#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "an43ddfjtz",
+      "Integrity": "upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\雞排__20250625.jfif"
+    },
+    {
       "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排_fe14314b-14ab-4a03-a607-b0ef55ad2547_20250620214707052.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
@@ -1863,27 +1884,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif"
-    },
-    {
-      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif",
-      "SourceId": "dogwebMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
-      "BasePath": "_content/dogwebMVC",
-      "RelativePath": "images/fe14314b-14ab-4a03-a607-b0ef55ad2547#[.{fingerprint}]?.jfif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "an43ddfjtz",
-      "Integrity": "upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif"
     },
     {
       "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images (1).svg",
@@ -5737,6 +5737,88 @@
       ]
     },
     {
+      "Route": "images/雞排__20250625.an43ddfjtz.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250625.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 02:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "an43ddfjtz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/雞排__20250625.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/雞排__20250625.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250625.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 02:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ="
+        }
+      ]
+    },
+    {
       "Route": "images/雞排_fe14314b-14ab-4a03-a607-b0ef55ad2547_20250620214707052.an43ddfjtz.jfif",
       "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排_fe14314b-14ab-4a03-a607-b0ef55ad2547_20250620214707052.jfif",
       "Selectors": [],
@@ -6143,88 +6225,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-JDRS6o0+un2AgYvPdcYzSor6hgGDwi1r7B1Zjmu8Sik="
-        }
-      ]
-    },
-    {
-      "Route": "images/fe14314b-14ab-4a03-a607-b0ef55ad2547.an43ddfjtz.jfif",
-      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11487"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/pjpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 07:18:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "an43ddfjtz"
-        },
-        {
-          "Name": "label",
-          "Value": "images/fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ="
-        }
-      ]
-    },
-    {
-      "Route": "images/fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif",
-      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11487"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/pjpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 07:18:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ="
         }
       ]
     },

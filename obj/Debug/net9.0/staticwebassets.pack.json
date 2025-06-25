@@ -57,10 +57,6 @@
       "PackagePath": "staticwebassets\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif"
     },
     {
-      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif",
-      "PackagePath": "staticwebassets\\images\\fe14314b-14ab-4a03-a607-b0ef55ad2547.jfif"
-    },
-    {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images (1).svg",
       "PackagePath": "staticwebassets\\images\\images (1).svg"
     },
@@ -83,6 +79,10 @@
     {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__202506204942.jfif",
       "PackagePath": "staticwebassets\\images\\雞排__202506204942.jfif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250625.jfif",
+      "PackagePath": "staticwebassets\\images\\雞排__20250625.jfif"
     },
     {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排_fe14314b-14ab-4a03-a607-b0ef55ad2547_20250620214707052.jfif",

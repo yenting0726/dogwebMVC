@@ -2,7 +2,29 @@
     ViewData["Title"] = "Shopping Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Shopping Area</h1>
-    <p>Welcome to the shopping area. Here you can browse and purchase products.</p>
-</div>  
+<div id="cartApp">
+  <h2>購物車內容</h2>
+  <div v-if="Object.keys(cart).length === 0">購物車是空的</div>
+  <ul>
+    <li v-for="(qty, id) in cart" :key="id">
+      產品ID: {{ id }} ，數量: {{ qty }}
+      <!-- 你可以用 AJAX 或其他方式，根據 id 從後端抓取產品詳細資訊 -->
+    </li>
+  </ul>
+</div>
+
+<script>
+  const cartApp = Vue.createApp({
+    data() {
+      return {
+        cart: {}
+      }
+    },
+    created() {
+      // 頁面載入時讀取購物車資料
+      this.cart = JSON.parse(localStorage.getItem('cart')) || {};
+    }
+  })
+
+  cartApp.mount('#cartApp');
+</script>

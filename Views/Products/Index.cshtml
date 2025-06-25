@@ -6,58 +6,86 @@
 
 <h1>產品</h1>
 <div id="app1">
-    <p v-show="showDiv">
-        <a asp-action="Create">新增產品</a>
+  <p v-show="showDiv">
+    <a asp-action="Create">新增產品</a>
+  </p>
 
-    </p>
-
-
-
-
-
-<div class="row ">
+  <div class="row">
     @foreach (var item in Model) {
-        <div class="col-md-4">
-            <div class="card mb-4 ">
-                <img src="@item.PhotoPath " class="card-img-top fixed-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
-                    <p class="card-text">@Html.DisplayFor(modelItem => item.Price)</p>
-                    <a href="#" class="btn btn-primary">加入購物車</a>
-
-
-
-                    <div>
-                        <p v-show="showDiv">
-                        <a asp-action="Edit" asp-route-id="@item.Id">修改</a>
-                        
-                        
-                       
-                        <a asp-action="Details" asp-route-id="@item.Id">詳細</a>
-                        
-                        <a asp-action="Delete" asp-route-id="@item.Id">刪除</a>
-                        </p>
-                    </div>
-                </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="@item.PhotoPath" class="card-img-top fixed-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+            <p class="card-text">@Html.DisplayFor(modelItem => item.Price)</p>
+            <div class="btn-group" role="group" aria-label="Quantity controls">
+              <button type="button" class="btn btn-secondary" v-on:click="add(@item.Id, 1)">+</button>
+              <button type="button" class="btn btn-light" disabled><p>{{ "數量:" + counts[@item.Id] }}</p></button>
+              <button type="button" class="btn btn-secondary" v-on:click="add(@item.Id, -1)">-</button>
             </div>
-        </div>
-      
-}
-</div>
-</div>
-    </tbody>
-</table>
-<script>
+@* .prevent 是阻止連結預設跳轉行為。 *@
+            <a href="#" class="btn btn-primary"v-on:click.prevent="addToCart(@item.Id)">加入購物車</a>
 
+            <div>
+              <p v-show="showDiv">
+                <a asp-action="Edit" asp-route-id="@item.Id">修改</a>
+                <a asp-action="Details" asp-route-id="@item.Id">詳細</a>
+                <a asp-action="Delete" asp-route-id="@item.Id">刪除</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>
+
+<script>
   const app1 = Vue.createApp({
     data() {
       return {
-        showDiv: false
+        showDiv: true,
+        counts: {
+            @foreach (var item in Model)// 初始化 counts 物件，將每個產品的 Id 設為 1
+             
+          {
+            @: "@item.Id": 1, 
+          }
+          @* 使用 Razor 語法將每個產品的 Id 加入 counts 物件  *@
+        }
       }
-    }
-  })
-  
-    app1.mount('#app1')
+    },
     
+    methods: {
+  add(id, number) {
+    // 如果 counts 中沒有該 id，初始化為 1
+    if (!this.counts[id]) {
+      this.counts[id] = 1;
+    }
+    // 將該 id 的數量增加 number
+    this.counts[id] += number;
+    // 如果增加後的數量小於 1，強制設為 1，避免數量小於 1
+    if (this.counts[id] < 1) this.counts[id] = 1;
+  
+    // 更新 LocalStorage 中的購物車數量
+      
+    },
+    addToCart(id) {
+    // 取得目前購物車（JSON字串轉物件），若無則空物件
+    let cart = JSON.parse(localStorage.getItem('cart')) || {};
 
+    // 更新該商品數量
+    cart[id] = this.counts[id];
+
+    // 儲存回 LocalStorage
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    alert('已加入購物車');
+  }
+}
+
+
+  })
+
+  app1.mount('#app1')
 </script>
