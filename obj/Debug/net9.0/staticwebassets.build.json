@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PE6HLJ+cLZHsWE6n35cOdqiPBHynE4WBUvBgqBURxuM=",
+  "Hash": "mLPxqpInDTCq5VHo1K8c8fsrpAEALIVHwwtyj9BesbA=",
   "Source": "dogwebMVC",
   "BasePath": "_content/dogwebMVC",
   "Mode": "Default",
@@ -1697,27 +1697,6 @@
       "OriginalItemSpec": "wwwroot\\images\\背景.jpg"
     },
     {
-      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\滷肉飯__20250625.jfif",
-      "SourceId": "dogwebMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
-      "BasePath": "_content/dogwebMVC",
-      "RelativePath": "images/滷肉飯__20250625#[.{fingerprint}]?.jfif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "4tqc0td3g1",
-      "Integrity": "SMmfX4USi7T1VuyqwgptngetkwpWv40utALj+8RlLaE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\滷肉飯__20250625.jfif"
-    },
-    {
       "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
@@ -1905,27 +1884,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\e4563478-3d88-486c-8b11-8f2b81c97d90.jfif"
-    },
-    {
-      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif",
-      "SourceId": "dogwebMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
-      "BasePath": "_content/dogwebMVC",
-      "RelativePath": "images/e750ab4d-92ac-4cab-a182-d25b53f39189#[.{fingerprint}]?.jfif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "w39nmqwnzy",
-      "Integrity": "JDRS6o0+un2AgYvPdcYzSor6hgGDwi1r7B1Zjmu8Sik=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif"
     },
     {
       "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images (1).svg",
@@ -5533,88 +5491,6 @@
       ]
     },
     {
-      "Route": "images/滷肉飯__20250625.4tqc0td3g1.jfif",
-      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\滷肉飯__20250625.jfif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6743"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/pjpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SMmfX4USi7T1VuyqwgptngetkwpWv40utALj+8RlLaE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 06:21:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4tqc0td3g1"
-        },
-        {
-          "Name": "label",
-          "Value": "images/滷肉飯__20250625.jfif"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-SMmfX4USi7T1VuyqwgptngetkwpWv40utALj+8RlLaE="
-        }
-      ]
-    },
-    {
-      "Route": "images/滷肉飯__20250625.jfif",
-      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\滷肉飯__20250625.jfif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6743"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/pjpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SMmfX4USi7T1VuyqwgptngetkwpWv40utALj+8RlLaE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 06:21:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-SMmfX4USi7T1VuyqwgptngetkwpWv40utALj+8RlLaE="
-        }
-      ]
-    },
-    {
       "Route": "images/雞排__20250620.an43ddfjtz.jfif",
       "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620.jfif",
       "Selectors": [],
@@ -6349,88 +6225,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-upSc6P3PO6Cc0Pad6Z+v1768ieBbtNo5fFTNi7joxjQ="
-        }
-      ]
-    },
-    {
-      "Route": "images/e750ab4d-92ac-4cab-a182-d25b53f39189.jfif",
-      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13329"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/pjpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JDRS6o0+un2AgYvPdcYzSor6hgGDwi1r7B1Zjmu8Sik=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 06:55:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-JDRS6o0+un2AgYvPdcYzSor6hgGDwi1r7B1Zjmu8Sik="
-        }
-      ]
-    },
-    {
-      "Route": "images/e750ab4d-92ac-4cab-a182-d25b53f39189.w39nmqwnzy.jfif",
-      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e750ab4d-92ac-4cab-a182-d25b53f39189.jfif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13329"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/pjpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JDRS6o0+un2AgYvPdcYzSor6hgGDwi1r7B1Zjmu8Sik=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 06:55:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "w39nmqwnzy"
-        },
-        {
-          "Name": "label",
-          "Value": "images/e750ab4d-92ac-4cab-a182-d25b53f39189.jfif"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JDRS6o0+un2AgYvPdcYzSor6hgGDwi1r7B1Zjmu8Sik="
         }
       ]
     },

@@ -1,51 +1,54 @@
 
 using dogwebMVC.Models;
 using Microsoft.EntityFrameworkCore;
-// using Microsoft.Extensions.FileProviders;
+using System.Text.Json;
 
+
+// using Microsoft.Extensions.FileProviders;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 資料庫設定
+// 加入 Session 記憶體快取
+builder.Services.AddDistributedMemoryCache();
+
+// 加入 Session 支援
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(5); // 設定 Session 的過期時間
+}); // <<== ← 這個分號你原本漏掉了
+builder.Services.AddControllersWithViews();       // 將 MVC 控制器與視圖功能加入至服務容器中
+
+builder.Services.AddRazorPages();             // <-- Razor Pages
+
+// 加入資料庫
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
-// MVC 註冊
+// 加入 MVC 控制器與視圖
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-
-/// 非開發模式下啟用例外處理.
+// 錯誤處理 & HTTPS
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-// app.UseStaticFiles(new StaticFileOptions
-// {
-//     FileProvider = new PhysicalFileProvider(
-//         Path.Combine(Directory.GetCurrentDirectory(), "ClientApp/dist")),
-//     RequestPath = ""
-// });
 
-
-// HTTPS、靜態檔案、路由、授權
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+
 app.UseRouting();
+
+// ✅ 啟用 Session（這行順序不能錯）
+app.UseSession();
 
 app.UseAuthorization();
 
-app.MapStaticAssets();
-
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
-// Vue SPA fallback（這行是關鍵）
-// app.MapFallbackToFile("index.html");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

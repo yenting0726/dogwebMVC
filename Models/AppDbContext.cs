@@ -8,7 +8,7 @@ namespace dogwebMVC.Models
             : base(options) { }
 
         public DbSet<Productdogweb> Productsbydogweb { get; set; }
-       
+       public DbSet<Member> Members { get; set; }
 
 
     }

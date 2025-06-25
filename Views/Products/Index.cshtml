@@ -1,8 +1,10 @@
-@model IEnumerable<dogwebMVC.Models.Productdogweb>
 
+@using Newtonsoft.Json
+@model IEnumerable<dogwebMVC.Models.Productdogweb>
 @{
     ViewData["Title"] = "Index";
 }
+
 <h1>產品</h1>
 <div id="app1">
     <p v-show="showDiv">
@@ -44,7 +46,7 @@
 
 <!-- 將商品資料以 JSON 格式嵌入，避免中文編碼問題 -->
 <script type="application/json" id="products-data">
-    @Html.Raw(Json.Serialize(Model.Select(item => new { 
+    @Html.Raw(JsonConvert.SerializeObject(Model.Select(item => new { 
         Id = item.Id, 
         Name = item.Name, 
         PhotoPath = item.PhotoPath, 
