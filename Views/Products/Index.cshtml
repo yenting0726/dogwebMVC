@@ -5,11 +5,15 @@
 }
 
 <h1>產品</h1>
-<div id="app">
+<div id="app1">
     <p v-show="showDiv">
         <a asp-action="Create">新增產品</a>
+
     </p>
-</div>
+
+
+
+
 
 <div class="row ">
     @foreach (var item in Model) {
@@ -20,10 +24,19 @@
                     <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
                     <p class="card-text">@Html.DisplayFor(modelItem => item.Price)</p>
                     <a href="#" class="btn btn-primary">加入購物車</a>
+
+
+
                     <div>
+                        <p v-show="showDiv">
                         <a asp-action="Edit" asp-route-id="@item.Id">修改</a>
+                        
+                        
+                       
                         <a asp-action="Details" asp-route-id="@item.Id">詳細</a>
+                        
                         <a asp-action="Delete" asp-route-id="@item.Id">刪除</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -31,15 +44,20 @@
       
 }
 </div>
+</div>
     </tbody>
 </table>
 <script>
-  const app = Vue.createApp({
+
+  const app1 = Vue.createApp({
     data() {
       return {
-        showDiv: true
+        showDiv: false
       }
     }
   })
-  app.mount('#app')
+  
+    app1.mount('#app1')
+    
+
 </script>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dogwebMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e60e895be94de1f46522128e931e4f7c65b842c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7493f56a7acd727d702cf27ac49bc3f38ab82231")]
 [assembly: System.Reflection.AssemblyProductAttribute("dogwebMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dogwebMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
