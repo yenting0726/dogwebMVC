@@ -32,7 +32,8 @@ namespace dogwebMVC.Controllers
 
         // 登入
         [HttpPost("login")]
-        public IActionResult Login()
+        
+public IActionResult Login()
 {
     string username = Request.Form["username"];
     string password = Request.Form["password"];
@@ -56,6 +57,27 @@ namespace dogwebMVC.Controllers
     HttpContext.Session.SetString("user", username);
     return Ok(new { message = "登入成功", username });
 }
+
+
+
+
+    //     public IActionResult Login([FromForm] string username, [FromForm] string password)
+        //     {
+
+
+        //         var member = _context.Members.FirstOrDefault(m => m.Username == username );
+        //         if (member == null)
+        //         {
+        //             return BadRequest("無此帳號"); // ✅ 正確：先判斷帳號是否存在
+        //         }
+        //         if (member.Password != password)
+        // {
+        //     return Unauthorized("密碼錯誤"); // ✅ 密碼錯誤 
+        // }
+
+        //         HttpContext.Session.SetString("user", username);
+        //         return Ok(new { message = "登入成功", username });
+        //     }
 
         // 檢查登入狀態
         [HttpGet("check")]
