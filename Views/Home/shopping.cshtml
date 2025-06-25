@@ -1,30 +1,76 @@
 @{
-    ViewData["Title"] = "Shopping Page";
+    ViewData["Title"] = "購物車";
 }
 
-<div id="cartApp">
-  <h2>購物車內容</h2>
-  <div v-if="Object.keys(cart).length === 0">購物車是空的</div>
-  <ul>
-    <li v-for="(qty, id) in cart" :key="id">
-      產品ID: {{ id }} ，數量: {{ qty }}
-      <!-- 你可以用 AJAX 或其他方式，根據 id 從後端抓取產品詳細資訊 -->
-    </li>
-  </ul>
+<h1>購物車</h1>
+
+<div id="app2">
+  <!-- 若購物車為空 -->
+  <div v-if="Object.keys(cart).length === 0">
+    <p>購物車是空的。</p>
+  </div>
+
+  <!-- 若有商品 -->
+  <div class="mb-3" v-else>
+    <div class="row">
+      <div class="col-md-4 mb-4" v-for="(item, id) in cart" :key="id">
+        <div class="card">
+          <img :src="item.photoPath" class="card-img-top fixed-img" alt="商品圖片">
+          <div class="card-body">
+            <h5 class="card-title">{{ item.name }}</h5>
+            <p class="card-text">數量：{{ item.quantity }}</p>
+            <p class="card-text">單價：{{ item.price }}</p>
+            <p class="card-text">小計：{{ item.quantity * item.price }}</p>
+            <button class="btn btn-danger" v-on:click="removeItem(id)">刪除</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 總金額與清空按鈕 -->
+    <div class="mt-4">
+      <h4>總金額：{{ totalAmount }}</h4>
+      <button class="btn btn-warning" v-on:click="clearCart">清空購物車</button>
+    </div>
+  </div>
 </div>
 
 <script>
-  const cartApp = Vue.createApp({
+  const app2 = Vue.createApp({
     data() {
       return {
         cart: {}
       }
     },
-    created() {
-      // 頁面載入時讀取購物車資料
-      this.cart = JSON.parse(localStorage.getItem('cart')) || {};
+    computed: {
+      // 計算總金額
+      totalAmount() {
+        return Object.values(this.cart).reduce((total, item) => {
+          return total + (item.quantity * item.price);
+        }, 0);
+      }
+    },
+    mounted() {
+      const storedCart = localStorage.getItem('cart');
+      if (storedCart) {
+        this.cart = JSON.parse(storedCart);
+      }
+    },
+    methods: {
+      removeItem(id) {
+        if (confirm('確定要刪除這項商品嗎？')) {
+          delete this.cart[id];
+          localStorage.setItem('cart', JSON.stringify(this.cart));
+        }
+      },
+      clearCart() {
+        if (confirm('確定要清空購物車嗎？')) {
+          this.cart = {};
+          localStorage.removeItem('cart');
+        }
+      }
     }
-  })
+  });
 
-  cartApp.mount('#cartApp');
+  app2.mount('#app2');
 </script>
