@@ -272,7 +272,6 @@ C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net8.0\static
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.dogwebMVC.props
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.dogwebMVC.props
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net8.0\dogwebMVC.csproj.Up2Date
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net8.0\dogwebMVC.dll
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net8.0\refint\dogwebMVC.dll
