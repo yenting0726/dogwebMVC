@@ -17,49 +17,45 @@ namespace dogwebMVC.Controllers
             _context = context;
         }
 
-        // 註冊
+        // 註冊更改寫法 不使用[FromFrom]]
         [HttpPost("register")]
-        public IActionResult Register([FromForm] Member request)
+        public IActionResult Regsister()
         {
+            string username = Request.Form["username"];
+            string password = Request.Form["password"];
+            string confirmPassword = Request.Form["confirmPassword"];
 
-            if (!ModelState.IsValid)
+            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(confirmPassword))
             {
-                var errorMessages = ModelState.Values
-             .SelectMany(v => v.Errors)
-             .Select(e => e.ErrorMessage)
-             .ToList();
-
-
-                return BadRequest("註冊失敗：" + string.Join("；", errorMessages));
+                return BadRequest("請輸入帳號、密碼與確認密碼");
             }
 
-            if (_context.Members.Any(m => m.Username == request.Username))
-                return BadRequest("帳號已存在");
-            //如果沒有輸入值，顯使請輸入資料
-            // if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(email))
-            // {
-            //     return BadRequest("請輸入帳號、密碼與電子郵件");
-            // }
-
-
-            var member = new Member
+            if (password != confirmPassword)
             {
-                Username = request.Username,
-                Password = request.Password,
-                Email = request.Email
+                return BadRequest("密碼與確認密碼不一致");
+            }
+
+            if (_context.Members.Any(m => m.Username == username))
+            {
+                return BadRequest("帳號已存在");
+            }
+
+            var newMember = new Member
+            {
+                Username = username,
+                Password = password
             };
-            _context.Members.Add(member);
+
+            _context.Members.Add(newMember);
             _context.SaveChanges();
 
-            return Ok("註冊成功");
-
-
-
-
+            return Ok(new { message = "註冊成功", username });
         }
 
+            
+
         // 登入
-        [HttpPost("login")]
+            [HttpPost("login")]
 
         public IActionResult Login()
         {
