@@ -41,19 +41,29 @@
     formData.append("Username", $('#username').val());
     formData.append("Password", $('#password').val());
 
-    $.ajax({
-        type: "POST",
-        url: "/api/AuthApi/login",
-        data: formData,
-        processData: false,
-        contentType: false,
-        success: function (msg) {
-            $('#status').text(msg.message || msg);
-        },
-        error: function (xhr) {
-            $('#status').text("登入失敗：" + xhr.responseText);
-        }
-    });
+   $.ajax({
+    // 設定 HTTP 請求方法為 POST
+    type: "POST",
+    // 請求的 API 路徑，這裡是登入的接口
+    url: "/api/AuthApi/login",
+    // 要送出的資料，通常是 FormData 物件（包含表單資料）
+    data: formData,
+    // 設定不自動處理資料（因為 formData 會自帶格式）
+    processData: false,
+    // 設定不自動設定 Content-Type，讓瀏覽器自行帶上適當的 multipart/form-data 邊界
+    contentType: false,
+    // 請求成功時執行的函式，參數 msg 是伺服器回傳的資料
+    success: function (msg) {
+        // 將回傳訊息顯示在 id 為 status 的元素中
+        // 如果 msg 有 message 屬性則顯示該訊息，否則直接顯示 msg
+        $('#status').text(msg.message || msg);
+    },
+    // 請求失敗時執行的函式，參數 xhr 是 XMLHttpRequest 物件
+    error: function (xhr) {
+        // 顯示錯誤訊息，包含伺服器回傳的錯誤文字
+        $('#status').text("登入失敗：" + xhr.responseText);
+    }
+});
 });
 
     // 註冊

@@ -27,12 +27,12 @@
       </div>
     </div>
 
-    <!-- 總金額與清空按鈕 -->
-    <div class="mt-4">
-      <h4>總金額：{{ totalAmount }}</h4>
-      <button class="btn btn-warning" v-on:click="clearCart">清空購物車</button>
-    </div>
-  </div>
+   <!-- 總金額與按鈕區塊 -->
+<div class="mt-4 d-flex align-items-center gap-3">
+  <h4 class="mb-0">總金額：{{ totalAmount }}</h4>
+  <button class="btn btn-warning" v-on:click="clearCart">清空購物車</button>
+  <button class="btn btn-success">結帳</button>
+</div>
 </div>
 
 <script>
