@@ -29,16 +29,68 @@
       "PackagePath": "staticwebassets\\images\\1add0cb6-fc26-47ae-b384-d0d98f9c724d.jfif"
     },
     {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\21c20b203d4d0fa489c2540a5f3acfcd.webp",
+      "PackagePath": "staticwebassets\\images\\21c20b203d4d0fa489c2540a5f3acfcd.webp"
+    },
+    {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2c3991a2-6571-4807-b007-37985c915fa7.jfif",
       "PackagePath": "staticwebassets\\images\\2c3991a2-6571-4807-b007-37985c915fa7.jfif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\341c8f7fea789d2b0be8c919db0f0465.webp",
+      "PackagePath": "staticwebassets\\images\\341c8f7fea789d2b0be8c919db0f0465.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\49328895c35016da74babb0300e0475b.webp",
+      "PackagePath": "staticwebassets\\images\\49328895c35016da74babb0300e0475b.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4c38b2c60e67e26b9f91b9b3339af593.webp",
+      "PackagePath": "staticwebassets\\images\\4c38b2c60e67e26b9f91b9b3339af593.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4d89fcfeb1cab2972adaaabf43c7ba2d.webp",
+      "PackagePath": "staticwebassets\\images\\4d89fcfeb1cab2972adaaabf43c7ba2d.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\543fabc0a88c64f5a7d02384ccc49bdc.webp",
+      "PackagePath": "staticwebassets\\images\\543fabc0a88c64f5a7d02384ccc49bdc.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5b50a229e1f4b3bb0de99371c693097c.webp",
+      "PackagePath": "staticwebassets\\images\\5b50a229e1f4b3bb0de99371c693097c.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5e274d1461edc9ac5b0dff023621a423.webp",
+      "PackagePath": "staticwebassets\\images\\5e274d1461edc9ac5b0dff023621a423.webp"
     },
     {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5f257b2c-0f36-4a15-a961-ff9f89d87598.jfif",
       "PackagePath": "staticwebassets\\images\\5f257b2c-0f36-4a15-a961-ff9f89d87598.jfif"
     },
     {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6092fe901b35bfebe7bd7a4770f4f5cb.webp",
+      "PackagePath": "staticwebassets\\images\\6092fe901b35bfebe7bd7a4770f4f5cb.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\67428428a82b71d31122d4848b1a3201.webp",
+      "PackagePath": "staticwebassets\\images\\67428428a82b71d31122d4848b1a3201.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6ff71a98123d8e2cbf45027ccd943e90.webp",
+      "PackagePath": "staticwebassets\\images\\6ff71a98123d8e2cbf45027ccd943e90.webp"
+    },
+    {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif",
       "PackagePath": "staticwebassets\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\79977afec1c1bcf9f2a744b3a2b91158.webp",
+      "PackagePath": "staticwebassets\\images\\79977afec1c1bcf9f2a744b3a2b91158.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\9fddea5767c8ba98d0bad097c3479260.webp",
+      "PackagePath": "staticwebassets\\images\\9fddea5767c8ba98d0bad097c3479260.webp"
     },
     {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif",
@@ -47,6 +99,10 @@
     {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\abc38651-dfdf-45e7-a202-79d7c74ae063.jfif",
       "PackagePath": "staticwebassets\\images\\abc38651-dfdf-45e7-a202-79d7c74ae063.jfif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\b49e61adb69f7412873a4115486d1aa6.webp",
+      "PackagePath": "staticwebassets\\images\\b49e61adb69f7412873a4115486d1aa6.webp"
     },
     {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\beefn__20250625.jfif",
@@ -61,12 +117,108 @@
       "PackagePath": "staticwebassets\\images\\e4563478-3d88-486c-8b11-8f2b81c97d90.jfif"
     },
     {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\f56f951c612ac46b6f677e2e53d25e78.webp",
+      "PackagePath": "staticwebassets\\images\\f56f951c612ac46b6f677e2e53d25e78.webp"
+    },
+    {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images (1).svg",
       "PackagePath": "staticwebassets\\images\\images (1).svg"
     },
     {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images.svg",
       "PackagePath": "staticwebassets\\images\\images.svg"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1627024851822-9d64b267f959.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1627024851822-9d64b267f959.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1630250348519-173c58a3dad4.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1630250348519-173c58a3dad4.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1632766038301-965e1a1f9b1f.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1632766038301-965e1a1f9b1f.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1646947553131-d9e598387be3.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1646947553131-d9e598387be3.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1650805180973-eced978d8f63.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1650805180973-eced978d8f63.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1655064320103-114b997a87b3.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1655064320103-114b997a87b3.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1655494136035-e033f3b00f93.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1655494136035-e033f3b00f93.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1660101383896-e68ddf027679.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1660101383896-e68ddf027679.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1670743881480-ec0078b24ccf.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1670743881480-ec0078b24ccf.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1701424122241-9ed709518c1d.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1701424122241-9ed709518c1d.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1713531272589-c843cd3e8e88.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1713531272589-c843cd3e8e88.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1746238786713-cc9c750b5df7.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1746238786713-cc9c750b5df7.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1664357542137-8438fa1acd68.avif",
+      "PackagePath": "staticwebassets\\images\\premium_photo-1664357542137-8438fa1acd68.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1680283988075-bb0ff2955b71.avif",
+      "PackagePath": "staticwebassets\\images\\premium_photo-1680283988075-bb0ff2955b71.avif"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra1k-m4iodpfg6e2w04.webp",
+      "PackagePath": "staticwebassets\\images\\sg-11134301-7ra1k-m4iodpfg6e2w04.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra2u-m4iod9gtjb04e2.webp",
+      "PackagePath": "staticwebassets\\images\\sg-11134301-7ra2u-m4iod9gtjb04e2.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra3v-m4iod4br235cdf.webp",
+      "PackagePath": "staticwebassets\\images\\sg-11134301-7ra3v-m4iod4br235cdf.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcc2-m6c1oy5jhxcn29.webp",
+      "PackagePath": "staticwebassets\\images\\sg-11134301-7rcc2-m6c1oy5jhxcn29.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcd0-m6c1oyajakjkd0.webp",
+      "PackagePath": "staticwebassets\\images\\sg-11134301-7rcd0-m6c1oyajakjkd0.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7r98q-lpivmu5wpp9538.webp",
+      "PackagePath": "staticwebassets\\images\\tw-11134207-7r98q-lpivmu5wpp9538.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rase-m3ys5nhqfk5c31.webp",
+      "PackagePath": "staticwebassets\\images\\tw-11134207-7rase-m3ys5nhqfk5c31.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rasg-m3ys5dqqut572c.webp",
+      "PackagePath": "staticwebassets\\images\\tw-11134207-7rasg-m3ys5dqqut572c.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rbk5-m8uqm2b9ezmu27.webp",
+      "PackagePath": "staticwebassets\\images\\tw-11134207-7rbk5-m8uqm2b9ezmu27.webp"
     },
     {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\背景.jpg",

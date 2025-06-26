@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|c:\\users\\user\\desktop\\javascript4_21\\dogwebmvc\\dogwebmvc\\dogwebmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|solutionrelative:dogwebmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dogwebMVC.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\dogwebMVC.csproj",
+              "RelativeDocumentMoniker": "dogwebMVC.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\dogwebMVC.csproj",
+              "RelativeToolTip": "dogwebMVC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-26T07:45:47.247Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
