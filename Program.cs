@@ -10,16 +10,17 @@ using System.Text.Json;
 var builder = WebApplication.CreateBuilder(args);
 // 加入 MVC 控制器與視圖
 builder.Services.AddControllersWithViews();
-
-// 加入 Session 記憶體快取
-builder.Services.AddDistributedMemoryCache();
-
-
 // 加入 Session 支援
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(5); // 設定 Session 的過期時間
 }); // <<== ← 這個分號你原本漏掉了
+
+// 加入 Session 記憶體快取
+builder.Services.AddDistributedMemoryCache();
+
+
+
 builder.Services.AddControllersWithViews();       // 將 MVC 控制器與視圖功能加入至服務容器中
 builder.Services.AddCors(options =>
 {
