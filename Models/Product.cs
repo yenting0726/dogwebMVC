@@ -8,13 +8,13 @@ namespace dogwebMVC.Models
 
         [Required]
         [Display(Name = "名稱")]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [Display(Name = "價格")]
         public decimal Price { get; set; }
 
         [Display(Name = "照片路徑")]
-        public string PhotoPath { get; set; }  // 新增照片路徑欄位
+        public string? PhotoPath { get; set; }  // 新增照片路徑欄位
         
       
     }

@@ -8,9 +8,12 @@ using System.Text.Json;
 
 
 var builder = WebApplication.CreateBuilder(args);
+// 加入 MVC 控制器與視圖
+builder.Services.AddControllersWithViews();
 
 // 加入 Session 記憶體快取
 builder.Services.AddDistributedMemoryCache();
+
 
 // 加入 Session 支援
 builder.Services.AddSession(options =>
@@ -18,15 +21,22 @@ builder.Services.AddSession(options =>
     options.IdleTimeout = TimeSpan.FromMinutes(5); // 設定 Session 的過期時間
 }); // <<== ← 這個分號你原本漏掉了
 builder.Services.AddControllersWithViews();       // 將 MVC 控制器與視圖功能加入至服務容器中
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 
 builder.Services.AddRazorPages();             // <-- Razor Pages
 
 // 加入資料庫 先註解 因為要發布
-//builder.Services.AddDbContext<AppDbContext>(options =>
-//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// 加入 MVC 控制器與視圖
-builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 // 設定應用程式基底路徑，必須放在最前面
@@ -38,7 +48,7 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
-
+app.UseCors("AllowAll");
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
