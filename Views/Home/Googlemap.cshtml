@@ -1,79 +1,25 @@
 ﻿@{
     ViewData["Title"] = "公園地圖";
 }
-<link rel="stylesheet" href="~/css/googlemap.css" />
-<h1>@ViewData["Title"]</h1>
-
-
-@* <div class="btn-group dropend">
- <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-    桃園區公園
-  </button>
-     <ul class="dropdown-menu">
-<!--公園按鈕，桃園區，中壢區，楊梅，八德，龍潭，平鎮，大溪，復興 新屋，觀音，大園，蘆竹，龜山 按下按鈕後 顯示出該區域的公園-->
-
-    <button class="btn btn-secondary" onclick="showPark('桃園區')">桃園區</button>
-    <button class="btn btn-secondary" onclick="showPark('中壢區')">中壢區</button>
-    <button class="btn btn-secondary" onclick="showPark('楊梅區')">楊梅區</button>
-    <button class="btn btn-secondary" onclick="showPark('八德區')">八德區</button>
-    <button class="btn btn-secondary" onclick="showPark('龍潭區')">龍潭區</button>
-    <button class="btn btn-secondary" onclick="showPark('平鎮區')">平鎮區</button>
-    <button class="btn btn-secondary" onclick="showPark('大溪區')">大溪區</button>
-    <button class="btn btn-secondary" onclick="showPark('復興區')">復興區</button>
-    <button class="btn btn-secondary" onclick="showPark('新屋區')">新屋區</button>
-    <button class="btn btn-secondary" onclick="showPark('觀音區')">觀音區</button>
-    <button class="btn btn-secondary" onclick="showPark('大園區')">大園區</button>
-    <button class="btn btn-secondary" onclick="showPark('蘆竹區')">蘆竹區</button>
-    <button class="btn btn-secondary" onclick="showPark('龜山區')">龜山區</button>
-
-</ul>
-</div> *@
 
 
 
-@* <div id="parkList" class="park-list">
-    <!-- 公園列表將在這裡顯示 -->
-</div> *@
 
-@* <div class="平鎮區公園"> <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57891.37326776221!2d121.18030441475806!3d24.924886740877223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468239268a89f75%3A0xc3bfdadb3c4117b6!2z5qGD5ZyS5a-154mp5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1750666114736!5m2!1szh-TW!2stw"
-    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-
-<div class="楊梅區公園"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28947.58410387036!2d121.11924778334726!3d24.916803320266343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346824cbd60fd4fb%3A0x1d079c506a97d712!2z5qWK5qKF5biC5paw5qKF5YWS56ul5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1750915759990!5m2!1szh-TW!2stw"
- width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
- referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-
-<div class="中壢區公園"> <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57891.37326776221!2d121.18030441475806!3d24.924886740877223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468239268a89f75%3A0xc3bfdadb3c4117b6!2z5qGD5ZyS5a-154mp5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1750666114736!5m2!1szh-TW!2stw"
-    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-<div class="八德區公園"> <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28947.58410387036!2d121.11924778334726!3d24.916803320266343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346824cbd60fd4fb%3A0x1d079c506a97d712!2z5qWK5qKF5biC5paw5qKF5YWS56ul5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1750915759990!5m2!1szh-TW!2stw"
-    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-<div class="龍潭區公園"> <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28947.58410387036!2d121.11924778334726!3d24.916803320266343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346824cbd60fd4fb%3A0x1d079c506a97d712!2z5qWK5qKF5biC5paw5qKF5YWS56ul5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1750915759990!5m2!1szh-TW!2stw"
-    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe></div>       
-<div> *@
 
 <div id="app" class="container my-4">
     <h1>{{ title }}</h1>
 
     <div class="btn-group mb-3">
         <button
-            v-for="area in areas"
-            :key="area.name"
-            class="btn btn-outline-primary"
-            v-on:click="selectArea(area.name)"
-        >
-            {{ area.name }}
-        </button>
+            v-for="area in areas"               @*  <!-- 逐一遍歷 areas 陣列，area 是目前的元素 -->*@
+            :key="area.name"                    @*  <!-- Vue 要求使用唯一 key 來追蹤列表元素，這裡用 area.name 當作 key --> *@            class="btn btn-outline-primary"
+            v-on:click="selectArea(area.name)"  @*  <!-- 當按鈕被點擊時，呼叫 selectArea 方法並傳入 area.name --> *@
+            >{{ area.name }}</button>
+
     </div>
 
     <div v-if="selectedArea">
-        <h3>{{ selectedArea }} 公園地圖</h3>
+        <h3>{{ selectedArea }} 公園地圖</h3> 
         <iframe
             :src="areaMap[selectedArea]"
             width="100%"
@@ -83,6 +29,11 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+        <p class="mt-2" v-html="address[selectedArea]">  @*  <!-- 使用 v-html 來顯示 HTML 格式 沒有的話<br 沒反應>--> *@
+             {{ selectedArea }}  公園資料：
+
+             {{ address[selectedArea] }}
+</p>
     </div>
 </div>
 
@@ -94,6 +45,7 @@ createApp({
         return {    
             title: '公園地圖',  
             selectedArea: '',   
+
             areas: [
                 { name: '平鎮區' },
                 { name: '中壢區' },
@@ -103,11 +55,19 @@ createApp({
             ],
             areaMap: {
                 '平鎮區': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57891.37326776221!2d121.18030441475806!3d24.924886740877223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468239268a89f75%3A0xc3bfdadb3c4117b6!2z5qGD5ZyS5a-154mp5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1750666114736!5m2!1szh-TW!2stw',
-                '中壢區': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57891.37326776221!2d121.18030441475806!3d24.924886740877223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468239268a89f75%3A0xc3bfdadb3c4117b6!2z5qGD5ZyS5a-154mp5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1750666114736!5m2!1szh-TW!2stw',
+                '中壢區': "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14469.678537003923!2d121.19767108715821!3d24.95183360000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823b34a9a1fa9%3A0xf1307561b4cd8101!2z5paw5Yui5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1750995010300!5m2!1szh-TW!2stw",
                 '楊梅區': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28947.58410387036!2d121.11924778334726!3d24.916803320266343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346824cbd60fd4fb%3A0x1d079c506a97d712!2z5qWK5qKF5biC5paw5qKF5YWS56ul5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1750915759990!5m2!1szh-TW!2stw',
-                '八德區': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28947.58410387036!2d121.11924778334726!3d24.916803320266343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346824cbd60fd4fb%3A0x1d079c506a97d712!2z5qWK5qKF5biC5paw5qKF5YWS56ul5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1750915759990!5m2!1szh-TW!2stw',
-                '龍潭區': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28947.58410387036!2d121.11924778334726!3d24.916803320266343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346824cbd60fd4fb%3A0x1d079c506a97d712!2z5qWK5qKF5biC5paw5qKF5YWS56ul5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1750915759990!5m2!1szh-TW!2stw'
+                '八德區': "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57883.4997608153!2d121.23503374863282!3d24.941649899999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681920e042adb5%3A0xf288e393fa0262bd!2z5qGD5ZyS5YWr5b635Z-k5aGY6Ieq54S255Sf5oWL5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1750995162899!5m2!1szh-TW!2stw",
+                '龍潭區': "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231674.21314155683!2d120.91596219453125!3d24.866937600000018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34683d1c236d33a5%3A0x784026dd44c8a2b4!2z6b6N5r2t6YGL5YuV5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1750995225924!5m2!1szh-TW!2stw"
+            },
+            address: {
+                '平鎮區': '環境:無障礙入口,適合兒童<br>設施:可帶寵物',
+                '中壢區': '環境:無障礙入口,適合兒童<br>設施:可帶寵物,公共廁所,滑板區,溜滑梯,籃球場,鞦韆',
+                '楊梅區': '環境:無障礙入口,適合兒童<br>設施:可帶寵物,遊樂場',
+                '八德區': '環境:無障礙入口,適合兒童<br>設施:可帶寵物,無障礙停車場,公共廁所,適合兒童的遠足活動,附設停車場',
+                '龍潭區': '環境:無障礙入口,適合兒童<br>設施:可帶寵物,有網球場,籃球場,無障礙停車場,公共廁所,適合兒童的遠足活動,'
             }
+
         }
     },
     methods: {

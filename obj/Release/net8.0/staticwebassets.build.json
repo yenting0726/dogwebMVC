@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BdzvcNDoQ6YLC7qXJasNMAbAo6V6XeX5XWVFDxM9GKw=",
+  "Hash": "+5QMWwssXFkW2OXZvrDwyAYQuszx52lVxk+GEq0zRnM=",
   "Source": "dogwebMVC",
   "BasePath": "_content/dogwebMVC",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "uvm651fgox",
-      "Integrity": "po3Ol/fVL5TOVRnStHLemXHVrwRgZo9rRsCsPAYxqmM=",
+      "Fingerprint": "3v751ins9m",
+      "Integrity": "8a/og6qcoHaLZ76QB8jgS42hIKK4h/DeryWjp2Qzfl0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -141,6 +141,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1.avif",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/1#[.{fingerprint}]?.avif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u2l7bql88h",
+      "Integrity": "dkkO3GiTDRYPGHI0JKlaOR4iNAtzfBFaHAs9z+q/1AQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1.avif"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif",
@@ -185,6 +206,27 @@
       "OriginalItemSpec": "wwwroot\\images\\1add0cb6-fc26-47ae-b384-d0d98f9c724d.jfif"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2.avif",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/2#[.{fingerprint}]?.avif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fp7zyvv1bi",
+      "Integrity": "w3/OGDWC/t5MD+xXc1mpMhNRWb91yLJ92Vd/ATzBfPM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2.avif"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\21c20b203d4d0fa489c2540a5f3acfcd.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
@@ -225,6 +267,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\2c3991a2-6571-4807-b007-37985c915fa7.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3.avif",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/3#[.{fingerprint}]?.avif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m5s1zyvgpu",
+      "Integrity": "yv/zxjkONpg7N6EplFAzmCW+RCr3/aR5P+gjlRCnoTw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3.avif"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3191251-uhd_4096_2160_25fps.mp4",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/3191251-uhd_4096_2160_25fps#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7sgn68y2rg",
+      "Integrity": "ScWoEhLtlv64ODXv7C53ZInWh+fhr+NXFuRlC3UJxZg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3191251-uhd_4096_2160_25fps.mp4"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\341c8f7fea789d2b0be8c919db0f0465.webp",
@@ -710,12 +794,12 @@
       "OriginalItemSpec": "wwwroot\\images\\images.svg"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1627024851822-9d64b267f959.avif",
+      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-barnabas-davoti-31615494-14084426.jpg",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
       "BasePath": "_content/dogwebMVC",
-      "RelativePath": "images/photo-1627024851822-9d64b267f959#[.{fingerprint}]?.avif",
+      "RelativePath": "images/pexels-barnabas-davoti-31615494-14084426#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -724,11 +808,95 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "u2l7bql88h",
-      "Integrity": "dkkO3GiTDRYPGHI0JKlaOR4iNAtzfBFaHAs9z+q/1AQ=",
+      "Fingerprint": "cv6q68erhj",
+      "Integrity": "SCsiG8Tn1goc/M3DmrL8D/g4BPY7uOFJlLKPq5sBCQc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\photo-1627024851822-9d64b267f959.avif"
+      "OriginalItemSpec": "wwwroot\\images\\pexels-barnabas-davoti-31615494-14084426.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-izafi-32721873.jpg",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/pexels-izafi-32721873#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "byhxvjv3u1",
+      "Integrity": "IzQMfZ3Uvjo0IH0tvYaPcPxKPDBjJv8n3NdKiA6rWmE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pexels-izafi-32721873.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-pixabay-247937.jpg",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/pexels-pixabay-247937#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vsr8ryq9cj",
+      "Integrity": "v+HDHM5yRSwS3ocJnQva/BQFkmPUARBZW0fUhXnovAI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pexels-pixabay-247937.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-valeriya-13074579.jpg",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/pexels-valeriya-13074579#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pydmvcrn2r",
+      "Integrity": "z3BZTWqaRVLHYnZnMSp++gzNpmsLxLFNTuMhB4B5mzU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pexels-valeriya-13074579.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-zen-chung-5749781.jpg",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/pexels-zen-chung-5749781#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4h0c710hrj",
+      "Integrity": "mCcwWP6QRlnKigfrvP2CkhgCLcpq8+xJyBkpWjfTjnU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pexels-zen-chung-5749781.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1630250348519-173c58a3dad4.avif",
@@ -834,48 +1002,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\photo-1655064320103-114b997a87b3.avif"
-    },
-    {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1655494136035-e033f3b00f93.avif",
-      "SourceId": "dogwebMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
-      "BasePath": "_content/dogwebMVC",
-      "RelativePath": "images/photo-1655494136035-e033f3b00f93#[.{fingerprint}]?.avif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "m5s1zyvgpu",
-      "Integrity": "yv/zxjkONpg7N6EplFAzmCW+RCr3/aR5P+gjlRCnoTw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\photo-1655494136035-e033f3b00f93.avif"
-    },
-    {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1660101383896-e68ddf027679.avif",
-      "SourceId": "dogwebMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
-      "BasePath": "_content/dogwebMVC",
-      "RelativePath": "images/photo-1660101383896-e68ddf027679#[.{fingerprint}]?.avif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "fp7zyvv1bi",
-      "Integrity": "w3/OGDWC/t5MD+xXc1mpMhNRWb91yLJ92Vd/ATzBfPM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\photo-1660101383896-e68ddf027679.avif"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1670743881480-ec0078b24ccf.avif",
@@ -2745,6 +2871,51 @@
       ]
     },
     {
+      "Route": "css/site.3v751ins9m.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8a/og6qcoHaLZ76QB8jgS42hIKK4h/DeryWjp2Qzfl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 07:24:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3v751ins9m"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8a/og6qcoHaLZ76QB8jgS42hIKK4h/DeryWjp2Qzfl0="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2755,7 +2926,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11985"
+          "Value": "12014"
         },
         {
           "Name": "Content-Type",
@@ -2763,11 +2934,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"po3Ol/fVL5TOVRnStHLemXHVrwRgZo9rRsCsPAYxqmM=\""
+          "Value": "\"8a/og6qcoHaLZ76QB8jgS42hIKK4h/DeryWjp2Qzfl0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 05:20:01 GMT"
+          "Value": "Fri, 27 Jun 2025 07:24:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2777,52 +2948,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-po3Ol/fVL5TOVRnStHLemXHVrwRgZo9rRsCsPAYxqmM="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.uvm651fgox.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11985"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"po3Ol/fVL5TOVRnStHLemXHVrwRgZo9rRsCsPAYxqmM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 05:20:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "uvm651fgox"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-po3Ol/fVL5TOVRnStHLemXHVrwRgZo9rRsCsPAYxqmM="
+          "Value": "sha256-8a/og6qcoHaLZ76QB8jgS42hIKK4h/DeryWjp2Qzfl0="
         }
       ]
     },
@@ -3073,6 +3199,88 @@
       ]
     },
     {
+      "Route": "images/1.avif",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1.avif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dkkO3GiTDRYPGHI0JKlaOR4iNAtzfBFaHAs9z+q/1AQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 03:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dkkO3GiTDRYPGHI0JKlaOR4iNAtzfBFaHAs9z+q/1AQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/1.u2l7bql88h.avif",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1.avif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dkkO3GiTDRYPGHI0JKlaOR4iNAtzfBFaHAs9z+q/1AQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 03:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u2l7bql88h"
+        },
+        {
+          "Name": "label",
+          "Value": "images/1.avif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dkkO3GiTDRYPGHI0JKlaOR4iNAtzfBFaHAs9z+q/1AQ="
+        }
+      ]
+    },
+    {
       "Route": "images/115432f1-3c39-433b-932c-88d57616608b.4tqc0td3g1.jfif",
       "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif",
       "Selectors": [],
@@ -3237,6 +3445,88 @@
       ]
     },
     {
+      "Route": "images/2.avif",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2.avif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w3/OGDWC/t5MD+xXc1mpMhNRWb91yLJ92Vd/ATzBfPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 03:29:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w3/OGDWC/t5MD+xXc1mpMhNRWb91yLJ92Vd/ATzBfPM="
+        }
+      ]
+    },
+    {
+      "Route": "images/2.fp7zyvv1bi.avif",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2.avif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w3/OGDWC/t5MD+xXc1mpMhNRWb91yLJ92Vd/ATzBfPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 03:29:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fp7zyvv1bi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/2.avif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w3/OGDWC/t5MD+xXc1mpMhNRWb91yLJ92Vd/ATzBfPM="
+        }
+      ]
+    },
+    {
       "Route": "images/21c20b203d4d0fa489c2540a5f3acfcd.exq1dqed78.webp",
       "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\21c20b203d4d0fa489c2540a5f3acfcd.webp",
       "Selectors": [],
@@ -3397,6 +3687,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-huJ4p/GCQlEl3PbLKN+RS5831+0nBOZez0GcSXoynaM="
+        }
+      ]
+    },
+    {
+      "Route": "images/3.avif",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3.avif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yv/zxjkONpg7N6EplFAzmCW+RCr3/aR5P+gjlRCnoTw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 03:30:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yv/zxjkONpg7N6EplFAzmCW+RCr3/aR5P+gjlRCnoTw="
+        }
+      ]
+    },
+    {
+      "Route": "images/3.m5s1zyvgpu.avif",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3.avif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yv/zxjkONpg7N6EplFAzmCW+RCr3/aR5P+gjlRCnoTw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 03:30:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m5s1zyvgpu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/3.avif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yv/zxjkONpg7N6EplFAzmCW+RCr3/aR5P+gjlRCnoTw="
+        }
+      ]
+    },
+    {
+      "Route": "images/3191251-uhd_4096_2160_25fps.7sgn68y2rg.mp4",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3191251-uhd_4096_2160_25fps.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19753385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ScWoEhLtlv64ODXv7C53ZInWh+fhr+NXFuRlC3UJxZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 06:38:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7sgn68y2rg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/3191251-uhd_4096_2160_25fps.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ScWoEhLtlv64ODXv7C53ZInWh+fhr+NXFuRlC3UJxZg="
+        }
+      ]
+    },
+    {
+      "Route": "images/3191251-uhd_4096_2160_25fps.mp4",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3191251-uhd_4096_2160_25fps.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19753385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ScWoEhLtlv64ODXv7C53ZInWh+fhr+NXFuRlC3UJxZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 06:38:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ScWoEhLtlv64ODXv7C53ZInWh+fhr+NXFuRlC3UJxZg="
         }
       ]
     },
@@ -5287,8 +5741,8 @@
       ]
     },
     {
-      "Route": "images/photo-1627024851822-9d64b267f959.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1627024851822-9d64b267f959.avif",
+      "Route": "images/pexels-barnabas-davoti-31615494-14084426.cv6q68erhj.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-barnabas-davoti-31615494-14084426.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5297,56 +5751,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "111972"
+          "Value": "3236793"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"dkkO3GiTDRYPGHI0JKlaOR4iNAtzfBFaHAs9z+q/1AQ=\""
+          "Value": "\"SCsiG8Tn1goc/M3DmrL8D/g4BPY7uOFJlLKPq5sBCQc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 03:30:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dkkO3GiTDRYPGHI0JKlaOR4iNAtzfBFaHAs9z+q/1AQ="
-        }
-      ]
-    },
-    {
-      "Route": "images/photo-1627024851822-9d64b267f959.u2l7bql88h.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1627024851822-9d64b267f959.avif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "111972"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dkkO3GiTDRYPGHI0JKlaOR4iNAtzfBFaHAs9z+q/1AQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 03:30:12 GMT"
+          "Value": "Fri, 27 Jun 2025 06:08:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5356,15 +5773,380 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u2l7bql88h"
+          "Value": "cv6q68erhj"
         },
         {
           "Name": "label",
-          "Value": "images/photo-1627024851822-9d64b267f959.avif"
+          "Value": "images/pexels-barnabas-davoti-31615494-14084426.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dkkO3GiTDRYPGHI0JKlaOR4iNAtzfBFaHAs9z+q/1AQ="
+          "Value": "sha256-SCsiG8Tn1goc/M3DmrL8D/g4BPY7uOFJlLKPq5sBCQc="
+        }
+      ]
+    },
+    {
+      "Route": "images/pexels-barnabas-davoti-31615494-14084426.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-barnabas-davoti-31615494-14084426.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3236793"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SCsiG8Tn1goc/M3DmrL8D/g4BPY7uOFJlLKPq5sBCQc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 06:08:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SCsiG8Tn1goc/M3DmrL8D/g4BPY7uOFJlLKPq5sBCQc="
+        }
+      ]
+    },
+    {
+      "Route": "images/pexels-izafi-32721873.byhxvjv3u1.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-izafi-32721873.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2800022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IzQMfZ3Uvjo0IH0tvYaPcPxKPDBjJv8n3NdKiA6rWmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 06:08:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "byhxvjv3u1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pexels-izafi-32721873.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IzQMfZ3Uvjo0IH0tvYaPcPxKPDBjJv8n3NdKiA6rWmE="
+        }
+      ]
+    },
+    {
+      "Route": "images/pexels-izafi-32721873.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-izafi-32721873.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2800022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IzQMfZ3Uvjo0IH0tvYaPcPxKPDBjJv8n3NdKiA6rWmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 06:08:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IzQMfZ3Uvjo0IH0tvYaPcPxKPDBjJv8n3NdKiA6rWmE="
+        }
+      ]
+    },
+    {
+      "Route": "images/pexels-pixabay-247937.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-pixabay-247937.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1614380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v+HDHM5yRSwS3ocJnQva/BQFkmPUARBZW0fUhXnovAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 06:08:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v+HDHM5yRSwS3ocJnQva/BQFkmPUARBZW0fUhXnovAI="
+        }
+      ]
+    },
+    {
+      "Route": "images/pexels-pixabay-247937.vsr8ryq9cj.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-pixabay-247937.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1614380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v+HDHM5yRSwS3ocJnQva/BQFkmPUARBZW0fUhXnovAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 06:08:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vsr8ryq9cj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pexels-pixabay-247937.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v+HDHM5yRSwS3ocJnQva/BQFkmPUARBZW0fUhXnovAI="
+        }
+      ]
+    },
+    {
+      "Route": "images/pexels-valeriya-13074579.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-valeriya-13074579.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2460593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z3BZTWqaRVLHYnZnMSp++gzNpmsLxLFNTuMhB4B5mzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 06:09:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z3BZTWqaRVLHYnZnMSp++gzNpmsLxLFNTuMhB4B5mzU="
+        }
+      ]
+    },
+    {
+      "Route": "images/pexels-valeriya-13074579.pydmvcrn2r.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-valeriya-13074579.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2460593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z3BZTWqaRVLHYnZnMSp++gzNpmsLxLFNTuMhB4B5mzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 06:09:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pydmvcrn2r"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pexels-valeriya-13074579.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z3BZTWqaRVLHYnZnMSp++gzNpmsLxLFNTuMhB4B5mzU="
+        }
+      ]
+    },
+    {
+      "Route": "images/pexels-zen-chung-5749781.4h0c710hrj.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-zen-chung-5749781.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2496412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mCcwWP6QRlnKigfrvP2CkhgCLcpq8+xJyBkpWjfTjnU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 06:08:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4h0c710hrj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pexels-zen-chung-5749781.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mCcwWP6QRlnKigfrvP2CkhgCLcpq8+xJyBkpWjfTjnU="
+        }
+      ]
+    },
+    {
+      "Route": "images/pexels-zen-chung-5749781.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-zen-chung-5749781.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2496412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mCcwWP6QRlnKigfrvP2CkhgCLcpq8+xJyBkpWjfTjnU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 06:08:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mCcwWP6QRlnKigfrvP2CkhgCLcpq8+xJyBkpWjfTjnU="
         }
       ]
     },
@@ -5775,170 +6557,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-PlVcGYHxwZoAQWjXI3AJ01FXwwEv6hMCrDD0Vrz+8W4="
-        }
-      ]
-    },
-    {
-      "Route": "images/photo-1655494136035-e033f3b00f93.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1655494136035-e033f3b00f93.avif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "157922"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yv/zxjkONpg7N6EplFAzmCW+RCr3/aR5P+gjlRCnoTw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 03:30:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-yv/zxjkONpg7N6EplFAzmCW+RCr3/aR5P+gjlRCnoTw="
-        }
-      ]
-    },
-    {
-      "Route": "images/photo-1655494136035-e033f3b00f93.m5s1zyvgpu.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1655494136035-e033f3b00f93.avif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "157922"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yv/zxjkONpg7N6EplFAzmCW+RCr3/aR5P+gjlRCnoTw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 03:30:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "m5s1zyvgpu"
-        },
-        {
-          "Name": "label",
-          "Value": "images/photo-1655494136035-e033f3b00f93.avif"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yv/zxjkONpg7N6EplFAzmCW+RCr3/aR5P+gjlRCnoTw="
-        }
-      ]
-    },
-    {
-      "Route": "images/photo-1660101383896-e68ddf027679.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1660101383896-e68ddf027679.avif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "126862"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"w3/OGDWC/t5MD+xXc1mpMhNRWb91yLJ92Vd/ATzBfPM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 03:29:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-w3/OGDWC/t5MD+xXc1mpMhNRWb91yLJ92Vd/ATzBfPM="
-        }
-      ]
-    },
-    {
-      "Route": "images/photo-1660101383896-e68ddf027679.fp7zyvv1bi.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1660101383896-e68ddf027679.avif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "126862"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"w3/OGDWC/t5MD+xXc1mpMhNRWb91yLJ92Vd/ATzBfPM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 03:29:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fp7zyvv1bi"
-        },
-        {
-          "Name": "label",
-          "Value": "images/photo-1660101383896-e68ddf027679.avif"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-w3/OGDWC/t5MD+xXc1mpMhNRWb91yLJ92Vd/ATzBfPM="
         }
       ]
     },

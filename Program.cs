@@ -21,14 +21,16 @@ builder.Services.AddControllersWithViews();       // 將 MVC 控制器與視圖�
 
 builder.Services.AddRazorPages();             // <-- Razor Pages
 
-// 加入資料庫
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// 加入資料庫 先註解 因為要發布
+//builder.Services.AddDbContext<AppDbContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // 加入 MVC 控制器與視圖
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+// 設定應用程式基底路徑，必須放在最前面
+app.UsePathBase("/08");
 
 // 錯誤處理 & HTTPS
 if (!app.Environment.IsDevelopment())

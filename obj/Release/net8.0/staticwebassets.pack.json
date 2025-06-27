@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1.avif",
+      "PackagePath": "staticwebassets\\images\\1.avif"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif",
       "PackagePath": "staticwebassets\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif"
     },
@@ -29,12 +33,24 @@
       "PackagePath": "staticwebassets\\images\\1add0cb6-fc26-47ae-b384-d0d98f9c724d.jfif"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2.avif",
+      "PackagePath": "staticwebassets\\images\\2.avif"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\21c20b203d4d0fa489c2540a5f3acfcd.webp",
       "PackagePath": "staticwebassets\\images\\21c20b203d4d0fa489c2540a5f3acfcd.webp"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2c3991a2-6571-4807-b007-37985c915fa7.jfif",
       "PackagePath": "staticwebassets\\images\\2c3991a2-6571-4807-b007-37985c915fa7.jfif"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3.avif",
+      "PackagePath": "staticwebassets\\images\\3.avif"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3191251-uhd_4096_2160_25fps.mp4",
+      "PackagePath": "staticwebassets\\images\\3191251-uhd_4096_2160_25fps.mp4"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\341c8f7fea789d2b0be8c919db0f0465.webp",
@@ -129,8 +145,24 @@
       "PackagePath": "staticwebassets\\images\\images.svg"
     },
     {
-      "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1627024851822-9d64b267f959.avif",
-      "PackagePath": "staticwebassets\\images\\photo-1627024851822-9d64b267f959.avif"
+      "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-barnabas-davoti-31615494-14084426.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-barnabas-davoti-31615494-14084426.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-izafi-32721873.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-izafi-32721873.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-pixabay-247937.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-pixabay-247937.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-valeriya-13074579.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-valeriya-13074579.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-zen-chung-5749781.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-zen-chung-5749781.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1630250348519-173c58a3dad4.avif",
@@ -151,14 +183,6 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1655064320103-114b997a87b3.avif",
       "PackagePath": "staticwebassets\\images\\photo-1655064320103-114b997a87b3.avif"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1655494136035-e033f3b00f93.avif",
-      "PackagePath": "staticwebassets\\images\\photo-1655494136035-e033f3b00f93.avif"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1660101383896-e68ddf027679.avif",
-      "PackagePath": "staticwebassets\\images\\photo-1660101383896-e68ddf027679.avif"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1670743881480-ec0078b24ccf.avif",

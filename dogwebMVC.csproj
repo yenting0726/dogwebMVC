@@ -4,6 +4,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <MvcRazorCompileOnPublish>true</MvcRazorCompileOnPublish>
+	  <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+	  <AllowUntrustedCertificate>true</AllowUntrustedCertificate>
+	  <EnvironmentName>Production</EnvironmentName>
   </PropertyGroup>
 
   <ItemGroup>
