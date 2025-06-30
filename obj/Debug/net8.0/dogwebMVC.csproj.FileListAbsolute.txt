@@ -278,4 +278,3 @@ C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net8.0\refint
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net8.0\dogwebMVC.pdb
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net8.0\dogwebMVC.genruntimeconfig.cache
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net8.0\ref\dogwebMVC.dll
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
