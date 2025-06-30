@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "exCaCKFbiKEpe1ftwv+fsXy3DIyE7y8886Hjc84rRF0=",
+  "Hash": "bpf9BunISbOWeBm92oIUaTsXEzL1bDg6sYT2BrME3fQ=",
   "Source": "dogwebMVC",
   "BasePath": "_content/dogwebMVC",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3v751ins9m",
-      "Integrity": "8a/og6qcoHaLZ76QB8jgS42hIKK4h/DeryWjp2Qzfl0=",
+      "Fingerprint": "jc9ldl56zp",
+      "Integrity": "k5ND57bOCEBr/IyB4sQau5e7YUsz8RQuwGVOtnoeThA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2871,51 +2871,6 @@
       ]
     },
     {
-      "Route": "css/site.3v751ins9m.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12014"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8a/og6qcoHaLZ76QB8jgS42hIKK4h/DeryWjp2Qzfl0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 27 Jun 2025 07:24:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3v751ins9m"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8a/og6qcoHaLZ76QB8jgS42hIKK4h/DeryWjp2Qzfl0="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2934,11 +2889,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8a/og6qcoHaLZ76QB8jgS42hIKK4h/DeryWjp2Qzfl0=\""
+          "Value": "\"k5ND57bOCEBr/IyB4sQau5e7YUsz8RQuwGVOtnoeThA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Jun 2025 07:24:52 GMT"
+          "Value": "Mon, 30 Jun 2025 01:01:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2948,7 +2903,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8a/og6qcoHaLZ76QB8jgS42hIKK4h/DeryWjp2Qzfl0="
+          "Value": "sha256-k5ND57bOCEBr/IyB4sQau5e7YUsz8RQuwGVOtnoeThA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.jc9ldl56zp.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k5ND57bOCEBr/IyB4sQau5e7YUsz8RQuwGVOtnoeThA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 01:01:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jc9ldl56zp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k5ND57bOCEBr/IyB4sQau5e7YUsz8RQuwGVOtnoeThA="
         }
       ]
     },

@@ -138,8 +138,7 @@
               "RelativeToolTip": "Models\\Member.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T08:20:32.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T08:20:32.709Z"
             },
             {
               "$type": "Document",
@@ -175,7 +174,8 @@
               "RelativeToolTip": "Controllers\\ProductsController.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAYwDAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T08:19:12.455Z"
+              "WhenOpened": "2025-06-27T08:19:12.455Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -221,7 +221,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T08:43:29.143Z",
               "EditorCaption": ""
