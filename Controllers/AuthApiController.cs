@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using dogwebMVC.Models;
+using System;
 using System.Linq;
-
 
 namespace dogwebMVC.Controllers
 {
@@ -17,91 +17,81 @@ namespace dogwebMVC.Controllers
             _context = context ?? throw new ArgumentNullException(nameof(context), "資料庫尚未設定");
         }
 
-        // 註冊更改寫法 不使用[FromFrom]]
+        // 註冊
         [HttpPost("register")]
-        public IActionResult Regsister()
+        public IActionResult Register()
         {
-            string username = Request.Form["username"];
-            string password = Request.Form["password"];
-            string confirmPassword = Request.Form["confirmPassword"];
-
-            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(confirmPassword))
+            try
             {
-                return BadRequest("請輸入帳號、密碼與確認密碼");
+                string username = Request.Form["username"].FirstOrDefault() ?? string.Empty;
+                string password = Request.Form["password"].FirstOrDefault() ?? string.Empty;
+                string confirmPassword = Request.Form["confirmPassword"].FirstOrDefault() ?? string.Empty;
+
+                if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(confirmPassword))
+                {
+                    return BadRequest("請輸入帳號、密碼與確認密碼");
+                }
+
+                if (password != confirmPassword)
+                {
+                    return BadRequest("密碼與確認密碼不一致");
+                }
+
+                if (_context.Members.Any(m => m.Username == username))
+                {
+                    return BadRequest("帳號已存在");
+                }
+
+                var newMember = new Member
+                {
+                    Username = username,
+                    Password = password // 建議改成密碼雜湊儲存
+                };
+
+                _context.Members.Add(newMember);
+                _context.SaveChanges();
+
+                return Ok(new { message = "註冊成功", username });
             }
-
-            if (password != confirmPassword)
+            catch (Exception ex)
             {
-                return BadRequest("密碼與確認密碼不一致");
+                return StatusCode(500, "伺服器錯誤: " + ex.Message);
             }
-
-            if (_context.Members.Any(m => m.Username == username))
-            {
-                return BadRequest("帳號已存在");
-            }
-
-            var newMember = new Member
-            {
-                Username = username,
-                Password = password
-            };
-
-            _context.Members.Add(newMember);
-            _context.SaveChanges();
-
-            return Ok(new { message = "註冊成功", username });
         }
-
-            
 
         // 登入
-            [HttpPost("login")]
-
+        [HttpPost("login")]
         public IActionResult Login()
         {
-            string username = Request.Form["username"];
-            string password = Request.Form["password"];
-
-            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
+            try
             {
-                return BadRequest("請輸入帳號與密碼");
-            }
+                string username = Request.Form["username"].FirstOrDefault() ?? string.Empty;
+                string password = Request.Form["password"].FirstOrDefault() ?? string.Empty;
 
-            var member = _context.Members.FirstOrDefault(m => m.Username == username);
-            if (member == null)
+                if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
+                {
+                    return BadRequest("請輸入帳號與密碼");
+                }
+
+                var member = _context.Members.FirstOrDefault(m => m.Username == username);
+                if (member == null)
+                {
+                    return BadRequest("無此帳號");
+                }
+
+                if (member.Password != password)
+                {
+                    return Unauthorized("密碼錯誤");
+                }
+
+                HttpContext.Session.SetString("user", username);
+                return Ok(new { message = "登入成功", username });
+            }
+            catch (Exception ex)
             {
-                return BadRequest("無此帳號");
+                return StatusCode(500, "伺服器錯誤: " + ex.Message);
             }
-
-            if (member.Password != password)
-            {
-                return Unauthorized("密碼錯誤");
-            }
-
-            HttpContext.Session.SetString("user", username);
-            return Ok(new { message = "登入成功", username });
         }
-
-
-
-
-        //     public IActionResult Login([FromForm] string username, [FromForm] string password)
-        //     {
-
-
-        //         var member = _context.Members.FirstOrDefault(m => m.Username == username );
-        //         if (member == null)
-        //         {
-        //             return BadRequest("無此帳號"); // ✅ 正確：先判斷帳號是否存在
-        //         }
-        //         if (member.Password != password)
-        // {
-        //     return Unauthorized("密碼錯誤"); // ✅ 密碼錯誤 
-        // }
-
-        //         HttpContext.Session.SetString("user", username);
-        //         return Ok(new { message = "登入成功", username });
-        //     }
 
         // 檢查登入狀態
         [HttpGet("check")]
