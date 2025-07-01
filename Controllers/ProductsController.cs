@@ -1,55 +1,57 @@
-// 已加入完整的註解，幫助理解每行的功能
+// ProductsController.cs
+// 此控制器負責處理產品的 CRUD 操作，包含圖片上傳與刪除。
 
 using System; // 基本系統命名空間
-using System.Collections.Generic; // 用於集合類型
-using System.Linq; // 提供 LINQ 查詢功能
+using System.Collections.Generic; // 提供集合型別，如 List<T>
+using System.Linq; // 提供 LINQ 查詢方法
 using System.Threading.Tasks; // 提供非同步支援
-using System.IO; // 處理檔案與目錄
-using Microsoft.AspNetCore.Mvc; // ASP.NET Core MVC 核心命名空間
-using Microsoft.AspNetCore.Mvc.Rendering; // 用於下拉選單等 HTML UI 元件
-using Microsoft.EntityFrameworkCore; // Entity Framework Core 功能
-using dogwebMVC.Models; // 專案的資料模型命名空間
+using System.IO; // 處理檔案與目錄的功能
+using Microsoft.AspNetCore.Mvc; // ASP.NET Core MVC 功能
+using Microsoft.AspNetCore.Mvc.Rendering; // 提供 HTML UI 元件（如 DropDownList）
+using Microsoft.EntityFrameworkCore; // Entity Framework Core ORM 功能
+using dogwebMVC.Models; // 引入專案中的資料模型命名空間
 
 namespace dogwebMVC.Controllers
 {
     public class ProductsController : Controller
     {
-        private readonly AppDbContext _context; // 用來操作資料庫的資料上下文
+        private readonly AppDbContext _context; // 資料庫上下文，用來操作資料表
 
+        // 建構函式：透過依賴注入注入資料庫上下文
         public ProductsController(AppDbContext context)
         {
-            _context = context; // 建構函式注入 DbContext
+            _context = context;
         }
 
-        // 顯示所有產品資料
+        // 產品列表頁：顯示所有產品資料
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Productsbydogweb.ToListAsync()); // 非同步讀取產品資料並傳送到 View
+            return View(await _context.Productsbydogweb.ToListAsync());
         }
 
-        // 顯示單一產品詳細資料
+        // 詳細頁：顯示單一產品資料
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null) return NotFound(); // 若無 id 傳入，回傳 404
+            if (id == null) return NotFound();
 
-            var productdogweb = await _context.Productsbydogweb.FirstOrDefaultAsync(m => m.Id == id); // 查詢資料
-            if (productdogweb == null) return NotFound(); // 若找不到資料，也回傳 404
+            var productdogweb = await _context.Productsbydogweb.FirstOrDefaultAsync(m => m.Id == id);
+            if (productdogweb == null) return NotFound();
 
-            return View(productdogweb); // 傳送資料至 View
+            return View(productdogweb);
         }
 
         // 顯示新增產品的表單
         public IActionResult Create()
         {
-            return View(); // 回傳空白表單頁面
+            return View();
         }
 
-        // 處理表單送出的新增資料
+        // 接收新增產品表單送出（含圖片）
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Price")] Productdogweb productdogweb, IFormFile PhotoPath)
         {
-            // 移除因 IFormFile 而產生的驗證錯誤
+            // 移除模型驗證中因 IFormFile 造成的錯誤
             if (ModelState.ContainsKey("PhotoPath")) ModelState.Remove("PhotoPath");
 
             // 除錯輸出
@@ -58,7 +60,6 @@ namespace dogwebMVC.Controllers
             System.Diagnostics.Debug.WriteLine($"Price: {productdogweb.Price}");
             System.Diagnostics.Debug.WriteLine($"PhotoPath is null: {PhotoPath == null}");
 
-            // 顯示檔案資訊（如果有）
             if (PhotoPath != null)
             {
                 System.Diagnostics.Debug.WriteLine($"File name: {PhotoPath.FileName}");
@@ -67,70 +68,50 @@ namespace dogwebMVC.Controllers
 
             System.Diagnostics.Debug.WriteLine($"ModelState.IsValid: {ModelState.IsValid}");
 
-            // 驗證失敗時顯示錯誤
+            // 驗證失敗則回傳錯誤訊息與畫面
             if (!ModelState.IsValid)
             {
                 ViewBag.DebugMessage = "ModelState 驗證失敗: " + string.Join(", ", ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage));
                 return View(productdogweb);
             }
 
+            // 檢查並儲存上傳圖片
             if (PhotoPath != null && PhotoPath.Length > 0)
             {
                 try
                 {
-                    // 限制檔案大小在 5MB 以下
                     if (PhotoPath.Length > 5 * 1024 * 1024)
                     {
                         ModelState.AddModelError("PhotoPath", "檔案大小不能超過 5MB");
                         ViewBag.DebugMessage = "檔案太大";
                         return View(productdogweb);
                     }
-                    string productName = productdogweb.Name; // 從表單取得的產品名稱
-                    string originalFileName = Path.GetFileNameWithoutExtension(PhotoPath.FileName); // 使用者上傳的原始檔案名
-                    string cleanedProductName = string.Concat(productName.Split(Path.GetInvalidFileNameChars()));// 移除產品名稱中的非法字元
-                    string cleanedFileName = string.Concat(originalFileName.Split(Path.GetInvalidFileNameChars()));// 移除產品名稱和檔案名中的非法字元
-                    string fileExtension = Path.GetExtension(PhotoPath.FileName);// 取得副檔名
-                    string folderName = string.Concat(productdogweb.Name.Split(Path.GetInvalidFileNameChars()));
 
-                    // 建立產品名稱的資料夾路徑        // 擷取產品名稱並移除非法字元
+                    string productName = productdogweb.Name;
+                    string originalFileName = Path.GetFileNameWithoutExtension(PhotoPath.FileName);
 
+                    // 清除檔案與資料夾非法字元
+                    string cleanedProductName = string.Concat(productName.Split(Path.GetInvalidFileNameChars()));
+                    string cleanedFileName = string.Concat(originalFileName.Split(Path.GetInvalidFileNameChars()));
+                    string fileExtension = Path.GetExtension(PhotoPath.FileName);
+                    string folderName = cleanedProductName;
+
+                    // 建立圖片儲存資料夾
                     var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
                     if (!Directory.Exists(uploadsFolder)) Directory.CreateDirectory(uploadsFolder);
-                    // 限制允許的副檔名
-                    // var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".jfif" };
 
-
-                    //.ToLowerInvariant(); // 取得副檔名並轉為小寫
-                    // if (!allowedExtensions.Contains(fileExtension))
-                    // {
-                    //     ModelState.AddModelError("PhotoPath", "只允許上傳圖片檔案");
-                    //     ViewBag.DebugMessage = $"不支援的檔案類型: {fileExtension}";
-                    //     return View(productdogweb);
-                    // }
-
-
-
-                    // 建立唯一檔名並儲存
-                    // var fileName = Guid.NewGuid().ToString() + fileExtension;
-                    // var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
-                    // var fileName = $"{originalFileName}_{DateTime.Now:yyyyMMddHHmmssfff}{fileExtension}";// 組合檔名，包含原始名稱和時間戳
+                    // 建立圖片檔名：產品名稱_日期.副檔名
                     string finalFileName = $"{cleanedProductName}__{DateTime.Now:yyyyMMdd}{fileExtension}";
+                    var filePath = Path.Combine(uploadsFolder, finalFileName);
 
-                    // if (!Directory.Exists(uploadsFolder)) Directory.CreateDirectory(uploadsFolder);// 確保上傳目錄存在
-
-                    // 組合完整儲存路徑
-                    //var filePath = Path.Combine(uploadsFolder, fileName);
-                    var filePath = Path.Combine(uploadsFolder, finalFileName);// 組合完整儲存路徑
-
-
-
+                    // 寫入圖片檔案
                     using (var stream = new FileStream(filePath, FileMode.Create))
                     {
-                        await PhotoPath.CopyToAsync(stream);  //將檔案寫入其他
+                        await PhotoPath.CopyToAsync(stream);
                     }
 
-                    // productdogweb.PhotoPath = $"/images/{folderName}"; // 儲存路徑到資料庫欄位
-                    productdogweb.PhotoPath = $"/images/{finalFileName}"; // 儲存路徑到資料庫欄位
+                    // 將圖片相對路徑存入資料庫欄位
+                    productdogweb.PhotoPath = $"/images/{finalFileName}";
                 }
                 catch (Exception ex)
                 {
@@ -140,7 +121,7 @@ namespace dogwebMVC.Controllers
                 }
             }
 
-            // 儲存到資料庫
+            // 儲存產品資料至資料庫
             try
             {
                 _context.Add(productdogweb);
@@ -154,7 +135,7 @@ namespace dogwebMVC.Controllers
             }
         }
 
-        // 顯示編輯表單
+        // 顯示編輯產品的表單
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null) return NotFound();
@@ -165,17 +146,17 @@ namespace dogwebMVC.Controllers
             return View(productdogweb);
         }
 
-        // 處理編輯表單送出
+        // 接收編輯表單送出（含圖片更新）
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Price,PhotoPath")] Productdogweb productdogweb, IFormFile Photopath)
         {
             if (id != productdogweb.Id) return NotFound();
 
-            var existingProduct = await _context.Productsbydogweb.FindAsync(id); // 取得現有資料
+            var existingProduct = await _context.Productsbydogweb.FindAsync(id);
             if (existingProduct == null) return NotFound();
 
-            // 更新欄位
+            // 更新基本欄位
             existingProduct.Name = productdogweb.Name;
             existingProduct.Price = productdogweb.Price;
 
@@ -185,6 +166,7 @@ namespace dogwebMVC.Controllers
             {
                 try
                 {
+                    // 若有新圖片上傳則處理
                     if (Photopath != null && Photopath.Length > 0)
                     {
                         if (Photopath.Length > 5 * 1024 * 1024)
@@ -202,12 +184,14 @@ namespace dogwebMVC.Controllers
                             return View(productdogweb);
                         }
 
+                        // 刪除舊圖檔
                         if (!string.IsNullOrEmpty(existingProduct.PhotoPath))
                         {
                             var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot" + existingProduct.PhotoPath);
                             if (System.IO.File.Exists(oldFilePath)) System.IO.File.Delete(oldFilePath);
                         }
 
+                        // 儲存新圖
                         var fileName = Guid.NewGuid().ToString() + fileExtension;
                         var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
                         if (!Directory.Exists(uploadsFolder)) Directory.CreateDirectory(uploadsFolder);
@@ -221,6 +205,7 @@ namespace dogwebMVC.Controllers
                         existingProduct.PhotoPath = "/images/" + fileName;
                     }
 
+                    // 更新資料庫
                     _context.Update(existingProduct);
                     await _context.SaveChangesAsync();
                 }
@@ -252,7 +237,7 @@ namespace dogwebMVC.Controllers
             return View(productdogweb);
         }
 
-        // 確認刪除動作
+        // 接收刪除確認並執行刪除（含圖片）
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -260,6 +245,7 @@ namespace dogwebMVC.Controllers
             var productdogweb = await _context.Productsbydogweb.FindAsync(id);
             if (productdogweb != null)
             {
+                // 刪除圖片檔案
                 if (!string.IsNullOrEmpty(productdogweb.PhotoPath))
                 {
                     var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot" + productdogweb.PhotoPath);
@@ -276,7 +262,7 @@ namespace dogwebMVC.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // 檢查產品是否存在
+        // 檢查指定 ID 的產品是否存在
         private bool ProductdogwebExists(int id)
         {
             return _context.Productsbydogweb.Any(e => e.Id == id);

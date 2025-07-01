@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JufwxBaVj88n6vySi9jEqKv5XGv6VN+Wqb8vfejmjuk=",
+  "Hash": "YDfDM7KdA55ZmO5k2VHFAUcdbNXDlc0NPBtjIPW0uP4=",
   "Source": "dogwebMVC",
   "BasePath": "_content/dogwebMVC",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\dogwebMVC.styles.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\dogwebMVC.styles.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/dogwebMVC",
       "RelativePath": "dogwebMVC#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "X4KD1ER2QBzMES1kgrKA6miun6+/9ATdTIW5oxIWQ1U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\dogwebMVC.styles.css"
+      "OriginalItemSpec": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\dogwebMVC.styles.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\dogwebMVC.bundle.scp.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\dogwebMVC.bundle.scp.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/dogwebMVC",
       "RelativePath": "dogwebMVC#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,10 +56,10 @@
       "Integrity": "X4KD1ER2QBzMES1kgrKA6miun6+/9ATdTIW5oxIWQ1U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\dogwebMVC.bundle.scp.css"
+      "OriginalItemSpec": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\dogwebMVC.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\googlemap.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\googlemap.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -80,7 +80,7 @@
       "OriginalItemSpec": "wwwroot\\css\\googlemap.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -101,7 +101,7 @@
       "OriginalItemSpec": "wwwroot\\css\\petweb.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -122,7 +122,7 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\favicon.ico",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\favicon.ico",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -143,7 +143,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -164,7 +164,7 @@
       "OriginalItemSpec": "wwwroot\\images\\1.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -185,7 +185,7 @@
       "OriginalItemSpec": "wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1add0cb6-fc26-47ae-b384-d0d98f9c724d.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1add0cb6-fc26-47ae-b384-d0d98f9c724d.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -206,7 +206,7 @@
       "OriginalItemSpec": "wwwroot\\images\\1add0cb6-fc26-47ae-b384-d0d98f9c724d.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -227,7 +227,7 @@
       "OriginalItemSpec": "wwwroot\\images\\2.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\21c20b203d4d0fa489c2540a5f3acfcd.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\21c20b203d4d0fa489c2540a5f3acfcd.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -248,7 +248,7 @@
       "OriginalItemSpec": "wwwroot\\images\\21c20b203d4d0fa489c2540a5f3acfcd.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2c3991a2-6571-4807-b007-37985c915fa7.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2c3991a2-6571-4807-b007-37985c915fa7.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -269,7 +269,7 @@
       "OriginalItemSpec": "wwwroot\\images\\2c3991a2-6571-4807-b007-37985c915fa7.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -290,7 +290,7 @@
       "OriginalItemSpec": "wwwroot\\images\\3.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3191251-uhd_4096_2160_25fps.mp4",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3191251-uhd_4096_2160_25fps.mp4",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -311,7 +311,7 @@
       "OriginalItemSpec": "wwwroot\\images\\3191251-uhd_4096_2160_25fps.mp4"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\341c8f7fea789d2b0be8c919db0f0465.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\341c8f7fea789d2b0be8c919db0f0465.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -332,7 +332,7 @@
       "OriginalItemSpec": "wwwroot\\images\\341c8f7fea789d2b0be8c919db0f0465.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\49328895c35016da74babb0300e0475b.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\49328895c35016da74babb0300e0475b.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -353,7 +353,7 @@
       "OriginalItemSpec": "wwwroot\\images\\49328895c35016da74babb0300e0475b.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4c38b2c60e67e26b9f91b9b3339af593.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4c38b2c60e67e26b9f91b9b3339af593.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -374,7 +374,7 @@
       "OriginalItemSpec": "wwwroot\\images\\4c38b2c60e67e26b9f91b9b3339af593.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4d89fcfeb1cab2972adaaabf43c7ba2d.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4d89fcfeb1cab2972adaaabf43c7ba2d.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -395,7 +395,7 @@
       "OriginalItemSpec": "wwwroot\\images\\4d89fcfeb1cab2972adaaabf43c7ba2d.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\543fabc0a88c64f5a7d02384ccc49bdc.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\543fabc0a88c64f5a7d02384ccc49bdc.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -416,7 +416,7 @@
       "OriginalItemSpec": "wwwroot\\images\\543fabc0a88c64f5a7d02384ccc49bdc.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5b50a229e1f4b3bb0de99371c693097c.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5b50a229e1f4b3bb0de99371c693097c.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -437,7 +437,7 @@
       "OriginalItemSpec": "wwwroot\\images\\5b50a229e1f4b3bb0de99371c693097c.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5e274d1461edc9ac5b0dff023621a423.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5e274d1461edc9ac5b0dff023621a423.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -458,7 +458,7 @@
       "OriginalItemSpec": "wwwroot\\images\\5e274d1461edc9ac5b0dff023621a423.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5f257b2c-0f36-4a15-a961-ff9f89d87598.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5f257b2c-0f36-4a15-a961-ff9f89d87598.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -479,7 +479,7 @@
       "OriginalItemSpec": "wwwroot\\images\\5f257b2c-0f36-4a15-a961-ff9f89d87598.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6092fe901b35bfebe7bd7a4770f4f5cb.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6092fe901b35bfebe7bd7a4770f4f5cb.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -500,7 +500,7 @@
       "OriginalItemSpec": "wwwroot\\images\\6092fe901b35bfebe7bd7a4770f4f5cb.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\67428428a82b71d31122d4848b1a3201.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\67428428a82b71d31122d4848b1a3201.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -521,7 +521,7 @@
       "OriginalItemSpec": "wwwroot\\images\\67428428a82b71d31122d4848b1a3201.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6ff71a98123d8e2cbf45027ccd943e90.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6ff71a98123d8e2cbf45027ccd943e90.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -542,7 +542,7 @@
       "OriginalItemSpec": "wwwroot\\images\\6ff71a98123d8e2cbf45027ccd943e90.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -563,7 +563,7 @@
       "OriginalItemSpec": "wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\79977afec1c1bcf9f2a744b3a2b91158.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\79977afec1c1bcf9f2a744b3a2b91158.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -584,7 +584,7 @@
       "OriginalItemSpec": "wwwroot\\images\\79977afec1c1bcf9f2a744b3a2b91158.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\9fddea5767c8ba98d0bad097c3479260.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\9fddea5767c8ba98d0bad097c3479260.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -605,7 +605,7 @@
       "OriginalItemSpec": "wwwroot\\images\\9fddea5767c8ba98d0bad097c3479260.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\背景.jpg",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\背景.jpg",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -626,7 +626,7 @@
       "OriginalItemSpec": "wwwroot\\images\\背景.jpg"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -647,7 +647,7 @@
       "OriginalItemSpec": "wwwroot\\images\\雞排__20250620.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620214809070.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620214809070.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -668,7 +668,7 @@
       "OriginalItemSpec": "wwwroot\\images\\雞排__20250620214809070.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__202506204942.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__202506204942.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -689,7 +689,7 @@
       "OriginalItemSpec": "wwwroot\\images\\雞排__202506204942.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排_fe14314b-14ab-4a03-a607-b0ef55ad2547_20250620214707052.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排_fe14314b-14ab-4a03-a607-b0ef55ad2547_20250620214707052.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -710,7 +710,7 @@
       "OriginalItemSpec": "wwwroot\\images\\雞排_fe14314b-14ab-4a03-a607-b0ef55ad2547_20250620214707052.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -731,7 +731,7 @@
       "OriginalItemSpec": "wwwroot\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\abc38651-dfdf-45e7-a202-79d7c74ae063.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\abc38651-dfdf-45e7-a202-79d7c74ae063.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -752,7 +752,7 @@
       "OriginalItemSpec": "wwwroot\\images\\abc38651-dfdf-45e7-a202-79d7c74ae063.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\b49e61adb69f7412873a4115486d1aa6.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\b49e61adb69f7412873a4115486d1aa6.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -773,7 +773,7 @@
       "OriginalItemSpec": "wwwroot\\images\\b49e61adb69f7412873a4115486d1aa6.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\beefn__20250625.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\beefn__20250625.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -794,7 +794,7 @@
       "OriginalItemSpec": "wwwroot\\images\\beefn__20250625.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\dd66100d-1de0-4d92-8b68-105d5fca1deb.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\dd66100d-1de0-4d92-8b68-105d5fca1deb.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -815,7 +815,7 @@
       "OriginalItemSpec": "wwwroot\\images\\dd66100d-1de0-4d92-8b68-105d5fca1deb.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e4563478-3d88-486c-8b11-8f2b81c97d90.jfif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e4563478-3d88-486c-8b11-8f2b81c97d90.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -836,7 +836,7 @@
       "OriginalItemSpec": "wwwroot\\images\\e4563478-3d88-486c-8b11-8f2b81c97d90.jfif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\f56f951c612ac46b6f677e2e53d25e78.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\f56f951c612ac46b6f677e2e53d25e78.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -857,7 +857,7 @@
       "OriginalItemSpec": "wwwroot\\images\\f56f951c612ac46b6f677e2e53d25e78.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images (1).svg",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images (1).svg",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -878,7 +878,7 @@
       "OriginalItemSpec": "wwwroot\\images\\images (1).svg"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images.svg",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images.svg",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -899,7 +899,7 @@
       "OriginalItemSpec": "wwwroot\\images\\images.svg"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-barnabas-davoti-31615494-14084426.jpg",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-barnabas-davoti-31615494-14084426.jpg",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -920,7 +920,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pexels-barnabas-davoti-31615494-14084426.jpg"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-izafi-32721873.jpg",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-izafi-32721873.jpg",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -941,7 +941,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pexels-izafi-32721873.jpg"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-pixabay-247937.jpg",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-pixabay-247937.jpg",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -962,7 +962,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pexels-pixabay-247937.jpg"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-valeriya-13074579.jpg",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-valeriya-13074579.jpg",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -983,7 +983,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pexels-valeriya-13074579.jpg"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-zen-chung-5749781.jpg",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-zen-chung-5749781.jpg",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1004,7 +1004,7 @@
       "OriginalItemSpec": "wwwroot\\images\\pexels-zen-chung-5749781.jpg"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1630250348519-173c58a3dad4.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1630250348519-173c58a3dad4.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1025,7 +1025,7 @@
       "OriginalItemSpec": "wwwroot\\images\\photo-1630250348519-173c58a3dad4.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1632766038301-965e1a1f9b1f.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1632766038301-965e1a1f9b1f.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1046,7 +1046,7 @@
       "OriginalItemSpec": "wwwroot\\images\\photo-1632766038301-965e1a1f9b1f.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1646947553131-d9e598387be3.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1646947553131-d9e598387be3.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1067,7 +1067,7 @@
       "OriginalItemSpec": "wwwroot\\images\\photo-1646947553131-d9e598387be3.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1650805180973-eced978d8f63.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1650805180973-eced978d8f63.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1088,7 +1088,7 @@
       "OriginalItemSpec": "wwwroot\\images\\photo-1650805180973-eced978d8f63.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1655064320103-114b997a87b3.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1655064320103-114b997a87b3.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1109,7 +1109,7 @@
       "OriginalItemSpec": "wwwroot\\images\\photo-1655064320103-114b997a87b3.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1670743881480-ec0078b24ccf.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1670743881480-ec0078b24ccf.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1130,7 +1130,7 @@
       "OriginalItemSpec": "wwwroot\\images\\photo-1670743881480-ec0078b24ccf.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1701424122241-9ed709518c1d.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1701424122241-9ed709518c1d.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1151,7 +1151,7 @@
       "OriginalItemSpec": "wwwroot\\images\\photo-1701424122241-9ed709518c1d.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1713531272589-c843cd3e8e88.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1713531272589-c843cd3e8e88.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1172,7 +1172,7 @@
       "OriginalItemSpec": "wwwroot\\images\\photo-1713531272589-c843cd3e8e88.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1746238786713-cc9c750b5df7.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1746238786713-cc9c750b5df7.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1193,7 +1193,7 @@
       "OriginalItemSpec": "wwwroot\\images\\photo-1746238786713-cc9c750b5df7.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1664357542137-8438fa1acd68.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1664357542137-8438fa1acd68.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1214,7 +1214,7 @@
       "OriginalItemSpec": "wwwroot\\images\\premium_photo-1664357542137-8438fa1acd68.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1680283988075-bb0ff2955b71.avif",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1680283988075-bb0ff2955b71.avif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1235,7 +1235,7 @@
       "OriginalItemSpec": "wwwroot\\images\\premium_photo-1680283988075-bb0ff2955b71.avif"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra1k-m4iodpfg6e2w04.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra1k-m4iodpfg6e2w04.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1256,7 +1256,7 @@
       "OriginalItemSpec": "wwwroot\\images\\sg-11134301-7ra1k-m4iodpfg6e2w04.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra2u-m4iod9gtjb04e2.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra2u-m4iod9gtjb04e2.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1277,7 +1277,7 @@
       "OriginalItemSpec": "wwwroot\\images\\sg-11134301-7ra2u-m4iod9gtjb04e2.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra3v-m4iod4br235cdf.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra3v-m4iod4br235cdf.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1298,7 +1298,7 @@
       "OriginalItemSpec": "wwwroot\\images\\sg-11134301-7ra3v-m4iod4br235cdf.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcc2-m6c1oy5jhxcn29.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcc2-m6c1oy5jhxcn29.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1319,7 +1319,7 @@
       "OriginalItemSpec": "wwwroot\\images\\sg-11134301-7rcc2-m6c1oy5jhxcn29.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcd0-m6c1oyajakjkd0.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcd0-m6c1oyajakjkd0.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1340,7 +1340,7 @@
       "OriginalItemSpec": "wwwroot\\images\\sg-11134301-7rcd0-m6c1oyajakjkd0.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7r98q-lpivmu5wpp9538.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7r98q-lpivmu5wpp9538.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1361,7 +1361,7 @@
       "OriginalItemSpec": "wwwroot\\images\\tw-11134207-7r98q-lpivmu5wpp9538.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rase-m3ys5nhqfk5c31.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rase-m3ys5nhqfk5c31.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1382,7 +1382,7 @@
       "OriginalItemSpec": "wwwroot\\images\\tw-11134207-7rase-m3ys5nhqfk5c31.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rasg-m3ys5dqqut572c.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rasg-m3ys5dqqut572c.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1403,7 +1403,7 @@
       "OriginalItemSpec": "wwwroot\\images\\tw-11134207-7rasg-m3ys5dqqut572c.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rbk5-m8uqm2b9ezmu27.webp",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rbk5-m8uqm2b9ezmu27.webp",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1424,7 +1424,7 @@
       "OriginalItemSpec": "wwwroot\\images\\tw-11134207-7rbk5-m8uqm2b9ezmu27.webp"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\js\\site.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\js\\site.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1445,7 +1445,7 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1466,7 +1466,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1487,7 +1487,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1508,7 +1508,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1529,7 +1529,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1550,7 +1550,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1571,7 +1571,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1592,7 +1592,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1613,7 +1613,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1634,7 +1634,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1655,7 +1655,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1676,7 +1676,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1697,7 +1697,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1718,7 +1718,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1739,7 +1739,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1760,7 +1760,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1781,7 +1781,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1802,7 +1802,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1823,7 +1823,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1844,7 +1844,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1865,7 +1865,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1886,7 +1886,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1907,7 +1907,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1928,7 +1928,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1949,7 +1949,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1970,7 +1970,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -1991,7 +1991,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2012,7 +2012,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2033,7 +2033,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2054,7 +2054,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2075,7 +2075,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2096,7 +2096,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2117,7 +2117,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2138,7 +2138,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2159,7 +2159,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2180,7 +2180,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2201,7 +2201,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2222,7 +2222,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2243,7 +2243,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2264,7 +2264,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2285,7 +2285,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2306,7 +2306,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2327,7 +2327,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2348,7 +2348,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2369,7 +2369,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2390,7 +2390,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2411,7 +2411,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2432,7 +2432,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2453,7 +2453,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2474,7 +2474,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2495,7 +2495,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2516,7 +2516,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2537,7 +2537,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2558,7 +2558,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2579,7 +2579,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2600,7 +2600,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2621,7 +2621,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2642,7 +2642,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2663,7 +2663,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2684,7 +2684,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
@@ -2708,7 +2708,7 @@
   "Endpoints": [
     {
       "Route": "css/googlemap.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\googlemap.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\googlemap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2745,7 +2745,7 @@
     },
     {
       "Route": "css/googlemap.jzsiqdzr9n.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\googlemap.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\googlemap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2790,7 +2790,7 @@
     },
     {
       "Route": "css/petweb.bw9o2qqx7w.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2835,7 +2835,7 @@
     },
     {
       "Route": "css/petweb.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2872,7 +2872,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2909,7 +2909,7 @@
     },
     {
       "Route": "css/site.jc9ldl56zp.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2954,7 +2954,7 @@
     },
     {
       "Route": "dogwebMVC.1cv0jvlvlg.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\dogwebMVC.bundle.scp.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\dogwebMVC.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2999,7 +2999,7 @@
     },
     {
       "Route": "dogwebMVC.1cv0jvlvlg.styles.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\dogwebMVC.styles.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\dogwebMVC.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3044,7 +3044,7 @@
     },
     {
       "Route": "dogwebMVC.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\dogwebMVC.bundle.scp.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\dogwebMVC.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3081,7 +3081,7 @@
     },
     {
       "Route": "dogwebMVC.styles.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\dogwebMVC.styles.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\dogwebMVC.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3118,7 +3118,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\favicon.ico",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3163,7 +3163,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\favicon.ico",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3200,7 +3200,7 @@
     },
     {
       "Route": "images/1.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3237,7 +3237,7 @@
     },
     {
       "Route": "images/1.u2l7bql88h.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3282,7 +3282,7 @@
     },
     {
       "Route": "images/115432f1-3c39-433b-932c-88d57616608b.4tqc0td3g1.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3327,7 +3327,7 @@
     },
     {
       "Route": "images/115432f1-3c39-433b-932c-88d57616608b.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\115432f1-3c39-433b-932c-88d57616608b.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3364,7 +3364,7 @@
     },
     {
       "Route": "images/1add0cb6-fc26-47ae-b384-d0d98f9c724d.an43ddfjtz.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1add0cb6-fc26-47ae-b384-d0d98f9c724d.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1add0cb6-fc26-47ae-b384-d0d98f9c724d.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3409,7 +3409,7 @@
     },
     {
       "Route": "images/1add0cb6-fc26-47ae-b384-d0d98f9c724d.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1add0cb6-fc26-47ae-b384-d0d98f9c724d.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\1add0cb6-fc26-47ae-b384-d0d98f9c724d.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3446,7 +3446,7 @@
     },
     {
       "Route": "images/2.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3483,7 +3483,7 @@
     },
     {
       "Route": "images/2.fp7zyvv1bi.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3528,7 +3528,7 @@
     },
     {
       "Route": "images/21c20b203d4d0fa489c2540a5f3acfcd.exq1dqed78.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\21c20b203d4d0fa489c2540a5f3acfcd.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\21c20b203d4d0fa489c2540a5f3acfcd.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3573,7 +3573,7 @@
     },
     {
       "Route": "images/21c20b203d4d0fa489c2540a5f3acfcd.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\21c20b203d4d0fa489c2540a5f3acfcd.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\21c20b203d4d0fa489c2540a5f3acfcd.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3610,7 +3610,7 @@
     },
     {
       "Route": "images/2c3991a2-6571-4807-b007-37985c915fa7.eyzutxncjx.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2c3991a2-6571-4807-b007-37985c915fa7.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2c3991a2-6571-4807-b007-37985c915fa7.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3655,7 +3655,7 @@
     },
     {
       "Route": "images/2c3991a2-6571-4807-b007-37985c915fa7.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2c3991a2-6571-4807-b007-37985c915fa7.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\2c3991a2-6571-4807-b007-37985c915fa7.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3692,7 +3692,7 @@
     },
     {
       "Route": "images/3.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3729,7 +3729,7 @@
     },
     {
       "Route": "images/3.m5s1zyvgpu.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3774,7 +3774,7 @@
     },
     {
       "Route": "images/3191251-uhd_4096_2160_25fps.7sgn68y2rg.mp4",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3191251-uhd_4096_2160_25fps.mp4",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3191251-uhd_4096_2160_25fps.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3819,7 +3819,7 @@
     },
     {
       "Route": "images/3191251-uhd_4096_2160_25fps.mp4",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3191251-uhd_4096_2160_25fps.mp4",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\3191251-uhd_4096_2160_25fps.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3856,7 +3856,7 @@
     },
     {
       "Route": "images/341c8f7fea789d2b0be8c919db0f0465.lfih4vlfir.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\341c8f7fea789d2b0be8c919db0f0465.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\341c8f7fea789d2b0be8c919db0f0465.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3901,7 +3901,7 @@
     },
     {
       "Route": "images/341c8f7fea789d2b0be8c919db0f0465.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\341c8f7fea789d2b0be8c919db0f0465.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\341c8f7fea789d2b0be8c919db0f0465.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3938,7 +3938,7 @@
     },
     {
       "Route": "images/49328895c35016da74babb0300e0475b.mdml4irbmh.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\49328895c35016da74babb0300e0475b.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\49328895c35016da74babb0300e0475b.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3983,7 +3983,7 @@
     },
     {
       "Route": "images/49328895c35016da74babb0300e0475b.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\49328895c35016da74babb0300e0475b.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\49328895c35016da74babb0300e0475b.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4020,7 +4020,7 @@
     },
     {
       "Route": "images/4c38b2c60e67e26b9f91b9b3339af593.8iijr4gs1b.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4c38b2c60e67e26b9f91b9b3339af593.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4c38b2c60e67e26b9f91b9b3339af593.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4065,7 +4065,7 @@
     },
     {
       "Route": "images/4c38b2c60e67e26b9f91b9b3339af593.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4c38b2c60e67e26b9f91b9b3339af593.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4c38b2c60e67e26b9f91b9b3339af593.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4102,7 +4102,7 @@
     },
     {
       "Route": "images/4d89fcfeb1cab2972adaaabf43c7ba2d.q6xduihjez.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4d89fcfeb1cab2972adaaabf43c7ba2d.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4d89fcfeb1cab2972adaaabf43c7ba2d.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4147,7 +4147,7 @@
     },
     {
       "Route": "images/4d89fcfeb1cab2972adaaabf43c7ba2d.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4d89fcfeb1cab2972adaaabf43c7ba2d.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\4d89fcfeb1cab2972adaaabf43c7ba2d.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4184,7 +4184,7 @@
     },
     {
       "Route": "images/543fabc0a88c64f5a7d02384ccc49bdc.agrp0sglpw.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\543fabc0a88c64f5a7d02384ccc49bdc.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\543fabc0a88c64f5a7d02384ccc49bdc.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4229,7 +4229,7 @@
     },
     {
       "Route": "images/543fabc0a88c64f5a7d02384ccc49bdc.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\543fabc0a88c64f5a7d02384ccc49bdc.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\543fabc0a88c64f5a7d02384ccc49bdc.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4266,7 +4266,7 @@
     },
     {
       "Route": "images/5b50a229e1f4b3bb0de99371c693097c.fr83d5nib2.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5b50a229e1f4b3bb0de99371c693097c.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5b50a229e1f4b3bb0de99371c693097c.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4311,7 +4311,7 @@
     },
     {
       "Route": "images/5b50a229e1f4b3bb0de99371c693097c.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5b50a229e1f4b3bb0de99371c693097c.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5b50a229e1f4b3bb0de99371c693097c.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4348,7 +4348,7 @@
     },
     {
       "Route": "images/5e274d1461edc9ac5b0dff023621a423.69qqastfwg.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5e274d1461edc9ac5b0dff023621a423.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5e274d1461edc9ac5b0dff023621a423.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4393,7 +4393,7 @@
     },
     {
       "Route": "images/5e274d1461edc9ac5b0dff023621a423.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5e274d1461edc9ac5b0dff023621a423.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5e274d1461edc9ac5b0dff023621a423.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4430,7 +4430,7 @@
     },
     {
       "Route": "images/5f257b2c-0f36-4a15-a961-ff9f89d87598.4tqc0td3g1.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5f257b2c-0f36-4a15-a961-ff9f89d87598.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5f257b2c-0f36-4a15-a961-ff9f89d87598.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4475,7 +4475,7 @@
     },
     {
       "Route": "images/5f257b2c-0f36-4a15-a961-ff9f89d87598.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5f257b2c-0f36-4a15-a961-ff9f89d87598.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\5f257b2c-0f36-4a15-a961-ff9f89d87598.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4512,7 +4512,7 @@
     },
     {
       "Route": "images/6092fe901b35bfebe7bd7a4770f4f5cb.s9yky29smg.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6092fe901b35bfebe7bd7a4770f4f5cb.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6092fe901b35bfebe7bd7a4770f4f5cb.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4557,7 +4557,7 @@
     },
     {
       "Route": "images/6092fe901b35bfebe7bd7a4770f4f5cb.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6092fe901b35bfebe7bd7a4770f4f5cb.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6092fe901b35bfebe7bd7a4770f4f5cb.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4594,7 +4594,7 @@
     },
     {
       "Route": "images/67428428a82b71d31122d4848b1a3201.0fo1j7ch2u.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\67428428a82b71d31122d4848b1a3201.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\67428428a82b71d31122d4848b1a3201.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4639,7 +4639,7 @@
     },
     {
       "Route": "images/67428428a82b71d31122d4848b1a3201.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\67428428a82b71d31122d4848b1a3201.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\67428428a82b71d31122d4848b1a3201.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4676,7 +4676,7 @@
     },
     {
       "Route": "images/6ff71a98123d8e2cbf45027ccd943e90.bn4mk80waq.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6ff71a98123d8e2cbf45027ccd943e90.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6ff71a98123d8e2cbf45027ccd943e90.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4721,7 +4721,7 @@
     },
     {
       "Route": "images/6ff71a98123d8e2cbf45027ccd943e90.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6ff71a98123d8e2cbf45027ccd943e90.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\6ff71a98123d8e2cbf45027ccd943e90.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4758,7 +4758,7 @@
     },
     {
       "Route": "images/74b44881-633e-4667-b2cd-3f917583f3d9.eyzutxncjx.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4803,7 +4803,7 @@
     },
     {
       "Route": "images/74b44881-633e-4667-b2cd-3f917583f3d9.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\74b44881-633e-4667-b2cd-3f917583f3d9.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4840,7 +4840,7 @@
     },
     {
       "Route": "images/79977afec1c1bcf9f2a744b3a2b91158.dre6f0atkn.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\79977afec1c1bcf9f2a744b3a2b91158.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\79977afec1c1bcf9f2a744b3a2b91158.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4885,7 +4885,7 @@
     },
     {
       "Route": "images/79977afec1c1bcf9f2a744b3a2b91158.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\79977afec1c1bcf9f2a744b3a2b91158.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\79977afec1c1bcf9f2a744b3a2b91158.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4922,7 +4922,7 @@
     },
     {
       "Route": "images/9fddea5767c8ba98d0bad097c3479260.o9v6a7xxpt.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\9fddea5767c8ba98d0bad097c3479260.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\9fddea5767c8ba98d0bad097c3479260.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4967,7 +4967,7 @@
     },
     {
       "Route": "images/9fddea5767c8ba98d0bad097c3479260.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\9fddea5767c8ba98d0bad097c3479260.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\9fddea5767c8ba98d0bad097c3479260.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5004,7 +5004,7 @@
     },
     {
       "Route": "images/背景.8fveyydfnm.jpg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\背景.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\背景.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5049,7 +5049,7 @@
     },
     {
       "Route": "images/背景.jpg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\背景.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\背景.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5086,7 +5086,7 @@
     },
     {
       "Route": "images/雞排__20250620.an43ddfjtz.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5131,7 +5131,7 @@
     },
     {
       "Route": "images/雞排__20250620.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5168,7 +5168,7 @@
     },
     {
       "Route": "images/雞排__20250620214809070.an43ddfjtz.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620214809070.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620214809070.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5213,7 +5213,7 @@
     },
     {
       "Route": "images/雞排__20250620214809070.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620214809070.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__20250620214809070.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5250,7 +5250,7 @@
     },
     {
       "Route": "images/雞排__202506204942.an43ddfjtz.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__202506204942.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__202506204942.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5295,7 +5295,7 @@
     },
     {
       "Route": "images/雞排__202506204942.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__202506204942.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排__202506204942.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5332,7 +5332,7 @@
     },
     {
       "Route": "images/雞排_fe14314b-14ab-4a03-a607-b0ef55ad2547_20250620214707052.an43ddfjtz.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排_fe14314b-14ab-4a03-a607-b0ef55ad2547_20250620214707052.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排_fe14314b-14ab-4a03-a607-b0ef55ad2547_20250620214707052.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5377,7 +5377,7 @@
     },
     {
       "Route": "images/雞排_fe14314b-14ab-4a03-a607-b0ef55ad2547_20250620214707052.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排_fe14314b-14ab-4a03-a607-b0ef55ad2547_20250620214707052.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\雞排_fe14314b-14ab-4a03-a607-b0ef55ad2547_20250620214707052.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5414,7 +5414,7 @@
     },
     {
       "Route": "images/a05c25bf-9685-47f7-9325-3a01ad397971.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5451,7 +5451,7 @@
     },
     {
       "Route": "images/a05c25bf-9685-47f7-9325-3a01ad397971.mqx8w7qsw9.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5496,7 +5496,7 @@
     },
     {
       "Route": "images/abc38651-dfdf-45e7-a202-79d7c74ae063.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\abc38651-dfdf-45e7-a202-79d7c74ae063.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\abc38651-dfdf-45e7-a202-79d7c74ae063.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5533,7 +5533,7 @@
     },
     {
       "Route": "images/abc38651-dfdf-45e7-a202-79d7c74ae063.mqx8w7qsw9.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\abc38651-dfdf-45e7-a202-79d7c74ae063.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\abc38651-dfdf-45e7-a202-79d7c74ae063.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5578,7 +5578,7 @@
     },
     {
       "Route": "images/b49e61adb69f7412873a4115486d1aa6.qqwxndutk7.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\b49e61adb69f7412873a4115486d1aa6.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\b49e61adb69f7412873a4115486d1aa6.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5623,7 +5623,7 @@
     },
     {
       "Route": "images/b49e61adb69f7412873a4115486d1aa6.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\b49e61adb69f7412873a4115486d1aa6.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\b49e61adb69f7412873a4115486d1aa6.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5660,7 +5660,7 @@
     },
     {
       "Route": "images/beefn__20250625.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\beefn__20250625.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\beefn__20250625.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5697,7 +5697,7 @@
     },
     {
       "Route": "images/beefn__20250625.w39nmqwnzy.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\beefn__20250625.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\beefn__20250625.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5742,7 +5742,7 @@
     },
     {
       "Route": "images/dd66100d-1de0-4d92-8b68-105d5fca1deb.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\dd66100d-1de0-4d92-8b68-105d5fca1deb.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\dd66100d-1de0-4d92-8b68-105d5fca1deb.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5779,7 +5779,7 @@
     },
     {
       "Route": "images/dd66100d-1de0-4d92-8b68-105d5fca1deb.w39nmqwnzy.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\dd66100d-1de0-4d92-8b68-105d5fca1deb.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\dd66100d-1de0-4d92-8b68-105d5fca1deb.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5824,7 +5824,7 @@
     },
     {
       "Route": "images/e4563478-3d88-486c-8b11-8f2b81c97d90.an43ddfjtz.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e4563478-3d88-486c-8b11-8f2b81c97d90.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e4563478-3d88-486c-8b11-8f2b81c97d90.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5869,7 +5869,7 @@
     },
     {
       "Route": "images/e4563478-3d88-486c-8b11-8f2b81c97d90.jfif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e4563478-3d88-486c-8b11-8f2b81c97d90.jfif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\e4563478-3d88-486c-8b11-8f2b81c97d90.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5906,7 +5906,7 @@
     },
     {
       "Route": "images/f56f951c612ac46b6f677e2e53d25e78.n1x6z3xo0m.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\f56f951c612ac46b6f677e2e53d25e78.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\f56f951c612ac46b6f677e2e53d25e78.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5951,7 +5951,7 @@
     },
     {
       "Route": "images/f56f951c612ac46b6f677e2e53d25e78.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\f56f951c612ac46b6f677e2e53d25e78.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\f56f951c612ac46b6f677e2e53d25e78.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5988,7 +5988,7 @@
     },
     {
       "Route": "images/images (1).mdqyjf94sv.svg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images (1).svg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images (1).svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6033,7 +6033,7 @@
     },
     {
       "Route": "images/images (1).svg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images (1).svg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images (1).svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6070,7 +6070,7 @@
     },
     {
       "Route": "images/images.svg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images.svg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6107,7 +6107,7 @@
     },
     {
       "Route": "images/images.vpbe5i7pek.svg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images.svg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\images.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6152,7 +6152,7 @@
     },
     {
       "Route": "images/pexels-barnabas-davoti-31615494-14084426.cv6q68erhj.jpg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-barnabas-davoti-31615494-14084426.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-barnabas-davoti-31615494-14084426.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6197,7 +6197,7 @@
     },
     {
       "Route": "images/pexels-barnabas-davoti-31615494-14084426.jpg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-barnabas-davoti-31615494-14084426.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-barnabas-davoti-31615494-14084426.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6234,7 +6234,7 @@
     },
     {
       "Route": "images/pexels-izafi-32721873.byhxvjv3u1.jpg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-izafi-32721873.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-izafi-32721873.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6279,7 +6279,7 @@
     },
     {
       "Route": "images/pexels-izafi-32721873.jpg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-izafi-32721873.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-izafi-32721873.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6316,7 +6316,7 @@
     },
     {
       "Route": "images/pexels-pixabay-247937.jpg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-pixabay-247937.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-pixabay-247937.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6353,7 +6353,7 @@
     },
     {
       "Route": "images/pexels-pixabay-247937.vsr8ryq9cj.jpg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-pixabay-247937.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-pixabay-247937.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6398,7 +6398,7 @@
     },
     {
       "Route": "images/pexels-valeriya-13074579.jpg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-valeriya-13074579.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-valeriya-13074579.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6435,7 +6435,7 @@
     },
     {
       "Route": "images/pexels-valeriya-13074579.pydmvcrn2r.jpg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-valeriya-13074579.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-valeriya-13074579.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6480,7 +6480,7 @@
     },
     {
       "Route": "images/pexels-zen-chung-5749781.4h0c710hrj.jpg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-zen-chung-5749781.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-zen-chung-5749781.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6525,7 +6525,7 @@
     },
     {
       "Route": "images/pexels-zen-chung-5749781.jpg",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-zen-chung-5749781.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-zen-chung-5749781.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6562,7 +6562,7 @@
     },
     {
       "Route": "images/photo-1630250348519-173c58a3dad4.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1630250348519-173c58a3dad4.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1630250348519-173c58a3dad4.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6599,7 +6599,7 @@
     },
     {
       "Route": "images/photo-1630250348519-173c58a3dad4.v7lmd1iwau.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1630250348519-173c58a3dad4.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1630250348519-173c58a3dad4.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6644,7 +6644,7 @@
     },
     {
       "Route": "images/photo-1632766038301-965e1a1f9b1f.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1632766038301-965e1a1f9b1f.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1632766038301-965e1a1f9b1f.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6681,7 +6681,7 @@
     },
     {
       "Route": "images/photo-1632766038301-965e1a1f9b1f.br6vhx5qso.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1632766038301-965e1a1f9b1f.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1632766038301-965e1a1f9b1f.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6726,7 +6726,7 @@
     },
     {
       "Route": "images/photo-1646947553131-d9e598387be3.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1646947553131-d9e598387be3.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1646947553131-d9e598387be3.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6763,7 +6763,7 @@
     },
     {
       "Route": "images/photo-1646947553131-d9e598387be3.eirv6ek3sy.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1646947553131-d9e598387be3.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1646947553131-d9e598387be3.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6808,7 +6808,7 @@
     },
     {
       "Route": "images/photo-1650805180973-eced978d8f63.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1650805180973-eced978d8f63.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1650805180973-eced978d8f63.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6845,7 +6845,7 @@
     },
     {
       "Route": "images/photo-1650805180973-eced978d8f63.oh4o71o78x.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1650805180973-eced978d8f63.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1650805180973-eced978d8f63.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6890,7 +6890,7 @@
     },
     {
       "Route": "images/photo-1655064320103-114b997a87b3.6qpwnlmjq1.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1655064320103-114b997a87b3.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1655064320103-114b997a87b3.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6935,7 +6935,7 @@
     },
     {
       "Route": "images/photo-1655064320103-114b997a87b3.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1655064320103-114b997a87b3.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1655064320103-114b997a87b3.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6972,7 +6972,7 @@
     },
     {
       "Route": "images/photo-1670743881480-ec0078b24ccf.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1670743881480-ec0078b24ccf.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1670743881480-ec0078b24ccf.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7009,7 +7009,7 @@
     },
     {
       "Route": "images/photo-1670743881480-ec0078b24ccf.by612387tl.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1670743881480-ec0078b24ccf.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1670743881480-ec0078b24ccf.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7054,7 +7054,7 @@
     },
     {
       "Route": "images/photo-1701424122241-9ed709518c1d.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1701424122241-9ed709518c1d.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1701424122241-9ed709518c1d.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7091,7 +7091,7 @@
     },
     {
       "Route": "images/photo-1701424122241-9ed709518c1d.v7om10381u.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1701424122241-9ed709518c1d.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1701424122241-9ed709518c1d.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7136,7 +7136,7 @@
     },
     {
       "Route": "images/photo-1713531272589-c843cd3e8e88.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1713531272589-c843cd3e8e88.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1713531272589-c843cd3e8e88.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7173,7 +7173,7 @@
     },
     {
       "Route": "images/photo-1713531272589-c843cd3e8e88.vfaog33fjy.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1713531272589-c843cd3e8e88.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1713531272589-c843cd3e8e88.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7218,7 +7218,7 @@
     },
     {
       "Route": "images/photo-1746238786713-cc9c750b5df7.68z4gw6l4v.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1746238786713-cc9c750b5df7.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1746238786713-cc9c750b5df7.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7263,7 +7263,7 @@
     },
     {
       "Route": "images/photo-1746238786713-cc9c750b5df7.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1746238786713-cc9c750b5df7.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\photo-1746238786713-cc9c750b5df7.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7300,7 +7300,7 @@
     },
     {
       "Route": "images/premium_photo-1664357542137-8438fa1acd68.04l14jh9ns.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1664357542137-8438fa1acd68.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1664357542137-8438fa1acd68.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7345,7 +7345,7 @@
     },
     {
       "Route": "images/premium_photo-1664357542137-8438fa1acd68.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1664357542137-8438fa1acd68.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1664357542137-8438fa1acd68.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7382,7 +7382,7 @@
     },
     {
       "Route": "images/premium_photo-1680283988075-bb0ff2955b71.av7fefnkd0.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1680283988075-bb0ff2955b71.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1680283988075-bb0ff2955b71.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7427,7 +7427,7 @@
     },
     {
       "Route": "images/premium_photo-1680283988075-bb0ff2955b71.avif",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1680283988075-bb0ff2955b71.avif",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\premium_photo-1680283988075-bb0ff2955b71.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7464,7 +7464,7 @@
     },
     {
       "Route": "images/sg-11134301-7ra1k-m4iodpfg6e2w04.neiu6r2dvl.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra1k-m4iodpfg6e2w04.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra1k-m4iodpfg6e2w04.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7509,7 +7509,7 @@
     },
     {
       "Route": "images/sg-11134301-7ra1k-m4iodpfg6e2w04.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra1k-m4iodpfg6e2w04.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra1k-m4iodpfg6e2w04.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7546,7 +7546,7 @@
     },
     {
       "Route": "images/sg-11134301-7ra2u-m4iod9gtjb04e2.ri3diccmfs.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra2u-m4iod9gtjb04e2.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra2u-m4iod9gtjb04e2.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7591,7 +7591,7 @@
     },
     {
       "Route": "images/sg-11134301-7ra2u-m4iod9gtjb04e2.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra2u-m4iod9gtjb04e2.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra2u-m4iod9gtjb04e2.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7628,7 +7628,7 @@
     },
     {
       "Route": "images/sg-11134301-7ra3v-m4iod4br235cdf.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra3v-m4iod4br235cdf.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra3v-m4iod4br235cdf.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7665,7 +7665,7 @@
     },
     {
       "Route": "images/sg-11134301-7ra3v-m4iod4br235cdf.zlr66sjz2y.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra3v-m4iod4br235cdf.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra3v-m4iod4br235cdf.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7710,7 +7710,7 @@
     },
     {
       "Route": "images/sg-11134301-7rcc2-m6c1oy5jhxcn29.7l84md1pqx.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcc2-m6c1oy5jhxcn29.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcc2-m6c1oy5jhxcn29.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7755,7 +7755,7 @@
     },
     {
       "Route": "images/sg-11134301-7rcc2-m6c1oy5jhxcn29.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcc2-m6c1oy5jhxcn29.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcc2-m6c1oy5jhxcn29.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7792,7 +7792,7 @@
     },
     {
       "Route": "images/sg-11134301-7rcd0-m6c1oyajakjkd0.v3dklzqr3p.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcd0-m6c1oyajakjkd0.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcd0-m6c1oyajakjkd0.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7837,7 +7837,7 @@
     },
     {
       "Route": "images/sg-11134301-7rcd0-m6c1oyajakjkd0.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcd0-m6c1oyajakjkd0.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7rcd0-m6c1oyajakjkd0.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7874,7 +7874,7 @@
     },
     {
       "Route": "images/tw-11134207-7r98q-lpivmu5wpp9538.oo7zsiq1wl.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7r98q-lpivmu5wpp9538.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7r98q-lpivmu5wpp9538.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7919,7 +7919,7 @@
     },
     {
       "Route": "images/tw-11134207-7r98q-lpivmu5wpp9538.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7r98q-lpivmu5wpp9538.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7r98q-lpivmu5wpp9538.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7956,7 +7956,7 @@
     },
     {
       "Route": "images/tw-11134207-7rase-m3ys5nhqfk5c31.bbnn0rgch9.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rase-m3ys5nhqfk5c31.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rase-m3ys5nhqfk5c31.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8001,7 +8001,7 @@
     },
     {
       "Route": "images/tw-11134207-7rase-m3ys5nhqfk5c31.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rase-m3ys5nhqfk5c31.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rase-m3ys5nhqfk5c31.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8038,7 +8038,7 @@
     },
     {
       "Route": "images/tw-11134207-7rasg-m3ys5dqqut572c.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rasg-m3ys5dqqut572c.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rasg-m3ys5dqqut572c.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8075,7 +8075,7 @@
     },
     {
       "Route": "images/tw-11134207-7rasg-m3ys5dqqut572c.y8huet7lp8.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rasg-m3ys5dqqut572c.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rasg-m3ys5dqqut572c.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8120,7 +8120,7 @@
     },
     {
       "Route": "images/tw-11134207-7rbk5-m8uqm2b9ezmu27.ezrlk1omq5.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rbk5-m8uqm2b9ezmu27.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rbk5-m8uqm2b9ezmu27.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8165,7 +8165,7 @@
     },
     {
       "Route": "images/tw-11134207-7rbk5-m8uqm2b9ezmu27.webp",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rbk5-m8uqm2b9ezmu27.webp",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\tw-11134207-7rbk5-m8uqm2b9ezmu27.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8202,7 +8202,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\js\\site.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8239,7 +8239,7 @@
     },
     {
       "Route": "js/site.suecoj0pd2.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\js\\site.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8284,7 +8284,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8329,7 +8329,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8366,7 +8366,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.c2jlpeoesf.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8411,7 +8411,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8448,7 +8448,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8485,7 +8485,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.aexeepp0ev.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8530,7 +8530,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8567,7 +8567,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.erw9l3u2r3.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8612,7 +8612,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8649,7 +8649,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.ausgxo2sd3.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8694,7 +8694,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8731,7 +8731,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.d7shbmvgxk.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8776,7 +8776,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8813,7 +8813,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.cosvhxvwiu.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8858,7 +8858,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8895,7 +8895,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.k8d9w2qqmf.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8940,7 +8940,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8977,7 +8977,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.fvhpjtyr6v.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9022,7 +9022,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9059,7 +9059,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.b7pk76d08c.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9104,7 +9104,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9141,7 +9141,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.fsbi9cje9m.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9186,7 +9186,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9223,7 +9223,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9260,7 +9260,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.ee0r1s7dh0.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9305,7 +9305,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9342,7 +9342,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9379,7 +9379,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.jd9uben2k1.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9424,7 +9424,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9461,7 +9461,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.dxx9fxp4il.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9506,7 +9506,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.rzd6atqjts.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9551,7 +9551,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.ub07r2b239.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9596,7 +9596,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9633,7 +9633,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9670,7 +9670,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.r4e9w2rdcm.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9715,7 +9715,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.khv3u5hwcm.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9760,7 +9760,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9797,7 +9797,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.c2oey78nd0.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9842,7 +9842,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9879,7 +9879,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.lcd1t2u6c8.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9924,7 +9924,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9961,7 +9961,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.j5mq2jizvt.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10006,7 +10006,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10043,7 +10043,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.06098lyss8.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10088,7 +10088,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10125,7 +10125,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10162,7 +10162,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.nvvlpmu67g.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10207,7 +10207,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.tdbxkamptv.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10252,7 +10252,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10289,7 +10289,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10326,7 +10326,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.pj5nd1wqec.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10371,7 +10371,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10416,7 +10416,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10453,7 +10453,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10490,7 +10490,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.v0zj4ognzu.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10535,7 +10535,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.37tfw0ft22.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10580,7 +10580,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10617,7 +10617,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.hrwsygsryq.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10662,7 +10662,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10699,7 +10699,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10736,7 +10736,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.ft3s53vfgj.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10781,7 +10781,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10818,7 +10818,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.pk9g2wxc8p.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10863,7 +10863,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.s35ty4nyc5.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10908,7 +10908,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.6cfz1n2cew.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10953,7 +10953,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10990,7 +10990,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.6pdc2jztkx.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11035,7 +11035,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11072,7 +11072,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11117,7 +11117,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11154,7 +11154,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.iovd86k7lj.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11199,7 +11199,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11236,7 +11236,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11273,7 +11273,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.kbrnm935zg.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11318,7 +11318,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11355,7 +11355,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jj8uyg4cgr.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11400,7 +11400,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11437,7 +11437,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11474,7 +11474,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.y7v9cxd14o.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11519,7 +11519,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.vr1egmr9el.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11564,7 +11564,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11601,7 +11601,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.h1s4sie4z3.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11646,7 +11646,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11683,7 +11683,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.63fj8s7r0e.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11728,7 +11728,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11765,7 +11765,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.0j3bgjxly4.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11810,7 +11810,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11847,7 +11847,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.notf2xhcfb.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11892,7 +11892,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11929,7 +11929,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11974,7 +11974,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12019,7 +12019,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12056,7 +12056,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12101,7 +12101,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12138,7 +12138,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12183,7 +12183,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12220,7 +12220,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.83jwlth58m.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12265,7 +12265,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12302,7 +12302,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12339,7 +12339,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.mrlpezrjn3.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12384,7 +12384,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12421,7 +12421,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.lzl9nlhx6b.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12466,7 +12466,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.ag7o75518u.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12511,7 +12511,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12548,7 +12548,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12585,7 +12585,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12630,7 +12630,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.0i3buxo5is.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12675,7 +12675,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12712,7 +12712,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12749,7 +12749,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12786,7 +12786,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.o1o13a6vjx.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12831,7 +12831,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.ttgo8qnofa.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12876,7 +12876,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.2z0ns9nrw6.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12921,7 +12921,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12958,7 +12958,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.min.87fc7y1x7t.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13003,7 +13003,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.min.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13040,7 +13040,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.min.map",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13077,7 +13077,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.min.muycvpuwrr.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13122,7 +13122,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13167,7 +13167,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
