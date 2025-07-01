@@ -14,7 +14,7 @@ namespace dogwebMVC.Controllers
 
         public AuthApiController(AppDbContext context)
         {
-            _context = context;
+            _context = context ?? throw new ArgumentNullException(nameof(context), "資料庫尚未設定");
         }
 
         // 註冊更改寫法 不使用[FromFrom]]
