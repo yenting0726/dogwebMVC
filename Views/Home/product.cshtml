@@ -1,4 +1,416 @@
 @{
-    ViewData["Title"] = "Product Page";
-    Layout = "_Layout";
+    ViewData["Title"] = "產品展示 - 狗狗網站";
 }
+
+<div class="page-container">
+    <!-- 頁面標題 -->
+    <div class="page-title">
+        <h1><i class="fas fa-shopping-bag me-3"></i>產品展示</h1>
+        <p class="mb-0 mt-2">精選優質寵物用品，為您的毛孩提供最好的選擇</p>
+    </div>
+
+    <div class="container">
+        <!-- 產品分類 -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="fas fa-filter me-2"></i>產品分類
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-md-3">
+                                <div class="category-card text-center">
+                                    <i class="fas fa-bone fa-3x text-warning mb-3"></i>
+                                    <h6>營養食品</h6>
+                                    <p class="small text-muted">均衡營養配方</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="category-card text-center">
+                                    <i class="fas fa-home fa-3x text-info mb-3"></i>
+                                    <h6>居家用品</h6>
+                                    <p class="small text-muted">舒適生活環境</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="category-card text-center">
+                                    <i class="fas fa-tshirt fa-3x text-primary mb-3"></i>
+                                    <h6>時尚配件</h6>
+                                    <p class="small text-muted">潮流時尚設計</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="category-card text-center">
+                                    <i class="fas fa-gamepad fa-3x text-success mb-3"></i>
+                                    <h6>玩具娛樂</h6>
+                                    <p class="small text-muted">快樂玩耍時光</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 熱門產品 -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="fas fa-fire me-2"></i>熱門產品
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-4">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="product-card h-100">
+                                    <div class="product-badge">熱銷</div>
+                                    <img src="~/images/5e274d1461edc9ac5b0dff023621a423.webp" class="card-img-top" alt="優質狗糧">
+                                    <div class="card-body d-flex flex-column">
+                                        <h6 class="card-title">優質狗糧</h6>
+                                        <p class="card-text small">營養均衡的狗糧，適合各種年齡的狗狗</p>
+                                        <div class="product-rating mb-2">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <span class="ms-2 small text-muted">(4.8)</span>
+                                        </div>
+                                        <div class="mt-auto">
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <span class="price">NT$ 299</span>
+                                                <span class="original-price text-muted">NT$ 399</span>
+                                            </div>
+                                            <button class="btn btn-primary w-100">
+                                                <i class="fas fa-shopping-cart me-2"></i>加入購物車
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6">
+                                <div class="product-card h-100">
+                                    <div class="product-badge">新品</div>
+                                    <img src="~/images/5e274d1461edc9ac5b0dff023621a423.webp" class="card-img-top" alt="狗狗玩具">
+                                    <div class="card-body d-flex flex-column">
+                                        <h6 class="card-title">狗狗玩具</h6>
+                                        <p class="card-text small">耐咬安全玩具，讓狗狗快樂玩耍</p>
+                                        <div class="product-rating mb-2">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="far fa-star text-warning"></i>
+                                            <span class="ms-2 small text-muted">(4.2)</span>
+                                        </div>
+                                        <div class="mt-auto">
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <span class="price">NT$ 199</span>
+                                            </div>
+                                            <button class="btn btn-primary w-100">
+                                                <i class="fas fa-shopping-cart me-2"></i>加入購物車
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6">
+                                <div class="product-card h-100">
+                                    <img src="~/images/5e274d1461edc9ac5b0dff023621a423.webp" class="card-img-top" alt="狗狗床墊">
+                                    <div class="card-body d-flex flex-column">
+                                        <h6 class="card-title">狗狗床墊</h6>
+                                        <p class="card-text small">舒適睡眠床墊，讓狗狗安心休息</p>
+                                        <div class="product-rating mb-2">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <span class="ms-2 small text-muted">(4.9)</span>
+                                        </div>
+                                        <div class="mt-auto">
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <span class="price">NT$ 599</span>
+                                            </div>
+                                            <button class="btn btn-primary w-100">
+                                                <i class="fas fa-shopping-cart me-2"></i>加入購物車
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6">
+                                <div class="product-card h-100">
+                                    <div class="product-badge">限時</div>
+                                    <img src="~/images/5e274d1461edc9ac5b0dff023621a423.webp" class="card-img-top" alt="狗狗項圈">
+                                    <div class="card-body d-flex flex-column">
+                                        <h6 class="card-title">狗狗項圈</h6>
+                                        <p class="card-text small">時尚安全項圈，舒適不勒頸</p>
+                                        <div class="product-rating mb-2">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="far fa-star text-warning"></i>
+                                            <span class="ms-2 small text-muted">(4.1)</span>
+                                        </div>
+                                        <div class="mt-auto">
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <span class="price">NT$ 399</span>
+                                                <span class="original-price text-muted">NT$ 499</span>
+                                            </div>
+                                            <button class="btn btn-primary w-100">
+                                                <i class="fas fa-shopping-cart me-2"></i>加入購物車
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 產品特色 -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-shipping-fast fa-4x text-primary mb-3"></i>
+                        <h5 class="card-title">快速配送</h5>
+                        <p class="card-text">全台灣快速配送，讓您的毛孩不用等待太久就能收到心愛的用品。</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>24小時內出貨</li>
+                            <li><i class="fas fa-check text-success me-2"></i>免費配送</li>
+                            <li><i class="fas fa-check text-success me-2"></i>貨到付款</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-shield-alt fa-4x text-success mb-3"></i>
+                        <h5 class="card-title">品質保證</h5>
+                        <p class="card-text">所有商品都經過嚴格品質檢驗，確保您的毛孩使用安全無虞。</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>品質認證</li>
+                            <li><i class="fas fa-check text-success me-2"></i>7天退換貨</li>
+                            <li><i class="fas fa-check text-success me-2"></i>售後服務</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 客戶評價 -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <i class="fas fa-comments me-2"></i>客戶評價
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="review-card">
+                            <div class="review-header">
+                                <div class="reviewer-info">
+                                    <img src="~/images/5e274d1461edc9ac5b0dff023621a423.webp" alt="客戶頭像" class="reviewer-avatar">
+                                    <div>
+                                        <h6 class="mb-0">王小明</h6>
+                                        <div class="stars">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="review-text">"產品品質很好，我的狗狗很喜歡！配送也很快，會再購買。"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="review-card">
+                            <div class="review-header">
+                                <div class="reviewer-info">
+                                    <img src="~/images/5e274d1461edc9ac5b0dff023621a423.webp" alt="客戶頭像" class="reviewer-avatar">
+                                    <div>
+                                        <h6 class="mb-0">李小華</h6>
+                                        <div class="stars">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="far fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="review-text">"服務很貼心，產品包裝精美，價格也很合理。"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="review-card">
+                            <div class="review-header">
+                                <div class="reviewer-info">
+                                    <img src="~/images/5e274d1461edc9ac5b0dff023621a423.webp" alt="客戶頭像" class="reviewer-avatar">
+                                    <div>
+                                        <h6 class="mb-0">張小美</h6>
+                                        <div class="stars">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="review-text">"第一次購買就愛上了，商品種類豐富，品質有保證！"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Font Awesome 圖標 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="~/css/modern-styles.css">
+
+<style>
+/* 產品頁面特殊樣式 */
+.category-card {
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+}
+
+.product-card {
+    position: relative;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.product-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    z-index: 10;
+}
+
+.product-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.original-price {
+    text-decoration: line-through;
+    font-size: 0.9rem;
+}
+
+.review-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border-left: 4px solid var(--primary-color);
+}
+
+.review-header {
+    margin-bottom: 1rem;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.reviewer-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.stars {
+    display: flex;
+    gap: 2px;
+}
+
+.review-text {
+    color: var(--gray-700);
+    font-style: italic;
+    margin: 0;
+}
+
+/* 響應式調整 */
+@@media (max-width: 768px) {
+    .category-card {
+        padding: 1rem;
+    }
+    
+    .product-card .card-img-top {
+        height: 150px;
+    }
+    
+    .reviewer-info {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+}
+</style>

@@ -1143,3 +1143,4 @@ c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net8.0\refint\dogwebMVC.dll
 c:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net8.0\dogwebMVC.pdb
 C:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net8.0\dogwebMVC.genruntimeconfig.cache
 C:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net8.0\ref\dogwebMVC.dll
+C:\Users\USER\Documents\GitHub\dogwebMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

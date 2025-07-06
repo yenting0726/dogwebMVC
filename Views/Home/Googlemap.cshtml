@@ -1,41 +1,274 @@
 ﻿@{
-    ViewData["Title"] = "公園地圖";
+    ViewData["Title"] = "公園地圖 - 狗狗網站";
 }
 
-
-
-
-
-<div id="app" class="container my-4">
-    <h1>{{ title }}</h1>
-
-    <div class="btn-group mb-3">
-        <button
-            v-for="area in areas"               @*  <!-- 逐一遍歷 areas 陣列，area 是目前的元素 -->*@
-            :key="area.name"                    @*  <!-- Vue 要求使用唯一 key 來追蹤列表元素，這裡用 area.name 當作 key --> *@            class="btn btn-outline-primary"
-            v-on:click="selectArea(area.name)"  @*  <!-- 當按鈕被點擊時，呼叫 selectArea 方法並傳入 area.name --> *@
-            >{{ area.name }}</button>
-
+<div id="app" class="page-container">
+    <!-- 頁面標題 -->
+    <div class="page-title">
+        <h1><i class="fas fa-map-marked-alt me-3"></i>{{ selectedArea ? selectedArea + ' 公園地圖' : '公園地圖' }}</h1>
+        <p class="mb-0 mt-2">探索附近的寵物友善公園，為您的毛孩找到完美的玩耍場所</p>
     </div>
 
-    <div v-if="selectedArea">
-        <h3>{{ selectedArea }} 公園地圖</h3> 
-        <iframe
-            :src="areaMap[selectedArea]"
-            width="100%"
-            height="450"
-            style="border:0;"
-            allowfullscreen
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-        <p class="mt-2" v-html="address[selectedArea]">  @*  <!-- 使用 v-html 來顯示 HTML 格式 沒有的話<br 沒反應>--> *@
-             {{ selectedArea }}  公園資料：
+    <div class="container">
+        <!-- 區域選擇 -->
+        <div class="row justify-content-center mb-4">
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="fas fa-location-arrow me-2"></i>選擇區域
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="area-buttons">
+                            <div class="btn-group-vertical btn-group-lg w-100" role="group">
+                                <button
+                                    v-for="area in areas"
+                                    :key="area.name"
+                                    class="btn btn-outline-primary area-btn"
+                                    v-on:click="selectArea(area.name)"
+                                    :class="{ 'active': selectedArea === area.name }"
+                                >
+                                    <i class="fas fa-map-marker-alt me-2"></i>
+                                    {{ area.name }}
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-             {{ address[selectedArea] }}
-</p>
+        <!-- 地圖顯示區域 -->
+        <div v-if="selectedArea" class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="fas fa-map me-2"></i>{{ selectedArea }} 公園地圖
+                        </h5>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="map-container">
+                            <iframe
+                                :src="areaMap[selectedArea]"
+                                width="100%"
+                                height="500"
+                                style="border:0; border-radius: 0 0 1rem 1rem;"
+                                allowfullscreen
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 公園資訊 -->
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h6 class="mb-0">
+                            <i class="fas fa-info-circle me-2"></i>{{ selectedArea }} 公園資訊
+                        </h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="park-info" v-html="address[selectedArea]"></div>
+                        
+                        <!-- 設施圖標 -->
+                        <div class="facilities mt-3">
+                            <h6 class="text-primary mb-3">
+                                <i class="fas fa-list me-2"></i>公園設施
+                            </h6>
+                            <div class="facility-icons">
+                                <span class="facility-item">
+                                    <i class="fas fa-wheelchair text-success me-1"></i>
+                                    無障礙入口
+                                </span>
+                                <span class="facility-item">
+                                    <i class="fas fa-baby text-info me-1"></i>
+                                    適合兒童
+                                </span>
+                                <span class="facility-item">
+                                    <i class="fas fa-paw text-warning me-1"></i>
+                                    可帶寵物
+                                </span>
+                                <span class="facility-item">
+                                    <i class="fas fa-restroom text-primary me-1"></i>
+                                    公共廁所
+                                </span>
+                                <span class="facility-item">
+                                    <i class="fas fa-parking text-secondary me-1"></i>
+                                    停車場
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 公園特色 -->
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <i class="fas fa-leaf fa-3x text-success mb-3"></i>
+                                <h6 class="card-title">綠意盎然</h6>
+                                <p class="card-text small">寬敞的綠地空間，讓毛孩自由奔跑</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                                <h6 class="card-title">社交場所</h6>
+                                <p class="card-text small">認識其他毛孩朋友，增進社交能力</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <i class="fas fa-shield-alt fa-3x text-warning mb-3"></i>
+                                <h6 class="card-title">安全環境</h6>
+                                <p class="card-text small">安全的圍欄設施，讓您安心放鬆</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 使用說明 -->
+        <div v-if="!selectedArea" class="row justify-content-center mt-5">
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-hand-point-up fa-4x text-primary mb-3"></i>
+                        <h5 class="card-title">請選擇區域</h5>
+                        <p class="card-text">點擊上方按鈕選擇您想要查看的區域，我們將為您顯示該區域的寵物友善公園地圖。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
+<!-- Font Awesome 圖標 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="~/css/modern-styles.css">
+
+<style>
+/* Googlemap 頁面特殊樣式 */
+.area-buttons {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.area-btn {
+    margin-bottom: 0.5rem;
+    border-radius: 12px !important;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+}
+
+.area-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.area-btn.active {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-color: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.map-container {
+    position: relative;
+    border-radius: 0 0 1rem 1rem;
+    overflow: hidden;
+}
+
+.park-info {
+    background: var(--gray-100);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.facility-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.facility-item {
+    display: inline-flex;
+    align-items: center;
+    background: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.facility-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 動畫效果 */
+.card {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+@@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 響應式調整 */
+@@media (max-width: 768px) {
+    .area-btn {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .facility-icons {
+        gap: 0.5rem;
+    }
+    
+    .facility-item {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+    
+    .map-container iframe {
+        height: 300px;
+    }
+}
+
+@@media (max-width: 576px) {
+    .area-buttons .btn-group-vertical {
+        flex-direction: column;
+    }
+    
+    .facility-icons {
+        justify-content: center;
+    }
+}
+</style>
 
 <script>
 const { createApp } = Vue;  
@@ -43,7 +276,6 @@ const { createApp } = Vue;
 createApp({ 
     data() {    
         return {    
-            title: '公園地圖',  
             selectedArea: '',   
 
             areas: [
@@ -67,12 +299,21 @@ createApp({
                 '八德區': '環境:無障礙入口,適合兒童<br>設施:可帶寵物,無障礙停車場,公共廁所,適合兒童的遠足活動,附設停車場',
                 '龍潭區': '環境:無障礙入口,適合兒童<br>設施:可帶寵物,有網球場,籃球場,無障礙停車場,公共廁所,適合兒童的遠足活動,'
             }
-
         }
     },
     methods: {
         selectArea(area) {
             this.selectedArea = area;
+            // 平滑滾動到地圖區域
+            setTimeout(() => {
+                const mapElement = document.querySelector('.map-container');
+                if (mapElement) {
+                    mapElement.scrollIntoView({ 
+                        behavior: 'smooth', 
+                        block: 'start' 
+                    });
+                }
+            }, 100);
         }
     }
 }).mount('#app');
