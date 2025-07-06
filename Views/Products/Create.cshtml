@@ -1,88 +1,322 @@
 @model dogwebMVC.Models.Productdogweb
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "新增產品 - 狗狗網站";
 }
 
-<h1>新增產品</h1>
-
-<!-- 除錯訊息 -->
-@if (ViewBag.DebugMessage != null)
-{
-    <div class="alert alert-info">
-        <strong>除錯訊息:</strong> @ViewBag.DebugMessage
+<div class="page-container">
+    <!-- 頁面標題 -->
+    <div class="page-title">
+        <h1><i class="fas fa-plus-circle me-3"></i>新增產品</h1>
+        <p class="mb-0 mt-2">為您的商店添加新的寵物用品</p>
     </div>
-}
 
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <!-- 重要：加入 method="post" 和 enctype="multipart/form-data" -->
-        <form asp-action="Create" method="post" enctype="multipart/form-data">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            
-            <div class="form-group">
-                <label asp-for="Name" class="control-label">產品名稱</label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-            
-            <div class="form-group">
-                <label asp-for="Price" class="control-label">價格</label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
-            </div>
-            
-            <!-- 檔案上傳欄位 -->
-            <div class="form-group">
-                <label for="PhotoPath" class="control-label">產品照片</label>
-                <input name="PhotoPath" type="file" class="form-control" accept="image/*" />
-                <span class="text-danger" id="photo-error"></span>
-                <small class="form-text text-muted">支援格式：JPG, JPEG, PNG, GIF, JFIF (最大 5MB)</small>
-            </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="fas fa-edit me-2"></i>產品資訊
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <!-- 除錯訊息 -->
+                        @if (ViewBag.DebugMessage != null)
+                        {
+                            <div class="alert alert-info d-flex align-items-center" role="alert">
+                                <i class="fas fa-info-circle me-2"></i>
+                                <div>
+                                    <strong>除錯訊息:</strong> @ViewBag.DebugMessage
+                                </div>
+                            </div>
+                        }
 
-            <div class="form-group">
-                <input type="submit" value="新增產品" class="btn btn-primary" />
+                        <!-- 重要：加入 method="post" 和 enctype="multipart/form-data" -->
+                        <form asp-action="Create" method="post" enctype="multipart/form-data" id="createForm">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group mb-3">
+                                        <label asp-for="Name" class="form-label">
+                                            <i class="fas fa-tag me-2"></i>產品名稱
+                                        </label>
+                                        <input asp-for="Name" class="form-control" placeholder="請輸入產品名稱" />
+                                        <span asp-validation-for="Name" class="validation-error"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <div class="form-group mb-3">
+                                        <label asp-for="Price" class="form-label">
+                                            <i class="fas fa-dollar-sign me-2"></i>價格
+                                        </label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">NT$</span>
+                                            <input asp-for="Price" class="form-control" placeholder="請輸入價格" type="number" step="0.01" min="0" />
+                                        </div>
+                                        <span asp-validation-for="Price" class="validation-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 檔案上傳欄位 -->
+                            <div class="form-group mb-4">
+                                <label for="PhotoPath" class="form-label">
+                                    <i class="fas fa-image me-2"></i>產品照片
+                                </label>
+                                <div class="file-upload-container">
+                                    <input name="PhotoPath" type="file" class="form-control" accept="image/*" id="photoInput" />
+                                    <div class="file-upload-preview mt-2" id="imagePreview" style="display: none;">
+                                        <img id="previewImg" src="" alt="預覽圖片" class="img-fluid rounded" style="max-height: 200px;">
+                                    </div>
+                                </div>
+                                <span class="validation-error" id="photo-error"></span>
+                                <small class="form-text text-muted">
+                                    <i class="fas fa-info-circle me-1"></i>
+                                    支援格式：JPG, JPEG, PNG, GIF, JFIF (最大 5MB)
+                                </small>
+                            </div>
+
+                            <!-- 按鈕區域 -->
+                            <div class="d-flex gap-3 justify-content-center">
+                                <button type="submit" class="btn btn-success btn-lg">
+                                    <i class="fas fa-save me-2"></i>新增產品
+                                </button>
+                                <a asp-action="Index" class="btn btn-outline-secondary btn-lg">
+                                    <i class="fas fa-arrow-left me-2"></i>回到列表
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- 提示卡片 -->
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h6 class="mb-0">
+                            <i class="fas fa-lightbulb me-2"></i>新增產品小提示
+                        </h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2">
+                                        <i class="fas fa-check-circle text-success me-2"></i>
+                                        使用清晰的產品名稱
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-check-circle text-success me-2"></i>
+                                        設定合理的價格
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2">
+                                        <i class="fas fa-check-circle text-success me-2"></i>
+                                        上傳高品質產品圖片
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-check-circle text-success me-2"></i>
+                                        確保圖片檔案大小適中
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </form>
+        </div>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">回到列表</a>
 </div>
 
 <!-- 客戶端檔案驗證 -->
 <script>
-document.querySelector('input[type="file"]').addEventListener('change', function(e) {
-    const file = e.target.files[0];
-    const errorSpan = document.getElementById('photo-error');
-    
-    if (file) {
-        // 檢查檔案大小 (5MB)
-        if (file.size > 5 * 1024 * 1024) {
-            errorSpan.textContent = '檔案大小不能超過 5MB';
-            e.target.value = '';
-            return;
+document.addEventListener('DOMContentLoaded', function() {
+    const photoInput = document.getElementById('photoInput');
+    const imagePreview = document.getElementById('imagePreview');
+    const previewImg = document.getElementById('previewImg');
+    const photoError = document.getElementById('photo-error');
+    const form = document.getElementById('createForm');
+
+    // 檔案選擇事件
+    photoInput.addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        
+        if (file) {
+            // 檢查檔案大小 (5MB)
+            if (file.size > 5 * 1024 * 1024) {
+                photoError.textContent = '檔案大小不能超過 5MB';
+                photoInput.value = '';
+                imagePreview.style.display = 'none';
+                return;
+            }
+            
+            // 檢查檔案類型
+            const allowedTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif'];
+            const fileName = file.name.toLowerCase();
+            const isValidType = allowedTypes.some(type => file.type.includes(type.split('/')[1])) || 
+                               fileName.endsWith('.jfif');
+            
+            if (!isValidType) {
+                photoError.textContent = '只允許上傳圖片檔案 (JPG, PNG, GIF, JFIF)';
+                photoInput.value = '';
+                imagePreview.style.display = 'none';
+                return;
+            }
+            
+            // 顯示預覽
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                previewImg.src = e.target.result;
+                imagePreview.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+            
+            photoError.textContent = '';
+            console.log('檔案通過驗證:', file.name);
+        } else {
+            imagePreview.style.display = 'none';
         }
-        
-        // 檢查檔案類型
-        const allowedTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif'];
-        const fileName = file.name.toLowerCase();
-        const isValidType = allowedTypes.some(type => file.type.includes(type.split('/')[1])) || 
-                           fileName.endsWith('.jfif');
-        
-        if (!isValidType) {
-            errorSpan.textContent = '只允許上傳圖片檔案 (JPG, PNG, GIF, JFIF)';
-            e.target.value = '';
-            return;
+    });
+
+    // 表單提交驗證
+    form.addEventListener('submit', function(e) {
+        const name = document.querySelector('input[asp-for="Name"]').value.trim();
+        const price = document.querySelector('input[asp-for="Price"]').value;
+        const photo = photoInput.files[0];
+
+        let hasError = false;
+
+        // 驗證產品名稱
+        if (!name) {
+            showFieldError('Name', '請輸入產品名稱');
+            hasError = true;
         }
+
+        // 驗證價格
+        if (!price || parseFloat(price) <= 0) {
+            showFieldError('Price', '請輸入有效的價格');
+            hasError = true;
+        }
+
+        // 驗證圖片
+        if (!photo) {
+            photoError.textContent = '請選擇產品圖片';
+            hasError = true;
+        }
+
+        if (hasError) {
+            e.preventDefault();
+            showToast('請檢查表單中的錯誤', 'error');
+        }
+    });
+
+    function showFieldError(fieldName, message) {
+        const field = document.querySelector(`input[asp-for="${fieldName}"]`);
+        const errorSpan = field.nextElementSibling;
+        if (errorSpan && errorSpan.classList.contains('validation-error')) {
+            errorSpan.textContent = message;
+        }
+    }
+
+    function showToast(message, type = 'info') {
+        const toast = document.createElement('div');
+        toast.className = `toast-notification toast-${type}`;
+        toast.innerHTML = `
+            <div class="toast-content">
+                <i class="fas fa-${type === 'success' ? 'check-circle' : type === 'error' ? 'exclamation-circle' : 'info-circle'} me-2"></i>
+                ${message}
+            </div>
+        `;
         
-        errorSpan.textContent = '';
-        console.log('檔案通過驗證:', file.name);
+        document.body.appendChild(toast);
+        setTimeout(() => toast.classList.add('show'), 100);
+        
+        setTimeout(() => {
+            toast.classList.remove('show');
+            setTimeout(() => document.body.removeChild(toast), 300);
+        }, 3000);
     }
 });
 </script>
+
+<!-- Font Awesome 圖標 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="~/css/modern-styles.css">
+
+<style>
+/* Toast 通知樣式 */
+.toast-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: white;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    max-width: 300px;
+}
+
+.toast-notification.show {
+    transform: translateX(0);
+}
+
+.toast-success {
+    border-left: 4px solid #4CAF50;
+}
+
+.toast-error {
+    border-left: 4px solid #f44336;
+}
+
+.toast-info {
+    border-left: 4px solid #2196F3;
+}
+
+.toast-content {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.toast-success .toast-content i {
+    color: #4CAF50;
+}
+
+.toast-error .toast-content i {
+    color: #f44336;
+}
+
+.toast-info .toast-content i {
+    color: #2196F3;
+}
+
+/* 檔案上傳樣式 */
+.file-upload-container {
+    border: 2px dashed #dee2e6;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.file-upload-container:hover {
+    border-color: #4CAF50;
+}
+
+.file-upload-preview {
+    text-align: center;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+</style>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

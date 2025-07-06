@@ -1,76 +1,328 @@
 @{
-    ViewData["Title"] = "購物車";
+    ViewData["Title"] = "購物車 - 狗狗網站";
 }
 
-<h1 class="my-4">購物車</h1>
-
-<div id="app2">
-  <!-- 若購物車為空 -->
-  <div v-if="Object.keys(cart).length === 0">
-    <p>購物車是空的。</p>
-  </div>
-
-  <!-- 若有商品 -->
-  <div class="mb-3" v-else>
-    <div class="row">
-      <div class="col-md-4 mb-4" v-for="(item, id) in cart" :key="id">
-        <div class="card">
-          <img :src="item.photoPath" class="card-img-top fixed-img" alt="商品圖片">
-          <div class="card-body">
-            <h5 class="card-title">{{ item.name }}</h5>
-            <p class="card-text">數量：{{ item.quantity }}</p>
-            <p class="card-text">單價：{{ item.price }}</p>
-            <p class="card-text">小計：{{ item.quantity * item.price }}</p>
-            <button class="btn btn-danger" v-on:click="removeItem(id)">刪除</button>
-          </div>
-        </div>
-      </div>
+<div class="page-container">
+    <!-- 頁面標題 -->
+    <div class="page-title">
+        <h1><i class="fas fa-shopping-cart me-3"></i>購物車</h1>
+        <p class="mb-0 mt-2">查看您選擇的商品，準備結帳</p>
     </div>
 
-   <!-- 總金額與按鈕區塊 -->
-<div class="mt-4 d-flex align-items-center gap-3">
-  <h4 class="mb-0">總金額：{{ totalAmount }}</h4>
-  <button class="btn btn-warning" v-on:click="clearCart">清空購物車</button>
-  <button class="btn btn-success">結帳</button>
-</div>
+    <div class="container">
+        <div id="app2">
+            <!-- 若購物車為空 -->
+            <div v-if="Object.keys(cart).length === 0" class="empty-cart">
+                <div class="text-center py-5">
+                    <i class="fas fa-shopping-cart fa-4x text-muted mb-4"></i>
+                    <h3 class="text-muted mb-3">購物車是空的</h3>
+                    <p class="text-muted mb-4">快去挑選一些商品吧！</p>
+                    <a href="/Products" class="btn btn-primary btn-lg">
+                        <i class="fas fa-shopping-bag me-2"></i>瀏覽商品
+                    </a>
+                </div>
+            </div>
+
+            <!-- 若有商品 -->
+            <div v-else>
+                <!-- 購物車商品列表 -->
+                <div class="row g-4 mb-4">
+                    <div class="col-lg-8">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <i class="fas fa-list me-2"></i>購物車商品 ({{ Object.keys(cart).length }} 項)
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="cart-item" v-for="(item, id) in cart" :key="id">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-3">
+                                            <img :src="item.photoPath" class="img-fluid rounded" alt="商品圖片" style="height: 120px; object-fit: cover;">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="mb-2">{{ item.name }}</h6>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <span class="text-muted">單價：</span>
+                                                <span class="fw-bold text-primary">NT$ {{ item.price }}</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span class="text-muted">數量：</span>
+                                                <div class="quantity-controls">
+                                                    <button class="btn btn-sm btn-secondary" v-on:click="updateQuantity(id, -1)">
+                                                        <i class="fas fa-minus"></i>
+                                                    </button>
+                                                    <span class="quantity-display">{{ item.quantity }}</span>
+                                                    <button class="btn btn-sm btn-secondary" v-on:click="updateQuantity(id, 1)">
+                                                        <i class="fas fa-plus"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 text-end">
+                                            <div class="mb-2">
+                                                <span class="text-muted">小計：</span>
+                                                <span class="fw-bold text-success">NT$ {{ (item.quantity * item.price).toFixed(2) }}</span>
+                                            </div>
+                                            <button class="btn btn-danger btn-sm" v-on:click="removeItem(id)">
+                                                <i class="fas fa-trash me-1"></i>刪除
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 購物車摘要 -->
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <i class="fas fa-receipt me-2"></i>購物車摘要
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span>商品總數：</span>
+                                    <span class="fw-bold">{{ totalItems }} 項</span>
+                                </div>
+                                <div class="d-flex justify-content-between mb-3">
+                                    <span>商品總價：</span>
+                                    <span class="fw-bold text-primary">NT$ {{ totalAmount.toFixed(2) }}</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between mb-3">
+                                    <span class="h5 mb-0">總金額：</span>
+                                    <span class="h5 mb-0 text-success">NT$ {{ totalAmount.toFixed(2) }}</span>
+                                </div>
+                                
+                                <div class="d-grid gap-2">
+                                    <button class="btn btn-success btn-lg" v-on:click="checkout">
+                                        <i class="fas fa-credit-card me-2"></i>立即結帳
+                                    </button>
+                                    <button class="btn btn-warning" v-on:click="clearCart">
+                                        <i class="fas fa-trash-alt me-2"></i>清空購物車
+                                    </button>
+                                    <a href="/Products" class="btn btn-outline-primary">
+                                        <i class="fas fa-arrow-left me-2"></i>繼續購物
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 推薦商品 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="fas fa-star me-2"></i>推薦商品
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-md-3">
+                                <div class="card h-100">
+                                    <img src="~/images/5e274d1461edc9ac5b0dff023621a423.webp" class="card-img-top" alt="推薦商品" style="height: 150px; object-fit: cover;">
+                                    <div class="card-body">
+                                        <h6 class="card-title">優質狗糧</h6>
+                                        <p class="card-text small">營養均衡的狗糧</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span class="text-primary fw-bold">NT$ 299</span>
+                                            <button class="btn btn-sm btn-primary">加入購物車</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card h-100">
+                                    <img src="~/images/5e274d1461edc9ac5b0dff023621a423.webp" class="card-img-top" alt="推薦商品" style="height: 150px; object-fit: cover;">
+                                    <div class="card-body">
+                                        <h6 class="card-title">狗狗玩具</h6>
+                                        <p class="card-text small">耐咬安全玩具</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span class="text-primary fw-bold">NT$ 199</span>
+                                            <button class="btn btn-sm btn-primary">加入購物車</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card h-100">
+                                    <img src="~/images/5e274d1461edc9ac5b0dff023621a423.webp" class="card-img-top" alt="推薦商品" style="height: 150px; object-fit: cover;">
+                                    <div class="card-body">
+                                        <h6 class="card-title">狗狗床墊</h6>
+                                        <p class="card-text small">舒適睡眠床墊</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span class="text-primary fw-bold">NT$ 599</span>
+                                            <button class="btn btn-sm btn-primary">加入購物車</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card h-100">
+                                    <img src="~/images/5e274d1461edc9ac5b0dff023621a423.webp" class="card-img-top" alt="推薦商品" style="height: 150px; object-fit: cover;">
+                                    <div class="card-body">
+                                        <h6 class="card-title">狗狗項圈</h6>
+                                        <p class="card-text small">時尚安全項圈</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span class="text-primary fw-bold">NT$ 399</span>
+                                            <button class="btn btn-sm btn-primary">加入購物車</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script>
-  const app2 = Vue.createApp({
-    data() {
-      return {
-        cart: {}
-      }
-    },
-    computed: {
-      // 計算總金額
-      totalAmount() {
-        return Object.values(this.cart).reduce((total, item) => {
-          return total + (item.quantity * item.price);
-        }, 0);
-      }
-    },
-    mounted() {
-      const storedCart = localStorage.getItem('cart');
-      if (storedCart) {
-        this.cart = JSON.parse(storedCart);
-      }
-    },
-    methods: {
-      removeItem(id) {
-        if (confirm('確定要刪除這項商品嗎？')) {
-          delete this.cart[id];
-          localStorage.setItem('cart', JSON.stringify(this.cart));
+    const app2 = Vue.createApp({
+        data() {
+            return {
+                cart: {}
+            }
+        },
+        computed: {
+            // 計算總金額
+            totalAmount() {
+                return Object.values(this.cart).reduce((total, item) => {
+                    return total + (item.quantity * item.price);
+                }, 0);
+            },
+            // 計算總商品數
+            totalItems() {
+                return Object.values(this.cart).reduce((total, item) => {
+                    return total + item.quantity;
+                }, 0);
+            }
+        },
+        mounted() {
+            const storedCart = localStorage.getItem('cart');
+            if (storedCart) {
+                this.cart = JSON.parse(storedCart);
+            }
+        },
+        methods: {
+            updateQuantity(id, change) {
+                if (this.cart[id]) {
+                    this.cart[id].quantity += change;
+                    if (this.cart[id].quantity <= 0) {
+                        this.removeItem(id);
+                    } else {
+                        localStorage.setItem('cart', JSON.stringify(this.cart));
+                    }
+                }
+            },
+            removeItem(id) {
+                if (confirm('確定要刪除這項商品嗎？')) {
+                    delete this.cart[id];
+                    localStorage.setItem('cart', JSON.stringify(this.cart));
+                    this.showToast('商品已從購物車中移除', 'success');
+                }
+            },
+            clearCart() {
+                if (confirm('確定要清空購物車嗎？')) {
+                    this.cart = {};
+                    localStorage.removeItem('cart');
+                    this.showToast('購物車已清空', 'info');
+                }
+            },
+            checkout() {
+                if (Object.keys(this.cart).length === 0) {
+                    this.showToast('購物車是空的，無法結帳', 'error');
+                    return;
+                }
+                
+                // 這裡可以導向結帳頁面或顯示結帳表單
+                alert('即將導向結帳頁面...');
+                // window.location.href = '/checkout';
+            },
+            showToast(message, type = 'info') {
+                // 創建 Toast 元素
+                const toast = document.createElement('div');
+                toast.className = `toast-notification toast-${type}`;
+                toast.innerHTML = `
+                    <div class="toast-content">
+                        <i class="fas fa-${type === 'success' ? 'check-circle' : type === 'error' ? 'exclamation-circle' : 'info-circle'} me-2"></i>
+                        ${message}
+                    </div>
+                `;
+                
+                document.body.appendChild(toast);
+                
+                // 顯示動畫
+                setTimeout(() => toast.classList.add('show'), 100);
+                
+                // 自動移除
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                    setTimeout(() => document.body.removeChild(toast), 300);
+                }, 3000);
+            }
         }
-      },
-      clearCart() {
-        if (confirm('確定要清空購物車嗎？')) {
-          this.cart = {};
-          localStorage.removeItem('cart');
-        }
-      }
-    }
-  });
+    });
 
-  app2.mount('#app2');
+    app2.mount('#app2');
 </script>
+
+<!-- Font Awesome 圖標 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="~/css/modern-styles.css">
+
+<style>
+/* Toast 通知樣式 */
+.toast-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: white;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    max-width: 300px;
+}
+
+.toast-notification.show {
+    transform: translateX(0);
+}
+
+.toast-success {
+    border-left: 4px solid #4CAF50;
+}
+
+.toast-error {
+    border-left: 4px solid #f44336;
+}
+
+.toast-info {
+    border-left: 4px solid #2196F3;
+}
+
+.toast-content {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.toast-success .toast-content i {
+    color: #4CAF50;
+}
+
+.toast-error .toast-content i {
+    color: #f44336;
+}
+
+.toast-info .toast-content i {
+    color: #2196F3;
+}
+</style>
