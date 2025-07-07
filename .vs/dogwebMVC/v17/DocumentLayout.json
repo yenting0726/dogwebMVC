@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|c:\\users\\user\\desktop\\javascript4_21\\dogwebmvc\\dogwebmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|c:\\users\\user\\desktop\\javascript4_21\\dogwebmvc\\dogwebmvc\\dogwebmvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|solutionrelative:dogwebmvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|c:\\users\\user\\desktop\\javascript4_21\\dogwebmvc\\dogwebmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|c:\\users\\user\\desktop\\javascript4_21\\dogwebmvc\\dogwebmvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,20 +27,8 @@
       "RelativeMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|solutionrelative:controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|c:\\users\\user\\desktop\\javascript4_21\\dogwebmvc\\dogwebmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|c:\\users\\user\\desktop\\javascript4_21\\dogwebmvc\\dogwebmvc\\dogwebmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|solutionrelative:dogwebmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|c:\\users\\user\\desktop\\javascript4_21\\dogwebmvc\\dogwebmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|c:\\users\\user\\desktop\\javascript4_21\\dogwebmvc\\dogwebmvc\\dogwebmvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|solutionrelative:dogwebmvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5F05681-C642-9BC1-CBC2-FFEBA44ADAAF}|dogwebMVC.csproj|c:\\users\\user\\desktop\\javascript4_21\\dogwebmvc\\dogwebmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,27 +62,28 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 114,
+      "VerticalTabListWidth": 285,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAmwJMAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAmwI4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T09:07:31.943Z"
+              "WhenOpened": "2025-06-27T09:07:31.943Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
@@ -95,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -168,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
@@ -181,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AuthApiController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\Controllers\\AuthApiController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthApiController.cs",
@@ -189,12 +190,11 @@
               "RelativeToolTip": "Controllers\\AuthApiController.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAQwBAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T08:17:43.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T08:17:43.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "dogwebMVC",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\dogwebMVC.csproj",
               "RelativeDocumentMoniker": "dogwebMVC.csproj",
@@ -230,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "dogwebMVC.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\dogwebMVC.csproj",
               "RelativeDocumentMoniker": "dogwebMVC.csproj",
@@ -238,8 +238,7 @@
               "RelativeToolTip": "dogwebMVC.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-26T07:45:47.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T07:45:47.247Z"
             }
           ]
         }

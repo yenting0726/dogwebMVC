@@ -565,10 +565,6 @@ C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Release\net8.0\refs
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Release\net8.0\refs\System.Xml.XPath.dll
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Release\net8.0\refs\System.Xml.XPath.XDocument.dll
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Release\net8.0\refs\WindowsBase.dll
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Release\net8.0\publish\appsettings.Development.json
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Release\net8.0\publish\dogwebMVC.runtimeconfig.json
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Release\net8.0\publish\web.config
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Release\net8.0\publish\appsettings.json
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Release\net8.0\publish\dogwebMVC.deps.json
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Release\net8.0\publish\dogwebMVC.staticwebassets.endpoints.json
-C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Release\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\bin\Release\net8.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\obj\Release\net8.0\dogwebMVC.MvcApplicationPartsAssemblyInfo.cs

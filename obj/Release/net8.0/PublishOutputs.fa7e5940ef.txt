@@ -299,6 +299,8 @@ C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\publish\dogwebMVC.pdb
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\publish\Azure.Core.dll
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\publish\Azure.Identity.dll
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\publish\Humanizer.dll
+C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\publish\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\publish\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\publish\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\publish\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\User\Desktop\javascript4_21\dogwebMVC\dogwebMVC\publish\Microsoft.Build.dll

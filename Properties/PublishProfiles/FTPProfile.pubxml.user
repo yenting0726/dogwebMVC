@@ -5,7 +5,7 @@
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXA5M7B/sZUiAUjBAOx9RXwAAAAACAAAAAAAQZgAAAAEAACAAAAA9vwxajxoaK0RQE4KpTwjDHYdqxGFTPs/AtHOL3Wxv1QAAAAAOgAAAAAIAACAAAAAyqBpNgcCuwn2JBMpuAkYwGZHHHMAZYCVRjx1H8JCmCiAAAAA3q24NPt6ct6cW82jt6dAFmwpS7X3+SSyu8ztArvuasEAAAACVdRFVZsuDvplPAH1/t9DUJvaCGwkXmE1SSsVtL3X8aOX3CKMEJsAyXpu95pn34TUSiBas6OtO1Z00j22dHQ3Q</EncryptedPassword>
     <_PublishTargetUrl>ftp://win1054.site4now.net/site1\08\</_PublishTargetUrl>
-    <History>True|2025-07-01T03:12:55.1295532Z||;True|2025-07-01T09:58:17.4406064+08:00||;True|2025-06-30T15:59:32.9137430+08:00||;True|2025-06-30T15:32:10.6790054+08:00||;True|2025-06-30T15:18:37.6487019+08:00||;True|2025-06-27T17:29:26.6029729+08:00||;True|2025-06-27T17:14:06.2599914+08:00||;True|2025-06-27T16:59:39.1222230+08:00||;True|2025-06-27T16:49:14.4346846+08:00||;False|2025-06-27T16:39:43.6524866+08:00||;False|2025-06-27T16:31:08.3991328+08:00||;False|2025-06-27T16:30:28.2648703+08:00||;False|2025-06-27T16:29:02.7043770+08:00||;False|2025-06-27T16:26:38.5566037+08:00||;False|2025-06-27T16:25:22.1924502+08:00||;False|2025-06-27T16:24:18.6361023+08:00||;False|2025-06-27T16:23:02.6578984+08:00||;False|2025-06-27T16:22:29.0243796+08:00||;False|2025-06-27T16:21:42.0531462+08:00||;True|2025-06-27T15:47:37.1508896+08:00||;True|2025-06-27T15:44:06.6348721+08:00||;True|2025-06-27T10:48:06.6404465+08:00||;</History>
+    <History>True|2025-07-03T02:53:53.9933425Z||;True|2025-07-01T11:12:55.1295532+08:00||;True|2025-07-01T09:58:17.4406064+08:00||;True|2025-06-30T15:59:32.9137430+08:00||;True|2025-06-30T15:32:10.6790054+08:00||;True|2025-06-30T15:18:37.6487019+08:00||;True|2025-06-27T17:29:26.6029729+08:00||;True|2025-06-27T17:14:06.2599914+08:00||;True|2025-06-27T16:59:39.1222230+08:00||;True|2025-06-27T16:49:14.4346846+08:00||;False|2025-06-27T16:39:43.6524866+08:00||;False|2025-06-27T16:31:08.3991328+08:00||;False|2025-06-27T16:30:28.2648703+08:00||;False|2025-06-27T16:29:02.7043770+08:00||;False|2025-06-27T16:26:38.5566037+08:00||;False|2025-06-27T16:25:22.1924502+08:00||;False|2025-06-27T16:24:18.6361023+08:00||;False|2025-06-27T16:23:02.6578984+08:00||;False|2025-06-27T16:22:29.0243796+08:00||;False|2025-06-27T16:21:42.0531462+08:00||;True|2025-06-27T15:47:37.1508896+08:00||;True|2025-06-27T15:44:06.6348721+08:00||;True|2025-06-27T10:48:06.6404465+08:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -16,7 +16,7 @@
       <publishTime>06/19/2025 09:25:28</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>07/01/2025 09:17:02</publishTime>
+      <publishTime>07/03/2025 10:08:58</publishTime>
     </File>
     <File Include="ar/Humanizer.resources.dll">
       <publishTime>01/29/2022 23:04:06</publishTime>
@@ -106,16 +106,16 @@
       <publishTime>11/09/2023 01:51:56</publishTime>
     </File>
     <File Include="dogwebMVC.deps.json">
-      <publishTime>07/01/2025 10:26:40</publishTime>
+      <publishTime>07/03/2025 10:09:43</publishTime>
     </File>
     <File Include="dogwebMVC.dll">
-      <publishTime>07/01/2025 10:26:39</publishTime>
+      <publishTime>07/03/2025 10:09:42</publishTime>
     </File>
     <File Include="dogwebMVC.exe">
-      <publishTime>07/01/2025 10:26:39</publishTime>
+      <publishTime>07/03/2025 10:09:42</publishTime>
     </File>
     <File Include="dogwebMVC.pdb">
-      <publishTime>07/01/2025 10:26:39</publishTime>
+      <publishTime>07/03/2025 10:09:42</publishTime>
     </File>
     <File Include="dogwebMVC.runtimeconfig.json">
       <publishTime>07/01/2025 09:37:15</publishTime>
@@ -1891,7 +1891,7 @@
       <publishTime>01/29/2022 23:04:12</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>07/01/2025 10:26:40</publishTime>
+      <publishTime>07/03/2025 10:09:44</publishTime>
     </File>
     <File Include="wwwroot/css/googlemap.css">
       <publishTime>06/23/2025 14:54:27</publishTime>

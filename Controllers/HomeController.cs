@@ -8,6 +8,23 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
+    public void savelog(string data)
+    {
+        //取地目前時間
+        var now = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+        //構建日誌內容
+
+        //將日誌寫入csv 檔案
+
+        //使用File.AppendAllText 方法將日誌內容追加到檔案中
+         
+         //這樣九可以將日誌 寫入到logs.csv 檔案
+
+}
+
+
+
+
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
