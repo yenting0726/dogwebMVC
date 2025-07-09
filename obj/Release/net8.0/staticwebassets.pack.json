@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\googlemap.css"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\modern-styles.css",
+      "PackagePath": "staticwebassets\\css\\modern-styles.css"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css",
       "PackagePath": "staticwebassets\\css\\petweb.css"
     },

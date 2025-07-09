@@ -85,6 +85,88 @@
       ]
     },
     {
+      "Route": "css/modern-styles.bqxzie9yvx.css",
+      "AssetFile": "css/modern-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 01:10:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bqxzie9yvx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc="
+        },
+        {
+          "Name": "label",
+          "Value": "css/modern-styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/modern-styles.css",
+      "AssetFile": "css/modern-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 01:10:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc="
+        }
+      ]
+    },
+    {
       "Route": "css/petweb.bw9o2qqx7w.css",
       "AssetFile": "css/petweb.css",
       "Selectors": [],

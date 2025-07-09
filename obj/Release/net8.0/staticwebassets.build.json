@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AdB/tRSE/RHxQesVqUzk2QQggKzAT+xvs7Q+0p5Rwvs=",
+  "Hash": "DAziaC+OjLuOmEqeB3Tvw8uztrY8hd9maO595J7gkdc=",
   "Source": "dogwebMVC",
   "BasePath": "_content/dogwebMVC",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\googlemap.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\modern-styles.css",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "css/modern-styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bqxzie9yvx",
+      "Integrity": "g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\modern-styles.css"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\petweb.css",
@@ -2785,6 +2806,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-wf5YAfjASyO6d0MCZujnEFSeRYOo1vWkNxLUSGtiqtM="
+        }
+      ]
+    },
+    {
+      "Route": "css/modern-styles.bqxzie9yvx.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\modern-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 01:10:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bqxzie9yvx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/modern-styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc="
+        }
+      ]
+    },
+    {
+      "Route": "css/modern-styles.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\modern-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 01:10:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc="
         }
       ]
     },
