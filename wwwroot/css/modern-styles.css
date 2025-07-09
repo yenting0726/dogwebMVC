@@ -1,7 +1,7 @@
 /* 現代化狗狗網站樣式 */
 :root {
-    --primary-color: #ffffff;
-    --secondary-color: #c0d6e4;
+    --primary-color: #637a54;
+    --secondary-color: #181b1d;
     --accent-color: #FF9800;
     --success-color: #4CAF50;
     --danger-color: #f44336;
@@ -27,7 +27,152 @@
     --border-radius-xl: 1rem;
     --transition: all 0.3s ease;
 }
+/*側邊助手*/
+.line-float-btn {
+    position: fixed;
+    bottom: 100px; /* 距離畫面底部 */
+    right: 20px;    /* 距離畫面右側 */
+    width: 60px;
+    height: 60px;
+    background-color: #00c300;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 28px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
 
+.line-float-btn:hover {
+    transform: scale(1.1);
+    background-color: #009900;
+}
+/*響應*/
+@media (max-width: 768px) {
+    .line-float-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        bottom: 80px;
+        right: 15px;
+    }
+}
+.line-float-btn1 {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #ebebee;
+    color: rgb(96, 107, 126);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 28px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+.line-float-btn1:hover {
+    transform: scale(1.1);
+    background-color: #eaecea;
+}
+/* 聊天視窗 */
+    #chatbox {
+      position: fixed;
+      bottom: 100px;
+      right: 30px;
+      width: 320px;
+      height: 400px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+      display: none;
+      flex-direction: column;
+      z-index: 1000;
+      font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
+    }
+/* 標題列 */
+    #chatbox header {
+      background-color: #00c300;
+      color: white;
+      padding: 12px 16px;
+      border-radius: 12px 12px 0 0;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #chatbox header button {
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    /* 聊天內容區 */
+    #chatbox .chat-content {
+      flex: 1;
+      padding: 12px 16px;
+      overflow-y: auto;
+      background-color: #f9f9f9;
+    }
+
+    /* 輸入區 */
+    #chatbox .chat-input-area {
+      display: flex;
+      border-top: 1px solid #ddd;
+    }
+    #chatbox input[type="text"] {
+      flex: 1;
+      border: none;
+      padding: 10px 12px;
+      font-size: 14px;
+      border-radius: 0 0 0 12px;
+      outline: none;
+    }
+    #chatbox button.send-btn {
+      background-color: #00c300;
+      border: none;
+      color: white;
+      padding: 0 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 0 0 12px 0;
+      transition: background-color 0.3s ease;
+    }
+    #chatbox button.send-btn:hover {
+      background-color: #009900;
+    }
+
+    /* 訊息樣式 */
+    .message {
+      margin-bottom: 12px;
+      max-width: 80%;
+      padding: 8px 12px;
+      border-radius: 16px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    .message.user {
+      background-color: #00c300;
+      color: white;
+      margin-left: auto;
+      border-bottom-right-radius: 4px;
+    }
+    .message.bot {
+      background-color: #e0e0e0;
+      color: #333;
+      margin-right: auto;
+      border-bottom-left-radius: 4px;
+    }
 /* 全局樣式 */
 * {
     margin: 0;
@@ -90,11 +235,17 @@ body {
 .navbar-nav .nav-link:hover::after {
     width: 80%;
 }
+.text-muted {
+    color: var(--gray-800) !important;
+    font-weight: 800;
+     color: #000;
+}
 
 /* 頁面容器 */
 .page-container {
     padding: 2rem 0;
     min-height: calc(100vh - 80px);
+   
 }
 
 /* 卡片美化 */
@@ -132,8 +283,9 @@ body {
 }
 
 .card-text {
-    color: var(--gray-600);
+    color: var(--gray-800);
     line-height: 1.6;
+    
 }
 
 /* 按鈕美化 */

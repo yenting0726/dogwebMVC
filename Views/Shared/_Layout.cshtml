@@ -82,8 +82,91 @@
                 <a href="~/images/M_gainfriends_2dbarcodes_GW.png"><img src="~/images/S_gainfriends_2dbarcodes_GW.png" alt=""></a>
         </div>
     </footer>
+<a href="https://line.me/R/ti/p/%40630uwunf" target="_blank" class="line-float-btn" title="聯絡我們">
+    <i class="fab fa-line"></i>
+</a>
+
+  <a class="line-float-btn1" onclick="openLineChat()" title="聯絡我們">
+    <i class="fa-sharp fa-solid fa-user"></i>
+  </a>
+
+  <div id="chatbox" role="dialog" aria-modal="true" aria-labelledby="chatboxTitle">
+    <header>
+      <span id="chatboxTitle">客服機器人</span>
+      <button aria-label="關閉聊天視窗" onclick="closeLineChat()">&times;</button>
+    </header>
+    <div class="chat-content" id="chatContent">
+      <div class="message bot">您好！有什麼我可以幫忙的嗎？</div>
+    </div>
+    <div class="chat-input-area">
+      <input type="text" id="userInput" placeholder="輸入訊息..." aria-label="輸入訊息" />
+      <button class="send-btn" onclick="sendMessage()">送出</button>
+    </div>
+  </div>
 
 </div>
+
 </body>
- 
+<script>
+    // 取得 HTML 元素：聊天框本體、訊息內容區、輸入框
+    const chatbox = document.getElementById('chatbox');        //聊天視窗容器（整個視窗）
+    const chatContent = document.getElementById('chatContent');// 顯示對話訊息內容的區塊
+    const userInput = document.getElementById('userInput');    // 使用者輸入文字的 input 欄位
+
+// 開啟聊天視窗並自動將輸入框聚焦
+    function openLineChat() { 
+      chatbox.style.display = 'flex';  // 顯示聊天視窗（使用 flex 排版）
+      userInput.focus();               // 自動聚焦到輸入框
+    }
+// 關閉聊天視窗
+    function closeLineChat() {
+      chatbox.style.display = 'none';// 隱藏聊天視窗
+    }
+// 加入一則訊息到對話框中
+    function appendMessage(text, sender) {
+     const msgDiv = document.createElement('div');  // 建立訊息的 <div>
+  msgDiv.classList.add('message', sender);       // 加上 CSS 類別 "message" 和發送者類別（'user' 或 'bot'）
+  msgDiv.textContent = text;                     // 設定訊息文字內容
+  chatContent.appendChild(msgDiv);               // 加入到聊天內容區
+  chatContent.scrollTop = chatContent.scrollHeight; // 捲動到底部，顯示最新訊息
+    }
+// 根據使用者輸入的文字，回傳對應的機器人回應
+    function botReply(userText) {
+      // 簡單的關鍵字回覆邏輯，可依需求擴充
+      userText = userText.toLowerCase(); // 小寫處理以利關鍵字比對
+
+      if (userText.includes('你好') || userText.includes('哈囉')) {
+        return '您好！很高興為您服務。';
+      } else if (userText.includes('產品')) {
+        return '我們有多種產品，請問您想了解哪一類？';
+      } else if (userText.includes('價格')) {
+        return '價格會依產品不同而有所差異，請告訴我您感興趣的產品。';
+      } else if (userText.includes('謝謝') || userText.includes('感謝')) {
+        return '不客氣！有問題隨時找我喔！';
+      } else {
+        return '抱歉，我還在學習中，請稍後再試或聯絡真人客服。';
+      }
+    }
+// 傳送使用者訊息並呼叫機器人回應
+    function sendMessage() {
+      const text = userInput.value.trim();  // 取得輸入內容，並去除前後空白
+  if (text === '') return;              // 若為空則不處理
+
+  appendMessage(text, 'user');          // 顯示使用者訊息
+  userInput.value = '';                // 清空輸入欄
+
+  // 模擬機器人延遲 0.5 秒後回應
+  setTimeout(() => {
+    const reply = botReply(text);       // 取得機器人回應
+    appendMessage(reply, 'bot');        // 顯示機器人回應
+  }, 500);
+    }
+
+    // 按 Enter 鍵送出訊息
+    userInput.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        sendMessage();
+      }
+    });
+</script>
 </html>
