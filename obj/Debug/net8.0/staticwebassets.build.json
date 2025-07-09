@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TpCnl8Ar8SzwZRLzoFrGZr6qSoZVn87/LB/ncCL2Tj4=",
+  "Hash": "prJ3c3ZA0nFLqkXK/0FDYQv4ChwhZvlgaDSNt7owx30=",
   "Source": "dogwebMVC",
   "BasePath": "_content/dogwebMVC",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bqxzie9yvx",
-      "Integrity": "g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc=",
+      "Fingerprint": "uxhpugrv7y",
+      "Integrity": "ErXczNeI0I8WGGa7EaMeNPhYNaS6SzfCTgl6+/Et158=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\modern-styles.css"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jc9ldl56zp",
-      "Integrity": "k5ND57bOCEBr/IyB4sQau5e7YUsz8RQuwGVOtnoeThA=",
+      "Fingerprint": "kr6iy0ulbb",
+      "Integrity": "wHRKOTS34VV9ksbZv39vAgRM5El2wlfi5luTbXGDxrc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -794,6 +794,48 @@
       "OriginalItemSpec": "wwwroot\\images\\b49e61adb69f7412873a4115486d1aa6.webp"
     },
     {
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\backgroundpark.jpg",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/backgroundpark#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eez7khlqqj",
+      "Integrity": "CgkAkXRxN72s2sUzywbnvpqxQcV/PLfpQJCYSIna8UA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backgroundpark.jpg"
+    },
+    {
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\backgroundsile.jpg",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/backgroundsile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "muuu4sjw2b",
+      "Integrity": "UmQl5mHUlPGY93j4lTLDocxwBLU9qGvxk7U4BuUqlbU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backgroundsile.jpg"
+    },
+    {
       "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\beefn__20250625.jfif",
       "SourceId": "dogwebMVC",
       "SourceType": "Discovered",
@@ -918,6 +960,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\images.svg"
+    },
+    {
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\L_gainfriends_2dbarcodes_GW.png",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/L_gainfriends_2dbarcodes_GW#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "imxokm918w",
+      "Integrity": "xsMFa3ysawLGKHPyLItqv+8nwB4GAA3bPcAqzV+na9s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\L_gainfriends_2dbarcodes_GW.png"
+    },
+    {
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\M_gainfriends_2dbarcodes_GW.png",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/M_gainfriends_2dbarcodes_GW#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lf8tuknr03",
+      "Integrity": "8a0hWzX8oXtb4nAMEn9ut9B8RTdhMQcVRnAMOuyvaiY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\M_gainfriends_2dbarcodes_GW.png"
     },
     {
       "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\pexels-barnabas-davoti-31615494-14084426.jpg",
@@ -1254,6 +1338,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\premium_photo-1680283988075-bb0ff2955b71.avif"
+    },
+    {
+      "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\S_gainfriends_2dbarcodes_GW.png",
+      "SourceId": "dogwebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\",
+      "BasePath": "_content/dogwebMVC",
+      "RelativePath": "images/S_gainfriends_2dbarcodes_GW#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "82zt5xd4q7",
+      "Integrity": "wG/XvA/alW8kppmv6d7A4OHDyWqal4yRTOwPX/caNpo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\S_gainfriends_2dbarcodes_GW.png"
     },
     {
       "Identity": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\sg-11134301-7ra1k-m4iodpfg6e2w04.webp",
@@ -2810,51 +2915,6 @@
       ]
     },
     {
-      "Route": "css/modern-styles.bqxzie9yvx.css",
-      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\modern-styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9609"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 01:10:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bqxzie9yvx"
-        },
-        {
-          "Name": "label",
-          "Value": "css/modern-styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc="
-        }
-      ]
-    },
-    {
       "Route": "css/modern-styles.css",
       "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\modern-styles.css",
       "Selectors": [],
@@ -2865,7 +2925,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9609"
+          "Value": "10243"
         },
         {
           "Name": "Content-Type",
@@ -2873,11 +2933,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc=\""
+          "Value": "\"ErXczNeI0I8WGGa7EaMeNPhYNaS6SzfCTgl6+/Et158=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 01:10:40 GMT"
+          "Value": "Wed, 09 Jul 2025 03:45:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2887,7 +2947,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-g+8aNdbojnMOY0uuE1KsPsVpe8EJM2iTXCbL4a4D8Zc="
+          "Value": "sha256-ErXczNeI0I8WGGa7EaMeNPhYNaS6SzfCTgl6+/Et158="
+        }
+      ]
+    },
+    {
+      "Route": "css/modern-styles.uxhpugrv7y.css",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\modern-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10243"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ErXczNeI0I8WGGa7EaMeNPhYNaS6SzfCTgl6+/Et158=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 03:45:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uxhpugrv7y"
+        },
+        {
+          "Name": "label",
+          "Value": "css/modern-styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ErXczNeI0I8WGGa7EaMeNPhYNaS6SzfCTgl6+/Et158="
         }
       ]
     },
@@ -2984,7 +3089,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12014"
+          "Value": "13376"
         },
         {
           "Name": "Content-Type",
@@ -2992,11 +3097,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k5ND57bOCEBr/IyB4sQau5e7YUsz8RQuwGVOtnoeThA=\""
+          "Value": "\"wHRKOTS34VV9ksbZv39vAgRM5El2wlfi5luTbXGDxrc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Jun 2025 01:01:11 GMT"
+          "Value": "Wed, 09 Jul 2025 03:21:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3006,12 +3111,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-k5ND57bOCEBr/IyB4sQau5e7YUsz8RQuwGVOtnoeThA="
+          "Value": "sha256-wHRKOTS34VV9ksbZv39vAgRM5El2wlfi5luTbXGDxrc="
         }
       ]
     },
     {
-      "Route": "css/site.jc9ldl56zp.css",
+      "Route": "css/site.kr6iy0ulbb.css",
       "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3021,7 +3126,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12014"
+          "Value": "13376"
         },
         {
           "Name": "Content-Type",
@@ -3029,11 +3134,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k5ND57bOCEBr/IyB4sQau5e7YUsz8RQuwGVOtnoeThA=\""
+          "Value": "\"wHRKOTS34VV9ksbZv39vAgRM5El2wlfi5luTbXGDxrc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Jun 2025 01:01:11 GMT"
+          "Value": "Wed, 09 Jul 2025 03:21:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3043,7 +3148,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jc9ldl56zp"
+          "Value": "kr6iy0ulbb"
         },
         {
           "Name": "label",
@@ -3051,7 +3156,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-k5ND57bOCEBr/IyB4sQau5e7YUsz8RQuwGVOtnoeThA="
+          "Value": "sha256-wHRKOTS34VV9ksbZv39vAgRM5El2wlfi5luTbXGDxrc="
         }
       ]
     },
@@ -5762,6 +5867,170 @@
       ]
     },
     {
+      "Route": "images/backgroundpark.eez7khlqqj.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\backgroundpark.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1466928"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CgkAkXRxN72s2sUzywbnvpqxQcV/PLfpQJCYSIna8UA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 01:21:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eez7khlqqj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backgroundpark.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CgkAkXRxN72s2sUzywbnvpqxQcV/PLfpQJCYSIna8UA="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgroundpark.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\backgroundpark.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1466928"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CgkAkXRxN72s2sUzywbnvpqxQcV/PLfpQJCYSIna8UA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 01:21:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CgkAkXRxN72s2sUzywbnvpqxQcV/PLfpQJCYSIna8UA="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgroundsile.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\backgroundsile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1737765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UmQl5mHUlPGY93j4lTLDocxwBLU9qGvxk7U4BuUqlbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 01:20:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UmQl5mHUlPGY93j4lTLDocxwBLU9qGvxk7U4BuUqlbU="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgroundsile.muuu4sjw2b.jpg",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\backgroundsile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1737765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UmQl5mHUlPGY93j4lTLDocxwBLU9qGvxk7U4BuUqlbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 01:20:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "muuu4sjw2b"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backgroundsile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UmQl5mHUlPGY93j4lTLDocxwBLU9qGvxk7U4BuUqlbU="
+        }
+      ]
+    },
+    {
       "Route": "images/beefn__20250625.jfif",
       "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\beefn__20250625.jfif",
       "Selectors": [],
@@ -6250,6 +6519,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-049VrYNA6ExKfALIK6RI2vMIT133tWeH9hbwZjAK6Do="
+        }
+      ]
+    },
+    {
+      "Route": "images/L_gainfriends_2dbarcodes_GW.imxokm918w.png",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\L_gainfriends_2dbarcodes_GW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xsMFa3ysawLGKHPyLItqv+8nwB4GAA3bPcAqzV+na9s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 07:09:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "imxokm918w"
+        },
+        {
+          "Name": "label",
+          "Value": "images/L_gainfriends_2dbarcodes_GW.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xsMFa3ysawLGKHPyLItqv+8nwB4GAA3bPcAqzV+na9s="
+        }
+      ]
+    },
+    {
+      "Route": "images/L_gainfriends_2dbarcodes_GW.png",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\L_gainfriends_2dbarcodes_GW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xsMFa3ysawLGKHPyLItqv+8nwB4GAA3bPcAqzV+na9s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 07:09:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xsMFa3ysawLGKHPyLItqv+8nwB4GAA3bPcAqzV+na9s="
+        }
+      ]
+    },
+    {
+      "Route": "images/M_gainfriends_2dbarcodes_GW.lf8tuknr03.png",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\M_gainfriends_2dbarcodes_GW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23586"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8a0hWzX8oXtb4nAMEn9ut9B8RTdhMQcVRnAMOuyvaiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 07:09:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lf8tuknr03"
+        },
+        {
+          "Name": "label",
+          "Value": "images/M_gainfriends_2dbarcodes_GW.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8a0hWzX8oXtb4nAMEn9ut9B8RTdhMQcVRnAMOuyvaiY="
+        }
+      ]
+    },
+    {
+      "Route": "images/M_gainfriends_2dbarcodes_GW.png",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\M_gainfriends_2dbarcodes_GW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23586"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8a0hWzX8oXtb4nAMEn9ut9B8RTdhMQcVRnAMOuyvaiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 07:09:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8a0hWzX8oXtb4nAMEn9ut9B8RTdhMQcVRnAMOuyvaiY="
         }
       ]
     },
@@ -7562,6 +7995,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-lq+V8SRge0JmV4y4J8KWjNp6FtWeGgDYUHyh8WsF2P8="
+        }
+      ]
+    },
+    {
+      "Route": "images/S_gainfriends_2dbarcodes_GW.82zt5xd4q7.png",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\S_gainfriends_2dbarcodes_GW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wG/XvA/alW8kppmv6d7A4OHDyWqal4yRTOwPX/caNpo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 07:09:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "82zt5xd4q7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/S_gainfriends_2dbarcodes_GW.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wG/XvA/alW8kppmv6d7A4OHDyWqal4yRTOwPX/caNpo="
+        }
+      ]
+    },
+    {
+      "Route": "images/S_gainfriends_2dbarcodes_GW.png",
+      "AssetFile": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\S_gainfriends_2dbarcodes_GW.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wG/XvA/alW8kppmv6d7A4OHDyWqal4yRTOwPX/caNpo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 07:09:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wG/XvA/alW8kppmv6d7A4OHDyWqal4yRTOwPX/caNpo="
         }
       ]
     },

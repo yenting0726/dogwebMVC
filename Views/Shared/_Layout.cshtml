@@ -23,6 +23,8 @@
 <body>
     <div class="wrap">
         <div class="background"></div>
+        <div class="background-extend"></div>
+        <div class="background-extend2"></div>
     <header>
         
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 ">
@@ -68,12 +70,20 @@
             @RenderBody()
         </main>
     </div>
-</div>
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - dogwebMVC - <a asp-area="" asp-controller="Home" asp-action="Index">Index</a>
+     <footer>
+        <div class="footer">
+            <p class="text-center">&copy; 2025 DogWeb. All rights reserved.</p>
+            <div class="social-links text-center">
+                <a href="https://www.facebook.com" target="_blank" class="me-3"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="me-3"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="me-3"><i class="fab fa-instagram"></i></a>
+                <a href="https://line.me/R/ti/p/%40630uwunf" target="_blank" class="me-3"><i class="fab fa-line"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="~/images/M_gainfriends_2dbarcodes_GW.png"><img src="~/images/S_gainfriends_2dbarcodes_GW.png" alt=""></a>
         </div>
     </footer>
-   
+
+</div>
 </body>
+ 
 </html>

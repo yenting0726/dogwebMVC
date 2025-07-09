@@ -1,7 +1,7 @@
 /* 現代化狗狗網站樣式 */
 :root {
-    --primary-color: #4CAF50;
-    --secondary-color: #2196F3;
+    --primary-color: #ffffff;
+    --secondary-color: #c0d6e4;
     --accent-color: #FF9800;
     --success-color: #4CAF50;
     --danger-color: #f44336;
@@ -34,7 +34,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+video {
+  display: block; /* 移除 inline 元素底部空隙 */
+  border: none; /* 移除可能的邊框 */
+  margin: 0;
+  padding: 0;
+}
 body {
     font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
@@ -117,6 +122,7 @@ body {
 
 .card-body {
     padding: 1.5rem;
+    
 }
 
 .card-title {
@@ -383,10 +389,18 @@ body {
 }
 
 .gradient-text {
+    /* 設定文字的背景為線性漸層色，由左下到右上的角度135度，從主色到次色 */
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    
+    /* 使用 WebKit 瀏覽器專有屬性，將背景裁切成文字形狀，讓背景只顯示在文字部分 */
     -webkit-background-clip: text;
+    
+    /* 使用 WebKit 瀏覽器專有屬性，將文字填色設為透明，讓背景漸層顯示出來 */
     -webkit-text-fill-color: transparent;
+    
+    /* 標準屬性，將背景裁切成文字形狀（部分瀏覽器支援） */
     background-clip: text;
+    /* text-shadow: 1px 1px 2px rgba(0,0,0,0.3); */
 }
 
 /* 載入動畫 */

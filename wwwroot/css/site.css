@@ -12,11 +12,13 @@ html {
     width: 800px;
 
 }
+
 .wrap { /* 整個頁面的容器 */
   position: relative;
   width: 100%;/* 撐滿整個視窗 */
-  height: 100vh;/* 讓頁面撐滿整個視窗 */
+ min-height: calc(100vh + 1200px + 1200px); /* 三張背景總高度 */
   display: flex;/* 使用 Flexbox 來對齊內容 */
+    flex-direction: column;/* 垂直排列內容 */
   justify-content: center;/* 水平置中 */
   /* align-items: center;垂直置中加入這個 我的產品就塞進navbar了*/
 }
@@ -27,9 +29,12 @@ body {
 .home-page .container {
   padding-top: 0; /* 首頁不需要額外的 padding */
 }
+.container {
+  flex: 1 0 auto; /* 讓內容區域撐滿剩餘空間 */
+}
 .background {
   position: absolute;/* 背景圖片的容器 */
-  top: 0; left: 0; right: 0; bottom: 0;/* 讓背景撐滿整個頁面 */
+  top: 0; left: 0; right: 0; height:100vh;/* 讓背景撐滿整個頁面 */
   background-image: url("../images/背景.jpg");
   background-size: cover;/* 背景圖片覆蓋整個容器 */
   background-position: center;/* 背景圖片置中 */
@@ -37,6 +42,29 @@ body {
   z-index: -1;/* 置於內容下方 */
   filter: blur(1px); /* 添加模糊效果 */
 }
+    .background-extend {
+    position: absolute;
+    top: 100vh; /* 接續在背景底部 */
+    left: 0; right: 0; height: 1200px; /* 高度可調 */
+    background-image: url("../images/backgroundpark.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    z-index: -2;
+    filter: blur(1px);
+    }
+.background-extend2 {
+    position: absolute;
+      top: calc(100vh + 1200px); /* 第二張延伸背景接續在第一張底部 */
+    left: 0; right: 0; height: 1200px; /* 高度可調 */
+    background-image: url("../images/backgroundsile.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    z-index: -3;
+    filter: blur(1px);
+}
+
 .dropdown-menu {
   background-color: transparent !important;
   border: transparent !important;
@@ -359,12 +387,13 @@ a{
             position: relative;
         }
 
-        /* 頁腳
+        /* 頁腳 */
         .footer {
             background: #2E8B57;
             color: white;
             padding: 4rem 5% 2rem;
             text-align: center;
+            flex-shrink: 0; /* 在 flex 容器中防止縮小 */
         }
 
         .footer-content {
@@ -372,23 +401,39 @@ a{
             margin: 0 auto;
         }
 
-        .footer-logo {
-            font-size: 2rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-        }
-
-        .footer-info {
-            margin-bottom: 2rem;
-            line-height: 1.8;
-        } */
+      
 
         .social-links {
             display: flex;
             justify-content: center;
             gap: 2rem;
             margin-bottom: 2rem;
+           
         }
+        .social-links i {
+  color: #050000; /* 你想要的顏色 */
+  font-size: 24px; /* icon 大小 */
+  vertical-align: middle;
+  transition: color 0.3s ease;
+}
+/* 滑鼠移上去變色 */
+.social-links a:hover .fab.fa-facebook {
+  color: #2b07f5;
+}
+        .social-links a:hover .fab.fa-twitter {
+            color: #1DA1F2;
+        }
+        .social-links a:hover .fab.fa-instagram {
+            color: #E1306C;
+        }
+        .social-links a:hover .fab.fa-youtube {
+            color: #FF0000;
+        }
+        .social-links a:hover .fab.fa-line {
+            color: #09c503;
+        }
+
+
 
         .social-link {
             width: 50px;

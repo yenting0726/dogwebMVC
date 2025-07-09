@@ -113,6 +113,18 @@
       "PackagePath": "staticwebassets\\images\\9fddea5767c8ba98d0bad097c3479260.webp"
     },
     {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\L_gainfriends_2dbarcodes_GW.png",
+      "PackagePath": "staticwebassets\\images\\L_gainfriends_2dbarcodes_GW.png"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\M_gainfriends_2dbarcodes_GW.png",
+      "PackagePath": "staticwebassets\\images\\M_gainfriends_2dbarcodes_GW.png"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\S_gainfriends_2dbarcodes_GW.png",
+      "PackagePath": "staticwebassets\\images\\S_gainfriends_2dbarcodes_GW.png"
+    },
+    {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif",
       "PackagePath": "staticwebassets\\images\\a05c25bf-9685-47f7-9325-3a01ad397971.jfif"
     },
@@ -123,6 +135,14 @@
     {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\b49e61adb69f7412873a4115486d1aa6.webp",
       "PackagePath": "staticwebassets\\images\\b49e61adb69f7412873a4115486d1aa6.webp"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\backgroundpark.jpg",
+      "PackagePath": "staticwebassets\\images\\backgroundpark.jpg"
+    },
+    {
+      "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\backgroundsile.jpg",
+      "PackagePath": "staticwebassets\\images\\backgroundsile.jpg"
     },
     {
       "Id": "c:\\Users\\User\\Desktop\\javascript4_21\\dogwebMVC\\dogwebMVC\\wwwroot\\images\\beefn__20250625.jfif",
