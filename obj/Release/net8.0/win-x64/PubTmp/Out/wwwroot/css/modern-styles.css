@@ -1,0 +1,606 @@
+/* 現代化狗狗網站樣式 */
+:root {
+    --primary-color: #637a54;
+    --secondary-color: #181b1d;
+    --accent-color: #FF9800;
+    --success-color: #4CAF50;
+    --danger-color: #f44336;
+    --warning-color: #ff9800;
+    --info-color: #2196F3;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --white: #ffffff;
+    --gray-100: #f8f9fa;
+    --gray-200: #e9ecef;
+    --gray-300: #dee2e6;
+    --gray-400: #ced4da;
+    --gray-500: #adb5bd;
+    --gray-600: #6c757d;
+    --gray-700: #495057;
+    --gray-800: #343a40;
+    --gray-900: #212529;
+    --shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    --shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    --border-radius: 0.375rem;
+    --border-radius-lg: 0.5rem;
+    --border-radius-xl: 1rem;
+    --transition: all 0.3s ease;
+}
+/*側邊助手*/
+.line-float-btn {
+    position: fixed;
+    bottom: 100px; /* 距離畫面底部 */
+    right: 20px;    /* 距離畫面右側 */
+    width: 60px;
+    height: 60px;
+    background-color: #00c300;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 28px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.line-float-btn:hover {
+    transform: scale(1.1);
+    background-color: #009900;
+}
+/*響應*/
+@media (max-width: 768px) {
+    .line-float-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        bottom: 80px;
+        right: 15px;
+    }
+}
+.line-float-btn1 {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #ebebee;
+    color: rgb(96, 107, 126);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 28px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+.line-float-btn1:hover {
+    transform: scale(1.1);
+    background-color: #eaecea;
+}
+/* 聊天視窗 */
+    #chatbox {
+      position: fixed;
+      bottom: 100px;
+      right: 30px;
+      width: 320px;
+      height: 400px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+      display: none;
+      flex-direction: column;
+      z-index: 1000;
+      font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
+    }
+/* 標題列 */
+    #chatbox header {
+      background-color: #00c300;
+      color: white;
+      padding: 12px 16px;
+      border-radius: 12px 12px 0 0;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #chatbox header button {
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    /* 聊天內容區 */
+    #chatbox .chat-content {
+      flex: 1;
+      padding: 12px 16px;
+      overflow-y: auto;
+      background-color: #f9f9f9;
+    }
+
+    /* 輸入區 */
+    #chatbox .chat-input-area {
+      display: flex;
+      border-top: 1px solid #ddd;
+    }
+    #chatbox input[type="text"] {
+      flex: 1;
+      border: none;
+      padding: 10px 12px;
+      font-size: 14px;
+      border-radius: 0 0 0 12px;
+      outline: none;
+    }
+    #chatbox button.send-btn {
+      background-color: #00c300;
+      border: none;
+      color: white;
+      padding: 0 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 0 0 12px 0;
+      transition: background-color 0.3s ease;
+    }
+    #chatbox button.send-btn:hover {
+      background-color: #009900;
+    }
+
+    /* 訊息樣式 */
+    .message {
+      margin-bottom: 12px;
+      max-width: 80%;
+      padding: 8px 12px;
+      border-radius: 16px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    .message.user {
+      background-color: #00c300;
+      color: white;
+      margin-left: auto;
+      border-bottom-right-radius: 4px;
+    }
+    .message.bot {
+      background-color: #e0e0e0;
+      color: #333;
+      margin-right: auto;
+      border-bottom-left-radius: 4px;
+    }
+/* 全局樣式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+video {
+  display: block; /* 移除 inline 元素底部空隙 */
+  border: none; /* 移除可能的邊框 */
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--gray-800);
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+}
+
+/* 導航欄美化 */
+.navbar {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary-color) !important;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--gray-700) !important;
+    transition: var(--transition);
+    position: relative;
+    padding: 0.5rem 1rem !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-color) !important;
+    transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 80%;
+}
+.text-muted {
+    color: var(--gray-800) !important;
+    font-weight: 800;
+     color: #000;
+}
+
+/* 頁面容器 */
+.page-container {
+    padding: 2rem 0;
+    min-height: calc(100vh - 80px);
+   
+}
+
+/* 卡片美化 */
+.card {
+    border: none;
+    border-radius: var(--border-radius-xl);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    overflow: hidden;
+    background: var(--white);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.card-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    border: none;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+    
+}
+
+.card-title {
+    color: var(--gray-800);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: var(--gray-800);
+    line-height: 1.6;
+    
+}
+
+/* 按鈕美化 */
+.btn {
+    border-radius: var(--border-radius-lg);
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    transition: var(--transition);
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.875rem;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-color), #45a049);
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #45a049, var(--primary-color));
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, var(--success-color), #45a049);
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-success:hover {
+    background: linear-gradient(135deg, #45a049, var(--success-color));
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, var(--danger-color), #d32f2f);
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-danger:hover {
+    background: linear-gradient(135deg, #d32f2f, var(--danger-color));
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+.btn-warning {
+    background: linear-gradient(135deg, var(--warning-color), #f57c00);
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-warning:hover {
+    background: linear-gradient(135deg, #f57c00, var(--warning-color));
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, var(--gray-600), var(--gray-700));
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(135deg, var(--gray-700), var(--gray-600));
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+/* 表單美化 */
+.form-control {
+    border-radius: var(--border-radius-lg);
+    border: 2px solid var(--gray-200);
+    padding: 0.75rem 1rem;
+    transition: var(--transition);
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25);
+    outline: none;
+}
+
+.form-label {
+    font-weight: 600;
+    color: var(--gray-700);
+    margin-bottom: 0.5rem;
+}
+
+/* 輪播圖美化 */
+.carousel {
+    border-radius: var(--border-radius-xl);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 1rem;
+}
+
+/* 產品卡片特殊樣式 */
+.product-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-card .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.product-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.product-price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0.5rem 0;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.quantity-controls .btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.quantity-display {
+    background: var(--gray-100);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    min-width: 80px;
+    text-align: center;
+}
+
+/* 購物車樣式 */
+.cart-item {
+    background: var(--white);
+    border-radius: var(--border-radius-xl);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.cart-item:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.cart-total {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    padding: 1.5rem;
+    border-radius: var(--border-radius-xl);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cart-total h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* 頁面標題 */
+.page-title {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    padding: 2rem;
+    border-radius: var(--border-radius-xl);
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.page-title h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* 動畫效果 */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    .page-title h1 {
+        font-size: 2rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+    
+    .quantity-controls {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+}
+
+/* 特殊效果 */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.gradient-text {
+    /* 設定文字的背景為線性漸層色，由左下到右上的角度135度，從主色到次色 */
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    
+    /* 使用 WebKit 瀏覽器專有屬性，將背景裁切成文字形狀，讓背景只顯示在文字部分 */
+    -webkit-background-clip: text;
+    
+    /* 使用 WebKit 瀏覽器專有屬性，將文字填色設為透明，讓背景漸層顯示出來 */
+    -webkit-text-fill-color: transparent;
+    
+    /* 標準屬性，將背景裁切成文字形狀（部分瀏覽器支援） */
+    background-clip: text;
+    /* text-shadow: 1px 1px 2px rgba(0,0,0,0.3); */
+}
+
+/* 載入動畫 */
+.loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: var(--white);
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* 固定圖片樣式 */
+.fixed-img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+}
+
+/* 空購物車樣式 */
+.empty-cart {
+    text-align: center;
+    padding: 3rem;
+    color: var(--gray-600);
+}
+
+.empty-cart i {
+    font-size: 4rem;
+    color: var(--gray-400);
+    margin-bottom: 1rem;
+}
+
+/* 表單驗證樣式 */
+.validation-error {
+    color: var(--danger-color);
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.form-control.is-invalid {
+    border-color: var(--danger-color);
+}
+
+.form-control.is-valid {
+    border-color: var(--success-color);
+}
